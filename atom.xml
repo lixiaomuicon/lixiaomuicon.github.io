@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>XiaoMu-Blog</title>
-  
-  <subtitle>初识你名,久居我心,人间有趣,因为有你</subtitle>
+  <icon>https://www.gravatar.com/avatar/fa03f44c23f9434efea00b01b6d42c42</icon>
+  <subtitle>初识你名,久居我心</subtitle>
   <link href="http://lixiaomu.fun/atom.xml" rel="self"/>
   
   <link href="http://lixiaomu.fun/"/>
@@ -11,7 +11,7 @@
   
   <author>
     <name>XiaoMu-Li</name>
-    
+    <email>muicon@sina.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
