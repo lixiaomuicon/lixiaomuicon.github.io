@@ -254,17 +254,6 @@
     
     
     <entry>
-      <title>关于我的日常</title>
-      <link href="/photo/richang/index.html"/>
-      <url>/photo/richang/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>很多地方没有去过，但它们都在我的清单里</title>
       <link href="/photo/fengjing/index.html"/>
       <url>/photo/fengjing/index.html</url>
@@ -276,11 +265,11 @@
     
     
     <entry>
-      <title>拙劣的拍摄</title>
-      <link href="/photo/suipai/index.html"/>
-      <url>/photo/suipai/index.html</url>
+      <title>关于我的日常</title>
+      <link href="/photo/richang/index.html"/>
+      <url>/photo/richang/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
@@ -292,6 +281,17 @@
       <url>/photo/wallpaper/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>拙劣的拍摄</title>
+      <link href="/photo/suipai/index.html"/>
+      <url>/photo/suipai/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
