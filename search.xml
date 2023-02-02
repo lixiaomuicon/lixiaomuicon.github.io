@@ -221,17 +221,6 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>每张照片都是一次美好的记忆</title>
       <link href="/photo/index.html"/>
       <url>/photo/index.html</url>
@@ -243,11 +232,11 @@
     
     
     <entry>
-      <title>关于我的日常</title>
-      <link href="/photo/richang/index.html"/>
-      <url>/photo/richang/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -259,6 +248,17 @@
       <url>/photo/fengjing/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于我的日常</title>
+      <link href="/photo/richang/index.html"/>
+      <url>/photo/richang/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
