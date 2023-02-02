@@ -111,11 +111,11 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<p><i class="fa-sharp fa-solid fa-user"></i><font face="黑体" size=5>基本信息</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Name:</span> <span class="string">李小沐</span></span><br><span class="line"><span class="attr">age:</span> <span class="number">25</span></span><br><span class="line"><span class="attr">Address:</span> <span class="string">NanJing</span></span><br><span class="line"><span class="attr">Blog:</span> <span class="string">https://lixiaomu.fun/</span></span><br></pre></td></tr></table></figure><hr><p>一个混迹在俗世的普通人</p><p>陪自己看世界</p><p>试着把人生中的每个第一次都当做是最后一次</p><p>和别人一起游山玩水，那只是旅游</p><p>唯有自己独自面对苍茫的群山和大海之时，才会真正感受到与自然的沟通</p><p>我一直在履行自己和自己的诺言</p><p>我不知道自己能走多远</p><p>也不知道以后会怎么样</p><p>反正，余生还长，我又何必慌张</p><hr><p><i class="fa-sharp fa-solid fa-envelope"></i><font face="黑体" size=5 bgcolor=pink>联系我</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">qq:</span> <span class="number">1006877324</span></span><br><span class="line"><span class="attr">vx:</span> <span class="string">sweetday0102</span> <span class="string">（记得备注哦）</span></span><br><span class="line"><span class="attr">email:</span> <span class="number">1006877324</span><span class="string">@qq.com</span></span><br><span class="line"><span class="attr">motto:</span> <span class="string">古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。</span></span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -125,17 +125,6 @@
       <title>追番</title>
       <link href="/bangumis/index.html"/>
       <url>/bangumis/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -160,6 +149,17 @@
       <url>/css/universe.css</url>
       
         <content type="html"><![CDATA[/* 背景宇宙星光  */#universe {    display: block;    position: fixed;    margin: 0;    padding: 0;    border: 0;    outline: 0;    left: 0;    top: 0;    width: 100%;    height: 100%;    pointer-events: none;    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */    z-index: -1;}]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p><i class="fa-sharp fa-solid fa-user"></i><font face="黑体" size=5>基本信息</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Name:</span> <span class="string">李小沐</span></span><br><span class="line"><span class="attr">age:</span> <span class="number">25</span></span><br><span class="line"><span class="attr">Address:</span> <span class="string">NanJing</span></span><br><span class="line"><span class="attr">Blog:</span> <span class="string">https://lixiaomu.fun/</span></span><br></pre></td></tr></table></figure><hr><p>一个混迹在俗世的普通人</p><p>陪自己看世界</p><p>试着把人生中的每个第一次都当做是最后一次</p><p>和别人一起游山玩水，那只是旅游</p><p>唯有自己独自面对苍茫的群山和大海之时，才会真正感受到与自然的沟通</p><p>我一直在履行自己和自己的诺言</p><p>我不知道自己能走多远</p><p>也不知道以后会怎么样</p><p>反正，余生还长，我又何必慌张</p><hr><p><i class="fa-sharp fa-solid fa-envelope"></i><font face="黑体" size=5 bgcolor=pink>联系我</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">qq:</span> <span class="number">1006877324</span></span><br><span class="line"><span class="attr">vx:</span> <span class="string">sweetday0102</span> <span class="string">（记得备注哦）</span></span><br><span class="line"><span class="attr">email:</span> <span class="number">1006877324</span><span class="string">@qq.com</span></span><br><span class="line"><span class="attr">motto:</span> <span class="string">古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。</span></span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     
@@ -210,11 +210,11 @@
     
     
     <entry>
-      <title>电影</title>
-      <link href="/movies/index.html"/>
-      <url>/movies/index.html</url>
+      <title>每张照片都是一次美好的记忆</title>
+      <link href="/photo/index.html"/>
+      <url>/photo/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">随拍</div>  <p>拙劣的拍摄</p>  <a href='/photo/suipai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/dae91f31db1c5e41a239bf24fe474eeb.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">日常</div>  <p>关于生活</p>  <a href='/photo/richang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/4f9a2ab0d73285cd6e3132b2a99ad5a0.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">小可爱</div>  <p>粘人的小可爱</p>  <a href='/photo/xiaokeai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/photo/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c032ad14b972558badf0cc8446dc0291.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>很多地方没有去过，但它们都在我的清单里</p>  <a href='/photo/fengjing'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -232,33 +232,11 @@
     
     
     <entry>
-      <title>每张照片都是一次美好的记忆</title>
-      <link href="/photo/index.html"/>
-      <url>/photo/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">随拍</div>  <p>拙劣的拍摄</p>  <a href='/photo/suipai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/dae91f31db1c5e41a239bf24fe474eeb.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">日常</div>  <p>关于生活</p>  <a href='/photo/richang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/4f9a2ab0d73285cd6e3132b2a99ad5a0.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">小可爱</div>  <p>粘人的小可爱</p>  <a href='/photo/xiaokeai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的一些壁纸</p>  <a href='/photo/wallpaper'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c032ad14b972558badf0cc8446dc0291.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>很多地方没有去过，但它们都在我的清单里</p>  <a href='/photo/fengjing'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>很多地方没有去过，但它们都在我的清单里</title>
-      <link href="/photo/fengjing/index.html"/>
-      <url>/photo/fengjing/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"></p>          </div>]]></content>
       
     </entry>
     
@@ -276,11 +254,11 @@
     
     
     <entry>
-      <title>拙劣的拍摄</title>
-      <link href="/photo/suipai/index.html"/>
-      <url>/photo/suipai/index.html</url>
+      <title>小可爱</title>
+      <link href="/photo/xiaokeai/index.html"/>
+      <url>/photo/xiaokeai/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://thumbnail1.baidupcs.com/thumbnail/d5be2f06dr4717890be2220dab349f06?fid=7987966-250528-348965746836164&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-/O3NDBWLDxS88K1vJPDx9TKJwIc=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/8f40c0476r4e42c81a0b55ae4d9e122c?fid=7987966-250528-230774606468044&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-HmD0q6iAxziQP1ePJHxj7mdK5hM=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/32cdaead5geb479cc0a156fabb697696?fid=7987966-250528-252466995537527&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-707hrjo1XnfExxr9aslK+PXERuI=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/66b01cbe6jab18ac496b75ed64368e35?fid=7987966-250528-810814565630706&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Jt1QfgS9vK9Hn35Vu8vKzjoXw+4=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/f56afd0f6n615c298703806f8034abe5?fid=7987966-250528-539412659164517&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-WQuRGawyh/4nFGzHqZqR1LsRQ4s=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/91456c872h3f963fdca759334a2958ca?fid=7987966-250528-1072621567709273&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-xobrLBlQM1aHzQEM9onRDj5h0fs=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/a70c2e094ja0cc5c5389fe6172e34dd7?fid=7987966-250528-108911118145406&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-/phDyFqUoj+JM++WMlFRVO+kNUE=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
@@ -298,11 +276,22 @@
     
     
     <entry>
-      <title>小可爱</title>
-      <link href="/photo/xiaokeai/index.html"/>
-      <url>/photo/xiaokeai/index.html</url>
+      <title>拙劣的拍摄</title>
+      <link href="/photo/suipai/index.html"/>
+      <url>/photo/suipai/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://thumbnail1.baidupcs.com/thumbnail/d5be2f06dr4717890be2220dab349f06?fid=7987966-250528-348965746836164&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-/O3NDBWLDxS88K1vJPDx9TKJwIc=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/8f40c0476r4e42c81a0b55ae4d9e122c?fid=7987966-250528-230774606468044&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-HmD0q6iAxziQP1ePJHxj7mdK5hM=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/32cdaead5geb479cc0a156fabb697696?fid=7987966-250528-252466995537527&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-707hrjo1XnfExxr9aslK+PXERuI=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/66b01cbe6jab18ac496b75ed64368e35?fid=7987966-250528-810814565630706&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-Jt1QfgS9vK9Hn35Vu8vKzjoXw+4=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/f56afd0f6n615c298703806f8034abe5?fid=7987966-250528-539412659164517&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-WQuRGawyh/4nFGzHqZqR1LsRQ4s=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/91456c872h3f963fdca759334a2958ca?fid=7987966-250528-1072621567709273&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-xobrLBlQM1aHzQEM9onRDj5h0fs=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="https://thumbnail1.baidupcs.com/thumbnail/a70c2e094ja0cc5c5389fe6172e34dd7?fid=7987966-250528-108911118145406&rt=pr&sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-/phDyFqUoj+JM++WMlFRVO+kNUE=&expires=8h&chkbd=0&chkv=0&dp-logid=8780000746418760071&dp-callid=0&time=1675144800&size=c1366_u768&quality=90&vuk=7987966&ft=image&autopolicy=1"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>很多地方没有去过，但它们都在我的清单里</title>
+      <link href="/photo/fengjing/index.html"/>
+      <url>/photo/fengjing/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"></p>          </div>]]></content>
       
     </entry>
     
