@@ -166,6 +166,17 @@
     
     
     <entry>
+      <title>照片</title>
+      <link href="/images/index.html"/>
+      <url>/images/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/js/txmap.js"/>
       <url>/js/txmap.js</url>
@@ -191,17 +202,6 @@
       <title>友情链接</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>照片</title>
-      <link href="/images/index.html"/>
-      <url>/images/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
