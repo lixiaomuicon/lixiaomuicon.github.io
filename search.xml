@@ -177,6 +177,17 @@
     
     
     <entry>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title></title>
       <link href="/js/txmap.js"/>
       <url>/js/txmap.js</url>
@@ -199,9 +210,9 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -221,9 +232,9 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -232,11 +243,11 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>很多地方没有去过，但它们都在我的清单里</title>
+      <link href="/photo/fengjing/index.html"/>
+      <url>/photo/fengjing/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"></p>          </div>]]></content>
       
     </entry>
     
@@ -259,17 +270,6 @@
       <url>/photo/richang/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>很多地方没有去过，但它们都在我的清单里</title>
-      <link href="/photo/fengjing/index.html"/>
-      <url>/photo/fengjing/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"></p>          </div>]]></content>
       
     </entry>
     

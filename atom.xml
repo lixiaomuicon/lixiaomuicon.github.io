@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>XiaoMu-Blog</title>
-  <icon>https://www.gravatar.com/avatar/fa03f44c23f9434efea00b01b6d42c42</icon>
+  <icon>https://www.gravatar.com/avatar/cd51cb35313912f339277f85d83c2c81</icon>
   <subtitle>初识你名,久居我心</subtitle>
   <link href="http://lixiaomu.fun/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>XiaoMu-Li</name>
-    <email>muicon@sina.com</email>
+    <email>1006877324@qq.com</email>
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
