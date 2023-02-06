@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>XiaoMu-Blog</title>
+  <title>XiaoMu~Blog</title>
   <icon>https://www.gravatar.com/avatar/cd51cb35313912f339277f85d83c2c81</icon>
   <subtitle>❤❤❤</subtitle>
   <link href="http://lixiaomu.fun/atom.xml" rel="self"/>
@@ -10,7 +10,7 @@
   <id>http://lixiaomu.fun/</id>
   
   <author>
-    <name>XiaoMu-Li</name>
+    <name>XiaoMu~Li</name>
     <email>1006877324@qq.com</email>
   </author>
   
