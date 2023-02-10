@@ -11,6 +11,15 @@
   </url>
   
   <url>
+    <loc>http://lixiaomu.fun/wenan/index.html</loc>
+    
+    <lastmod>2023-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lixiaomu.fun/navigate/index.html</loc>
     
     <lastmod>2023-02-10</lastmod>
@@ -165,15 +174,6 @@
   
   <url>
     <loc>http://lixiaomu.fun/about/index.html</loc>
-    
-    <lastmod>2023-02-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lixiaomu.fun/wenan/index.html</loc>
     
     <lastmod>2023-02-08</lastmod>
     
