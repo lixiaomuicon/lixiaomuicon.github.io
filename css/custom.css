@@ -124,6 +124,13 @@ svg.icon.faa-tada {
 }
 
 
+/* 顶部导航栏 */
+
+#nav a {
+    color: #eeecf4;
+}
+
+
 /* 首页侧栏卡片 */
 
 #aside-content .card-widget {
@@ -421,7 +428,7 @@ button:not(:disabled) {
 /* 博主昵称颜色 --也就是首页侧边栏头像下面那个昵称*/
 
 .author-info__name {
-    color: #BA55D3;
+    color: #ff7242;
 }
 
 
@@ -822,5 +829,15 @@ a {
     }
     .poem-border {
         display: none;
+    }
+}
+
+
+/*移动端优化：去除归档、标签、最新文章、公告、、只保留网站统计*/
+
+@media screen and (max-width: 800px) {
+    #aside_content div:not(:last-child) {
+        display: none;
+        font-size: 13px;
     }
 }
