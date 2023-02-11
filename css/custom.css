@@ -221,7 +221,7 @@ div#category {
   } */
 
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-    left: 0px !important;
+    left: -66px !important;
     transition: all 0.3s;
     /* 默认情况下缩进左侧66px，只留一点箭头部分 */
 }
