@@ -4,7 +4,7 @@ $(document).ready(function(e) {
 
 function show_date_time() {
     window.setTimeout("show_date_time()", 1000);
-    BirthDay = new Date("5/2/2020 0:0:0");
+    BirthDay = new Date("1/1/2023 0:0:0");
     today = new Date();
     timeold = (today.getTime() - BirthDay.getTime());
     sectimeold = timeold / 1000

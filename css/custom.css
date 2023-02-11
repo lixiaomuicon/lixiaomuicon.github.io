@@ -37,19 +37,6 @@ h1.post-title {
     -moz-osx-font-smoothing: grayscale;
 }
 
-
-/* 时间轴生肖icon */
-
-svg.icon {
-    /* 这里定义svg.icon，避免和Butterfly自带的note标签冲突 */
-    width: 1em;
-    height: 1em;
-    /* width和height定义图标的默认宽度和高度*/
-    vertical-align: -0.15em;
-    fill: currentColor;
-    overflow: hidden;
-}
-
 .icon-zhongbiao::before {
     color: #f7c768;
 }
@@ -134,42 +121,42 @@ svg.icon.faa-tada {
 /* 首页侧栏卡片 */
 
 #aside-content .card-widget {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 文章页面正文背景 */
 
 div#post {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 分页页面 */
 
 div#page {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 归档页面 */
 
 div#archive {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 标签页面 */
 
 div#tag {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 分类页面 */
 
 div#category {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -234,7 +221,7 @@ div#category {
   } */
 
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
-    left: -66px !important;
+    left: 0px !important;
     transition: all 0.3s;
     /* 默认情况下缩进左侧66px，只留一点箭头部分 */
 }
@@ -275,7 +262,7 @@ div#category {
 /* 鼠标图标 */
 
 body {
-    cursor: url("/img/x1.cur"), auto;
+    cursor: url("/source/img/1.png"), auto;
 }
 
 a,
@@ -435,7 +422,7 @@ button:not(:disabled) {
 /*页脚自定义字段字体颜色,也就是配置文件里的footer_custom_text*/
 
 .footer_custom_text {
-    color: #94e2f6;
+    color: #f9fbfb;
 }
 
 
@@ -447,7 +434,7 @@ body {
 
 a,
 img {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/pointer.cur), default;
+    cursor: url(/source/img/1.png), default;
 }
 
 
@@ -513,7 +500,7 @@ a {
 
 #aside-content>.card-widget.card-info {
     /*换成自己图片的地址*/
-    background-image: url('https://c2.im5i.com/2023/02/07/nTPxq.png');
+    background-image: url('');
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-size: 100%
@@ -684,7 +671,7 @@ a {
 /* 公众号 Start */
 
 [data-theme='light'] #aside-content .card-widget#card-wechat {
-    background: #3e3e3e !important;
+    background: #595959 !important;
 }
 
 #aside-content .card-widget#card-wechat {
