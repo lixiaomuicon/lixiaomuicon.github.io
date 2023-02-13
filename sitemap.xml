@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://lixiaomu.fun/Wishlist/index.html</loc>
+    <loc>http://lixiaomu.fun/wishlist/index.html</loc>
+    
+    <lastmod>2023-02-13</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lixiaomu.fun/shuoshuo/index.html</loc>
     
     <lastmod>2023-02-13</lastmod>
     
