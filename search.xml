@@ -166,9 +166,9 @@
     
     
     <entry>
-      <title>照片</title>
-      <link href="/images/index.html"/>
-      <url>/images/index.html</url>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -177,9 +177,9 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>照片</title>
+      <link href="/images/index.html"/>
+      <url>/images/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -192,7 +192,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-VtDQyzXm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-WbjrIIjw" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
