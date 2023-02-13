@@ -157,7 +157,7 @@ function show_date_time() {
     seconds = Math.floor((e_minsold - minsold) * 60);
     span_dt_dt.innerHTML = ' <font style=color:#2d85f0>' + daysold + '</font> 天 <font style=color:#f4433c>' + hrsold + '</font> 时 <font style=color:#ffbc32>' + minsold + '</font> 分 <font style=color:#0aa858>' + seconds + '</font> 秒';
 }
-show_date_time();
+// show_date_time();
 
 // // 返回顶部显示网页阅读进度
 // window.onscroll = percent; // 执行函数
