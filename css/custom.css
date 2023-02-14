@@ -100,7 +100,7 @@ svg.icon.faa-tada {
 /* 首页文章卡片 */
 
 #recent-posts>.recent-post-item {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -113,7 +113,7 @@ svg.icon.faa-tada {
 .layout_post>#post,
 .read-mode .layout_post>#post {
     /* 以下代表透明度为0.5 */
-    background: rgba(255, 255, 255, .9);
+    background: rgba(255, 255, 255, .8);
 }
 
 
