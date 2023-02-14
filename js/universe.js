@@ -135,6 +135,66 @@ indexTalk();
 // document.addEventListener("pjax:complete", whenDOMReady)
 
 
+
+// // 返回顶部显示网页阅读进度
+// window.onscroll = percent; // 执行函数
+// // 页面百分比
+// function percent() {
+//     let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度
+//         b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度
+//         result = Math.round(a / b * 100), // 计算百分比
+//         up = document.querySelector("#go-up") // 获取按钮
+
+//     if (result <= 95) {
+//         up.childNodes[0].style.display = 'none'
+//         up.childNodes[1].style.display = 'block'
+//         up.childNodes[1].childNodes[0].innerHTML = result;
+//     } else {
+//         up.childNodes[1].style.display = 'none'
+//         up.childNodes[0].style.display = 'block'
+//     }
+// }
+
+// 基于memos实现动态相册
+// 适配pjax
+function whenDOMReady() {
+    if (location.pathname == '/photos/') photos();
+}
+whenDOMReady()
+document.addEventListener("pjax:complete", whenDOMReady)
+
+// 自适应
+window.onresize = () => {
+    if (location.pathname == '/photos/') waterfall('.gallery-photos');
+};
+
+// 函数
+function photos() {
+    fetch('https://memos-on-replit.lixiaomuicon.repl.co/api/memo?creatorId=1&tag=相册').then(res => res.json()).then(data => { // 记得修改memos地址
+        let html = '',
+            imgs = [];
+        data.data.forEach(item => { imgs = imgs.concat(item.content.match(/\!\[.*?\]\(.*?\)/g)) });
+        imgs.forEach(item => {
+            let img = item.replace(/!\[.*?\]\((.*?)\)/g, '$1'),
+                time, title, tat = item.replace(/!\[(.*?)\]\(.*?\)/g, '$1');
+            if (tat.indexOf(' ') != -1) {
+                time = tat.split(' ')[0];
+                title = tat.split(' ')[1];
+            } else title = tat
+
+            html += `<div class="gallery-photo"><a href="${img}" data-fancybox="gallery" class="fancybox" data-thumb="${img}"><img class="photo-img" loading='lazy' decoding="async" src="${img}"></a>`;
+            title ? html += `<span class="photo-title">${title}</span>` : '';
+            time ? html += `<span class="photo-time">${time}</span>` : '';
+            html += `</div>`;
+        });
+
+        document.querySelector('.gallery-photos.page').innerHTML = html
+        imgStatus.watch('.photo-img', () => { waterfall('.gallery-photos'); });
+        window.Lately && Lately.init({ target: '.photo-time' });
+    }).catch()
+}
+// 基于memos实现动态相册END
+
 // 页脚本站运行时间
 $(document).ready(function(e) {
     $('.framework-info').html('本站已运行<SPAN id=span_dt_dt style="color: #fff;"></SPAN>');
@@ -157,23 +217,4 @@ function show_date_time() {
     seconds = Math.floor((e_minsold - minsold) * 60);
     span_dt_dt.innerHTML = ' <font style=color:#2d85f0>' + daysold + '</font> 天 <font style=color:#f4433c>' + hrsold + '</font> 时 <font style=color:#ffbc32>' + minsold + '</font> 分 <font style=color:#0aa858>' + seconds + '</font> 秒';
 }
-// show_date_time();
-
-// // 返回顶部显示网页阅读进度
-// window.onscroll = percent; // 执行函数
-// // 页面百分比
-// function percent() {
-//     let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度
-//         b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度
-//         result = Math.round(a / b * 100), // 计算百分比
-//         up = document.querySelector("#go-up") // 获取按钮
-
-//     if (result <= 95) {
-//         up.childNodes[0].style.display = 'none'
-//         up.childNodes[1].style.display = 'block'
-//         up.childNodes[1].childNodes[0].innerHTML = result;
-//     } else {
-//         up.childNodes[1].style.display = 'none'
-//         up.childNodes[0].style.display = 'block'
-//     }
-// }
+show_date_time();
