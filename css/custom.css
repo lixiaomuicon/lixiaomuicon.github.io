@@ -104,6 +104,19 @@ svg.icon.faa-tada {
 }
 
 
+/* 所有页面背景 */
+
+#aside_content .card-widget,
+#recent-posts>.recent-post-item,
+.layout_page>div:first-child:not(.recent-posts),
+.layout_post>#page,
+.layout_post>#post,
+.read-mode .layout_post>#post {
+    /* 以下代表透明度为0.5 */
+    background: rgba(255, 255, 255, .9);
+}
+
+
 /* 顶部导航栏 */
 
 #nav a {
@@ -113,44 +126,51 @@ svg.icon.faa-tada {
 
 /* 首页侧栏卡片 */
 
+
+/* 
 #aside-content .card-widget {
     background: rgba(255, 255, 255, 0.7);
-}
+} */
 
 
 /* 文章页面正文背景 */
 
 div#post {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0.8);
 }
 
 
 /* 分页页面 */
 
-div#page {
+
+/* div#page {
     background: rgba(255, 255, 255, 0.8);
-}
+} */
 
 
 /* 归档页面 */
 
-div#archive {
+
+/* div#archive {
     background: rgba(255, 255, 255, 0.9);
-}
+} */
 
 
 /* 标签页面 */
 
-div#tag {
+
+/* div#tag {
     background: rgba(255, 255, 255, 0.9);
-}
+} */
 
 
 /* 分类页面 */
 
+
+/* 
 div#category {
     background: rgba(255, 255, 255, 0.9);
-}
+} */
 
 
 /*夜间模式伪类遮罩层透明*/
@@ -234,7 +254,7 @@ div#category {
 
 .vwrap {
     box-shadow: 2px 2px 5px #bbb;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     padding: 30px;
     margin: 30px 0px 30px 0px;
@@ -245,7 +265,7 @@ div#category {
 
 .vcard {
     box-shadow: 2px 2px 5px #bbb;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.5);
     border-radius: 8px;
     padding: 30px;
     margin: 30px 0px 0px 0px;
@@ -254,7 +274,8 @@ div#category {
 
 /* 鼠标图标 */
 
-body {
+
+/* body {
     cursor: url("/source/img/1.png"), auto;
 }
 
@@ -264,7 +285,7 @@ a,
 [type="submit"]:not(:disabled),
 button:not(:disabled) {
     cursor: url("/img/x2.cur"), auto !important;
-}
+} */
 
 
 /* md网站下划线 */
@@ -408,14 +429,14 @@ button:not(:disabled) {
 /* 博主昵称颜色 --也就是首页侧边栏头像下面那个昵称*/
 
 .author-info__name {
-    color: #ff7242;
+    color: #060605;
 }
 
 
 /*页脚自定义字段字体颜色,也就是配置文件里的footer_custom_text*/
 
 .footer_custom_text {
-    color: #f9fbfb;
+    color: #060606;
 }
 
 
@@ -826,7 +847,7 @@ a {
 /* 欢迎信息 */
 
 #welcome-info {
-    background: linear-gradient(45deg, #b9f4f3, #e3fbf9);
+    background: linear-gradient(45deg, #fbfbfb, #fafbfb);
     border-radius: 18px;
     padding: 8px;
 }
@@ -950,7 +971,7 @@ div#main_top {
 #bber-talk {
     border-radius: 12px;
     box-shadow: none;
-    border: 1px solid #e0e3ed;
+    border: 1px solid #575758;
     box-sizing: border-box;
     transition: all .3s ease-in-out;
     cursor: pointer;
@@ -1019,4 +1040,23 @@ div#main_top {
         text-align: center;
         margin-right: 20px;
     }
+}
+
+
+/* 背景宇宙星光  */
+
+#universe {
+    display: block;
+    position: fixed;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */
+    z-index: -1;
 }
