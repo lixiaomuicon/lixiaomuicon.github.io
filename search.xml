@@ -203,18 +203,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-wODehnLJ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/myphoto/index.html"/>
-      <url>/myphoto/index.html</url>
-      
-        <content type="html"><![CDATA[<style>#article-container a img {margin: 0; border-radius:0;}.gallery-photos{width:100%;margin-top: 10px;}.gallery-photo{min-height:5rem;width:24.97%;padding:4px;position: relative;}.gallery-photo a{border-radius:8px;display:block;overflow: hidden;}.gallery-photo img{display: block;width:100%;animation: fadeIn 1s;cursor: pointer;transition: all .4s ease-in-out !important;}.gallery-photo span.photo-title,.gallery-photo span.photo-time{max-width: calc(100% - 7px);line-height:1.8;position:absolute;left:4px;font-size:14px;background: rgba(0, 0, 0, 0.3);padding:0px 8px;color: #fff;animation: fadeIn 1s;}.gallery-photo span.photo-title{bottom:4px;border-radius: 0 8px 0 8px;}.gallery-photo span.photo-time{top:4px;border-radius: 8px 0 8px 0;}.gallery-photo:hover img{transform: scale(1.1);}@media screen and (max-width: 1100px) {.gallery-photo{width:33.3%;}}@media screen and (max-width: 768px) {    .gallery-photo{width:49.9%;padding:3px}    .gallery-photo span.photo-time{display:none}    .gallery-photo span.photo-title{font-size:12px}    .gallery-photo span.photo-title{left:3px;bottom:3px;}}@keyframes fadeIn{0% {opacity: 0;}100%{opacity: 1;}}</style>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-KeglDiLh" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -243,6 +232,17 @@
     
     
     <entry>
+      <title>photos</title>
+      <link href="/photos/index.html"/>
+      <url>/photos/index.html</url>
+      
+        <content type="html"><![CDATA[<!-- 复制以下内容，上方内容是为了避免一些人看不懂放在哪 --><div class="gallery-photos page"><img src="/img/loading.svg" style="margin:auto"></div><style>#article-container a img {margin: 0; border-radius:0;}.gallery-photos{width:100%;margin-top: 10px;}.gallery-photo{min-height:5rem;width:24.97%;padding:4px;position: relative;}.gallery-photo a{border-radius:8px;display:block;overflow: hidden;}.gallery-photo img{display: block;width:100%;animation: fadeIn 1s;cursor: pointer;transition: all .4s ease-in-out !important;}.gallery-photo span.photo-title,.gallery-photo span.photo-time{max-width: calc(100% - 7px);line-height:1.8;position:absolute;left:4px;font-size:14px;background: rgba(0, 0, 0, 0.3);padding:0px 8px;color: #fff;animation: fadeIn 1s;}.gallery-photo span.photo-title{bottom:4px;border-radius: 0 8px 0 8px;}.gallery-photo span.photo-time{top:4px;border-radius: 8px 0 8px 0;}.gallery-photo:hover img{transform: scale(1.1);}@media screen and (max-width: 1100px) {.gallery-photo{width:33.3%;}}@media screen and (max-width: 768px) {    .gallery-photo{width:49.9%;padding:3px}    .gallery-photo span.photo-time{display:none}    .gallery-photo span.photo-title{font-size:12px}    .gallery-photo span.photo-title{left:3px;bottom:3px;}}@keyframes fadeIn{0% {opacity: 0;}100%{opacity: 1;}}</style>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>空间说说</title>
       <link href="/shuoshuo/index.html"/>
       <url>/shuoshuo/index.html</url>
@@ -254,22 +254,22 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>收藏的壁纸</title>
+      <link href="/wallpaper/index.html"/>
+      <url>/wallpaper/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/girl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>收藏的壁纸</title>
-      <link href="/wallpaper/index.html"/>
-      <url>/wallpaper/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/girl'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -331,22 +331,22 @@
     
     
     <entry>
-      <title>小可爱</title>
-      <link href="/photo/xiaokeai/index.html"/>
-      <url>/photo/xiaokeai/index.html</url>
+      <title>好看的壁纸</title>
+      <link href="/wallpaper/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"></p>          </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>好看的壁纸</title>
-      <link href="/wallpaper/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/index.html</url>
+      <title>小可爱</title>
+      <link href="/photo/xiaokeai/index.html"/>
+      <url>/photo/xiaokeai/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png"></p>          </div>]]></content>
       
     </entry>
     
