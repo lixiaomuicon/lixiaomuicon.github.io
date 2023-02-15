@@ -113,7 +113,7 @@ svg.icon.faa-tada {
 .layout_post>#post,
 .read-mode .layout_post>#post {
     /* 以下代表透明度为0.5 */
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, .6);
 }
 
 
@@ -127,7 +127,14 @@ svg.icon.faa-tada {
 /* 首页侧栏卡片 */
 
 #aside-content .card-widget {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.6);
+}
+
+
+/*说说、  侧边卡片的透明度 */
+
+:root {
+    --card-bg: rgba(255, 255, 255, .5);
 }
 
 
@@ -263,22 +270,6 @@ div#category {
     padding: 30px;
     margin: 30px 0px 0px 0px;
 }
-
-
-/* 鼠标图标 */
-
-
-/* body {
-    cursor: url("/source/img/1.png"), auto;
-}
-
-a,
-[type="button"]:not(:disabled),
-[type="reset"]:not(:disabled),
-[type="submit"]:not(:disabled),
-button:not(:disabled) {
-    cursor: url("/img/x2.cur"), auto !important;
-} */
 
 
 /* md网站下划线 */
@@ -429,31 +420,19 @@ button:not(:disabled) {
 /*页脚自定义字段字体颜色,也就是配置文件里的footer_custom_text*/
 
 .footer_custom_text {
-    color: #060606;
-}
-
-
-/*鼠标样式*/
-
-body {
-    cursor: url(https://cdn.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/Hexo/img/default.cur), default;
-}
-
-a,
-img {
-    cursor: url(/source/img/1.png), default;
+    color: #fefefe;
 }
 
 
 /* 滚动条 */
 
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
 }
 
  ::-webkit-scrollbar-track {
-    background-color: rgba(199, 229, 250, 0.2);
+    background-color: rgba(250, 250, 251, 0.2);
     border-radius: 2em;
 }
 
@@ -503,6 +482,9 @@ a {
 }
 
 
+/* 头像卡片背景 */
+
+
 /*白天主题下的配置*/
 
 #aside-content>.card-widget.card-info {
@@ -520,6 +502,9 @@ a {
     /*换成自己图片的地址*/
     background-image: url('') !important
 }
+
+
+/* 头像卡片背景END */
 
 
 /* 自定义底部  start */
@@ -678,7 +663,7 @@ a {
 /* 公众号 Start */
 
 [data-theme='light'] #aside-content .card-widget#card-wechat {
-    background: #595959 !important;
+    background: #ffffff(255, 255, 255, .6) !important;
 }
 
 #aside-content .card-widget#card-wechat {
@@ -737,7 +722,7 @@ a {
     height: 100%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    background: url(https://img.zhheo.com/i/2022/08/31/630efc6e3e794.png) center center no-repeat;
+    background: url(/img/cbgzh1.png) center center no-repeat;
     background-size: 100%;
 }
 
@@ -746,7 +731,7 @@ a {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     box-sizing: border-box;
-    background: url(https://i.hd-r.cn/18b102b25e8d797edcb4f1d29e2ca9fa.png) center center no-repeat;
+    background: url(/img/cbgzh2.png) center center no-repeat;
     background-size: 100%;
 }
 
@@ -772,7 +757,7 @@ a {
     margin-top: -20px;
     display: inline-block;
     letter-spacing: 4px;
-    color: #797979
+    color: #797979;
 }
 
 .poem-wrap p {

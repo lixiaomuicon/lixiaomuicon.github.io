@@ -8,7 +8,7 @@ document.addEventListener('visibilitychange', function() {
         clearTimeout(titleTime);
     } else {
         //返回当前页面时标签显示内容
-        document.title = '🐖抓到你啦～';
+        document.title = '🐖终于等到你，还好我没放弃～';
         //两秒后变回正常标题
         titleTime = setTimeout(function() {
             document.title = OriginTitile;
