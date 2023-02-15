@@ -754,20 +754,6 @@ a {
 } */
 
 
-/* 返回顶部 */
-
-button#go-up #percent {
-    display: none;
-    font-weight: bold;
-    font-size: 15px !important;
-}
-
-button#go-up span:nth-child(2) {
-    font-size: 12px!important;
-    margin-right: -1px;
-}
-
-
 /* 空间说说   maintop */
 
 div#main_top {
@@ -1140,3 +1126,50 @@ div#main_top {
         transform: scale(1.1);
     }
 }
+
+
+/* 返回顶部*/
+
+button#go-up #percent {
+    display: none;
+    font-weight: bold;
+    font-size: 15px !important;
+}
+
+button#go-up span {
+    font-size: 12px!important;
+    margin-right: -1px;
+}
+
+
+/* 鼠标滑动到按钮上时显示返回顶部图标 */
+
+button#go-up:hover i {
+    display: block !important;
+}
+
+button#go-up:hover #percent {
+    display: none !important;
+}
+
+
+/* 文章显示百分比END */
+
+
+/* 页面宽度修改*/
+
+.layout {
+    max-width: 1200px;
+}
+
+.layout.hide-aside {
+    max-width: 1200px;
+}
+
+.aside-content {
+    max-width: 312px;
+    min-width: 300px;
+}
+
+
+/* 页面宽度修改END */

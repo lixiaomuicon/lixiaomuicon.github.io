@@ -60,19 +60,6 @@ function dark() {
 };
 dark()
 
-//随机背景图片数组,图片可以换成图床链接，注意最后一条后面不要有逗号
-// var backimg = [
-//     "url()",
-//     "url()",
-//     "url(https://gitee.com/youthlql/randombg/raw/master/lql_bg/00184.webp)"
-// ];
-// //获取背景图片总数，生成随机数
-// var bgindex = Math.ceil(Math.random() * (backimg.length - 1));
-// //重设背景图片
-// document.getElementById("web_bg").style.backgroundImage = backimg[bgindex];
-// //重设banner图片
-// document.getElementById("page-header").style.backgroundImage = backimg[bgindex];
-
 /* 空间说说   maintop */
 // 存数据
 function saveData(name, data) { localStorage.setItem(name, JSON.stringify({ 'time': Date.now(), 'data': data })) };
@@ -174,3 +161,31 @@ function photos() {
     }).catch()
 }
 // 基于memos实现动态相册END
+
+// 文章显示百分比
+window.onscroll = percent; // 执行函数
+// 页面百分比
+function percent() {
+    let a = document.documentElement.scrollTop || window.pageYOffset, // 卷去高度
+        b = Math.max(document.body.scrollHeight, document.documentElement.scrollHeight, document.body.offsetHeight, document.documentElement.offsetHeight, document.body.clientHeight, document.documentElement.clientHeight) - document.documentElement.clientHeight, // 整个网页高度
+        result = Math.round(a / b * 100), // 计算百分比
+        up = document.querySelector("#go-up") // 获取按钮
+
+    if (result <= 95) {
+        up.childNodes[0].style.display = 'none'
+        up.childNodes[1].style.display = 'block'
+        up.childNodes[1].innerHTML = result;
+    } else {
+        up.childNodes[1].style.display = 'none'
+        up.childNodes[0].style.display = 'block'
+    }
+}
+
+// 文章显示百分比END
+
+// 分享本页
+function share() {
+    let url = window.location.origin + window.location.pathname
+    new ClipboardJS(".share", { text: function() { return '标题：' + document.title + '\n链接：' + url } });
+    btf.snackbarShow("本页链接已复制到剪切板，快去分享吧~")
+}
