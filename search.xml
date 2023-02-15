@@ -133,6 +133,17 @@
     
     
     <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>留言板</title>
       <link href="/comments/index.html"/>
       <url>/comments/index.html</url>
@@ -144,9 +155,9 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>照片</title>
+      <link href="/images/index.html"/>
+      <url>/images/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -166,9 +177,9 @@
     
     
     <entry>
-      <title>照片</title>
-      <link href="/images/index.html"/>
-      <url>/images/index.html</url>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -188,11 +199,11 @@
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-VnxxkNML" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -210,11 +221,11 @@
     
     
     <entry>
-      <title>说说动态</title>
-      <link href="/shuoshuo/index.html"/>
-      <url>/shuoshuo/index.html</url>
+      <title>每张照片都是一次美好的记忆</title>
+      <link href="/photo/index.html"/>
+      <url>/photo/index.html</url>
       
-        <content type="html"><![CDATA[<style>/* 页面初始化 */div#page {    background: rgba(255, 255, 255, 0.8);    border: 0;    padding: 0;}[data-theme=dark] #twikoo .tk-content,#twikoo .tk-content {    padding: 0;    background: transparent;}.talk_item,.tk-expand,.tk-comments-container>.tk-comment,.tk-submit:nth-child(1){    background: var(--card-bg);    border: 1px solid #e0e3ed;    box-shadow: 0 5px 10px rgb(189 189 189 / 10%);    transition: all .3s ease-in-out;    border-radius: 12px;}.talk_item:hover,.tk-comments-container>.tk-comment:hover,.tk-submit:nth-child(1):hover {    border-color: #49b1f5;}.tk-submit {    padding: 20px 10px 0;}.tk-comments-container>.tk-comment {    padding: 15px;}/* 页面初始化结束 */#talk{    margin-top: 1rem;}#talk .loading {    display: flex;    align-items: center;    justify-content: center;    flex-direction: column;}#talk .loading img {    width: 200px;}.talk_item {    display: flex;    flex-direction: column;    padding: 20px;    margin-bottom: 15px;}.avatar {    margin: 0 !important;    width: 60px;    height: 60px;    border-radius: 10px;}.talk_bottom,.talk_meta {    display: flex;    align-items: center;    width: 100%;    line-height: 1.5;}.talk_bottom{    justify-content: space-between;}.info {    display: flex;    flex-direction: column;    margin-left: 10px;}span.talk_nick {    color: #6dbdc3;    font-size: 1.2rem;}svg.is-badge.icon {    width: 15px;    margin-left: 5px;    padding-top: 3px;}span.talk_date {    opacity: .6;}.talk_content {    line-height: 1.5;    margin-top: 10px;}.zone_imgbox {    display: flex;    flex-wrap: wrap;    --w: calc(25% - 8px);    gap: 10px;    margin-top: 5px;}.zone_imgbox a {    display: block;    border-radius: 12px;    width: var(--w);    aspect-ratio: 1/1;    position: relative;}.zone_imgbox img {    width: 100%;    height: 100%;    margin: 0 !important;    object-fit: cover;}/* 底部 */.talk_bottom {    opacity: .9;}.talk_bottom .icon {    color: var(--font-color);    float: right;    transition: all .3s;}.talk_bottom .icon:hover {    color: #49b1f5;}span.talk_tag{    font-size: 14px;}.talk_content>a {    margin: 0 3px;    color: #ff7d73 !important;}.talk_content>a:hover{    text-decoration: none !important;    color: #ff5143 !important}/* 提醒 */.limit {    transition: all .3s ease-in-out;    color: rgba(76, 73, 72, 0.6);}[data-theme=dark] .limit {    color: rgba(255, 255, 255, 0.5);}.limit {    display: none;    text-align: center;    margin-top: 20px;    color: var(--font-color);}@media screen and (max-width: 900px) {    .zone_imgbox {        --w: calc(33% - 5px);    }    #talk{        margin: 10px 3px 0    }    #post-comment{        margin: 0 3px    }}@media screen and (max-width: 768px) {    .zone_imgbox {        gap: 6px;    }    .zone_imgbox {        --w: calc(50% - 3px);    }    span.talk_date {        font-size: 14px;    }}</style><div id="talk"><div class='loading'><img src="" alt="加载中..."></div></div><div class="limit">- 只展示最近30条说说 -</div><script>pageTalk();// 页面说说function pageTalk() {    fetch('https://memos-on-replit.lixiaomuicon.repl.co/api/memo?creatorId=1&tag=说说&limit=30').then(res => res.json()).then(data => { // 注意修改域名        let items = [],            html = '',            icon = '<svg viewBox="0 0 512 512"xmlns="http://www.w3.org/2000/svg"class="is-badge icon"><path d="m512 268c0 17.9-4.3 34.5-12.9 49.7s-20.1 27.1-34.6 35.4c.4 2.7.6 6.9.6 12.6 0 27.1-9.1 50.1-27.1 69.1-18.1 19.1-39.9 28.6-65.4 28.6-11.4 0-22.3-2.1-32.6-6.3-8 16.4-19.5 29.6-34.6 39.7-15 10.2-31.5 15.2-49.4 15.2-18.3 0-34.9-4.9-49.7-14.9-14.9-9.9-26.3-23.2-34.3-40-10.3 4.2-21.1 6.3-32.6 6.3-25.5 0-47.4-9.5-65.7-28.6-18.3-19-27.4-42.1-27.4-69.1 0-3 .4-7.2 1.1-12.6-14.5-8.4-26-20.2-34.6-35.4-8.5-15.2-12.8-31.8-12.8-49.7 0-19 4.8-36.5 14.3-52.3s22.3-27.5 38.3-35.1c-4.2-11.4-6.3-22.9-6.3-34.3 0-27 9.1-50.1 27.4-69.1s40.2-28.6 65.7-28.6c11.4 0 22.3 2.1 32.6 6.3 8-16.4 19.5-29.6 34.6-39.7 15-10.1 31.5-15.2 49.4-15.2s34.4 5.1 49.4 15.1c15 10.1 26.6 23.3 34.6 39.7 10.3-4.2 21.1-6.3 32.6-6.3 25.5 0 47.3 9.5 65.4 28.6s27.1 42.1 27.1 69.1c0 12.6-1.9 24-5.7 34.3 16 7.6 28.8 19.3 38.3 35.1 9.5 15.9 14.3 33.4 14.3 52.4zm-266.9 77.1 105.7-158.3c2.7-4.2 3.5-8.8 2.6-13.7-1-4.9-3.5-8.8-7.7-11.4-4.2-2.7-8.8-3.6-13.7-2.9-5 .8-9 3.2-12 7.4l-93.1 140-42.9-42.8c-3.8-3.8-8.2-5.6-13.1-5.4-5 .2-9.3 2-13.1 5.4-3.4 3.4-5.1 7.7-5.1 12.9 0 5.1 1.7 9.4 5.1 12.9l58.9 58.9 2.9 2.3c3.4 2.3 6.9 3.4 10.3 3.4 6.7-.1 11.8-2.9 15.2-8.7z"fill="#1da1f2"></path></svg>';        data.data.forEach(item => { items.push(Format(item)) });        if (items.length == 30) document.querySelector('.limit').style.display = 'block';        items.forEach(item => {            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox avatar" src="https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5"><div class="info"><span class="talk_nick">XiaoMu${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div><a href="javascript:;"onclick="goComment('${item.text}')"><span class="icon"><i class="fa-solid fa-message fa-fw"></i></span></a></div></div>` // 注意修改头像链接和名称        })        document.getElementById('talk').innerHTML = html    })}// 页面评论function goComment(e) {    var n = document.querySelector(".el-textarea__inner")    n.value = `> ${e}\n\n`;    n.focus();    btf.snackbarShow("无需删除空行，直接输入评论即可", !1, 2e3);}// 页面内容格式化function Format(item) {    let date = getTime(new Date(item.createdTs * 1000).toString()),        content = item.content,        tag = item.content.match(/\{(.*?)\}/g),        imgls = content.match(/!\[.*\]\(.*?\)/g), // 2023-02-06更新        text = ''    text = content.replace(/#(.*?)\s/g, '').replace(/\!\[(.*?)\]\((.*?)\)/g, '').replace(/\{(.*?)\}/g, '')    content = text.replace(/\[(.*?)\]\((.*?)\)/g, `<a href="$2">@$1</a>`);    if (imgls) {        content += `<div class="zone_imgbox">`        imgls.map(item => { return item.replace(/!\[.*\]\((.*?)\)/, '$1') }).forEach(e => content += `<a href="${e}" data-fancybox="gallery" class="fancybox" data-thumb="${e}"><img src="${e}"></a>` // 2023-02-06更新        )        content += '</div>'    }    return {        content: content,        tag: tag ? tag[0].replace(/\{(.*?)\}/,'$1') : '无标签',        date: date,        text: text.replace(/\[(.*?)\]\((.*?)\)/g, '[链接]' + `${imgls?'[图片]':''}`)    }}// 页面时间格式化function getTime(time) {    let d = new Date(time),        ls = [d.getFullYear(), d.getMonth() + 1, d.getDate(), d.getHours(), d.getMinutes(), d.getSeconds()];    for (let i = 0; i < ls.length; i++) {        ls[i] = ls[i] <= 9 ? '0' + ls[i] : ls[i] + ''    }    if (new Date().getFullYear() == ls[0]) return ls[1] + '月' + ls[2] + '日 ' + ls[3] +':'+ ls[4]    else return ls[0] + '年' + ls[1] + '月' + ls[2] + '日 ' + ls[3] +':'+ ls[4]}</script>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">随拍</div>  <p>拙劣的拍摄</p>  <a href='/photo/suipai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/dae91f31db1c5e41a239bf24fe474eeb.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">日常</div>  <p>关于生活</p>  <a href='/photo/richang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">小可爱</div>  <p>粘人的小可爱</p>  <a href='/photo/xiaokeai'></a>  </figcaption>  </figure>  <!--   <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c032ad14b972558badf0cc8446dc0291.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>很多地方没有去过，但它们都在我的清单里</p>  <a href='/photo/fengjing'></a>  </figcaption>  </figure>   --></div>]]></content>
       
     </entry>
     
@@ -232,17 +243,6 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[    <div id="aplayer-hEtHHTDH" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
@@ -254,11 +254,22 @@
     
     
     <entry>
-      <title>每张照片都是一次美好的记忆</title>
-      <link href="/photo/index.html"/>
-      <url>/photo/index.html</url>
+      <title>说说动态</title>
+      <link href="/shuoshuo/index.html"/>
+      <url>/shuoshuo/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">随拍</div>  <p>拙劣的拍摄</p>  <a href='/photo/suipai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/dae91f31db1c5e41a239bf24fe474eeb.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">日常</div>  <p>关于生活</p>  <a href='/photo/richang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">小可爱</div>  <p>粘人的小可爱</p>  <a href='/photo/xiaokeai'></a>  </figcaption>  </figure>  <!--   <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c032ad14b972558badf0cc8446dc0291.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>很多地方没有去过，但它们都在我的清单里</p>  <a href='/photo/fengjing'></a>  </figcaption>  </figure>   --></div>]]></content>
+        <content type="html"><![CDATA[<style>/* 页面初始化 */div#page {    background: rgba(255, 255, 255, 0.8);    border: 0;    padding: 0;}[data-theme=dark] #twikoo .tk-content,#twikoo .tk-content {    padding: 0;    background: transparent;}.talk_item,.tk-expand,.tk-comments-container>.tk-comment,.tk-submit:nth-child(1){    background: var(--card-bg);    border: 1px solid #e0e3ed;    box-shadow: 0 5px 10px rgb(189 189 189 / 10%);    transition: all .3s ease-in-out;    border-radius: 12px;}.talk_item:hover,.tk-comments-container>.tk-comment:hover,.tk-submit:nth-child(1):hover {    border-color: #49b1f5;}.tk-submit {    padding: 20px 10px 0;}.tk-comments-container>.tk-comment {    padding: 15px;}/* 页面初始化结束 */#talk{    margin-top: 1rem;}#talk .loading {    display: flex;    align-items: center;    justify-content: center;    flex-direction: column;}#talk .loading img {    width: 200px;}.talk_item {    display: flex;    flex-direction: column;    padding: 20px;    margin-bottom: 15px;}.avatar {    margin: 0 !important;    width: 60px;    height: 60px;    border-radius: 10px;}.talk_bottom,.talk_meta {    display: flex;    align-items: center;    width: 100%;    line-height: 1.5;}.talk_bottom{    justify-content: space-between;}.info {    display: flex;    flex-direction: column;    margin-left: 10px;}span.talk_nick {    color: #6dbdc3;    font-size: 1.2rem;}svg.is-badge.icon {    width: 15px;    margin-left: 5px;    padding-top: 3px;}span.talk_date {    opacity: .6;}.talk_content {    line-height: 1.5;    margin-top: 10px;}.zone_imgbox {    display: flex;    flex-wrap: wrap;    --w: calc(25% - 8px);    gap: 10px;    margin-top: 5px;}.zone_imgbox a {    display: block;    border-radius: 12px;    width: var(--w);    aspect-ratio: 1/1;    position: relative;}.zone_imgbox img {    width: 100%;    height: 100%;    margin: 0 !important;    object-fit: cover;}/* 底部 */.talk_bottom {    opacity: .9;}.talk_bottom .icon {    color: var(--font-color);    float: right;    transition: all .3s;}.talk_bottom .icon:hover {    color: #49b1f5;}span.talk_tag{    font-size: 14px;}.talk_content>a {    margin: 0 3px;    color: #ff7d73 !important;}.talk_content>a:hover{    text-decoration: none !important;    color: #ff5143 !important}/* 提醒 */.limit {    transition: all .3s ease-in-out;    color: rgba(76, 73, 72, 0.6);}[data-theme=dark] .limit {    color: rgba(255, 255, 255, 0.5);}.limit {    display: none;    text-align: center;    margin-top: 20px;    color: var(--font-color);}@media screen and (max-width: 900px) {    .zone_imgbox {        --w: calc(33% - 5px);    }    #talk{        margin: 10px 3px 0    }    #post-comment{        margin: 0 3px    }}@media screen and (max-width: 768px) {    .zone_imgbox {        gap: 6px;    }    .zone_imgbox {        --w: calc(50% - 3px);    }    span.talk_date {        font-size: 14px;    }}</style><div id="talk"><div class='loading'><img src="" alt="加载中..."></div></div><div class="limit">- 只展示最近30条说说 -</div><script>pageTalk();// 页面说说function pageTalk() {    fetch('https://memos-on-replit.lixiaomuicon.repl.co/api/memo?creatorId=1&tag=说说&limit=30').then(res => res.json()).then(data => { // 注意修改域名        let items = [],            html = '',            icon = '<svg viewBox="0 0 512 512"xmlns="http://www.w3.org/2000/svg"class="is-badge icon"><path d="m512 268c0 17.9-4.3 34.5-12.9 49.7s-20.1 27.1-34.6 35.4c.4 2.7.6 6.9.6 12.6 0 27.1-9.1 50.1-27.1 69.1-18.1 19.1-39.9 28.6-65.4 28.6-11.4 0-22.3-2.1-32.6-6.3-8 16.4-19.5 29.6-34.6 39.7-15 10.2-31.5 15.2-49.4 15.2-18.3 0-34.9-4.9-49.7-14.9-14.9-9.9-26.3-23.2-34.3-40-10.3 4.2-21.1 6.3-32.6 6.3-25.5 0-47.4-9.5-65.7-28.6-18.3-19-27.4-42.1-27.4-69.1 0-3 .4-7.2 1.1-12.6-14.5-8.4-26-20.2-34.6-35.4-8.5-15.2-12.8-31.8-12.8-49.7 0-19 4.8-36.5 14.3-52.3s22.3-27.5 38.3-35.1c-4.2-11.4-6.3-22.9-6.3-34.3 0-27 9.1-50.1 27.4-69.1s40.2-28.6 65.7-28.6c11.4 0 22.3 2.1 32.6 6.3 8-16.4 19.5-29.6 34.6-39.7 15-10.1 31.5-15.2 49.4-15.2s34.4 5.1 49.4 15.1c15 10.1 26.6 23.3 34.6 39.7 10.3-4.2 21.1-6.3 32.6-6.3 25.5 0 47.3 9.5 65.4 28.6s27.1 42.1 27.1 69.1c0 12.6-1.9 24-5.7 34.3 16 7.6 28.8 19.3 38.3 35.1 9.5 15.9 14.3 33.4 14.3 52.4zm-266.9 77.1 105.7-158.3c2.7-4.2 3.5-8.8 2.6-13.7-1-4.9-3.5-8.8-7.7-11.4-4.2-2.7-8.8-3.6-13.7-2.9-5 .8-9 3.2-12 7.4l-93.1 140-42.9-42.8c-3.8-3.8-8.2-5.6-13.1-5.4-5 .2-9.3 2-13.1 5.4-3.4 3.4-5.1 7.7-5.1 12.9 0 5.1 1.7 9.4 5.1 12.9l58.9 58.9 2.9 2.3c3.4 2.3 6.9 3.4 10.3 3.4 6.7-.1 11.8-2.9 15.2-8.7z"fill="#1da1f2"></path></svg>';        data.data.forEach(item => { items.push(Format(item)) });        if (items.length == 30) document.querySelector('.limit').style.display = 'block';        items.forEach(item => {            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox avatar" src="https://q1.qlogo.cn/g?b=qq&nk=553344777&s=5"><div class="info"><span class="talk_nick">XiaoMu${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div><a href="javascript:;"onclick="goComment('${item.text}')"><span class="icon"><i class="fa-solid fa-message fa-fw"></i></span></a></div></div>` // 注意修改头像链接和名称        })        document.getElementById('talk').innerHTML = html    })}// 页面评论function goComment(e) {    var n = document.querySelector(".el-textarea__inner")    n.value = `> ${e}\n\n`;    n.focus();    btf.snackbarShow("无需删除空行，直接输入评论即可", !1, 2e3);}// 页面内容格式化function Format(item) {    let date = getTime(new Date(item.createdTs * 1000).toString()),        content = item.content,        tag = item.content.match(/\{(.*?)\}/g),        imgls = content.match(/!\[.*\]\(.*?\)/g), // 2023-02-06更新        text = ''    text = content.replace(/#(.*?)\s/g, '').replace(/\!\[(.*?)\]\((.*?)\)/g, '').replace(/\{(.*?)\}/g, '')    content = text.replace(/\[(.*?)\]\((.*?)\)/g, `<a href="$2">@$1</a>`);    if (imgls) {        content += `<div class="zone_imgbox">`        imgls.map(item => { return item.replace(/!\[.*\]\((.*?)\)/, '$1') }).forEach(e => content += `<a href="${e}" data-fancybox="gallery" class="fancybox" data-thumb="${e}"><img src="${e}"></a>` // 2023-02-06更新        )        content += '</div>'    }    return {        content: content,        tag: tag ? tag[0].replace(/\{(.*?)\}/,'$1') : '无标签',        date: date,        text: text.replace(/\[(.*?)\]\((.*?)\)/g, '[链接]' + `${imgls?'[图片]':''}`)    }}// 页面时间格式化function getTime(time) {    let d = new Date(time),        ls = [d.getFullYear(), d.getMonth() + 1, d.getDate(), d.getHours(), d.getMinutes(), d.getSeconds()];    for (let i = 0; i < ls.length; i++) {        ls[i] = ls[i] <= 9 ? '0' + ls[i] : ls[i] + ''    }    if (new Date().getFullYear() == ls[0]) return ls[1] + '月' + ls[2] + '日 ' + ls[3] +':'+ ls[4]    else return ls[0] + '年' + ls[1] + '月' + ls[2] + '日 ' + ls[3] +':'+ ls[4]}</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>收藏的壁纸</title>
+      <link href="/wallpaper/index.html"/>
+      <url>/wallpaper/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/girl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -287,55 +298,11 @@
     
     
     <entry>
-      <title>收藏的壁纸</title>
-      <link href="/wallpaper/index.html"/>
-      <url>/wallpaper/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/girl'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>很多地方没有去过，但它们都在我的清单里</title>
       <link href="/photo/fengjing/index.html"/>
       <url>/photo/fengjing/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>小可爱</title>
-      <link href="/photo/xiaokeai/index.html"/>
-      <url>/photo/xiaokeai/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>关于我的日常</title>
-      <link href="/photo/richang/index.html"/>
-      <url>/photo/richang/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>girl</title>
-      <link href="/wallpaper/girl/index.html"/>
-      <url>/wallpaper/girl/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"></p>          </div>]]></content>
       
     </entry>
     
@@ -353,11 +320,11 @@
     
     
     <entry>
-      <title>动漫手绘壁纸</title>
-      <link href="/wallpaper/dongman/index.html"/>
-      <url>/wallpaper/dongman/index.html</url>
+      <title>关于我的日常</title>
+      <link href="/photo/richang/index.html"/>
+      <url>/photo/richang/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png"><br><img src="https://i.hd-r.cn/c5ced333c21d2fd92e104485638195db.jpg"><br><img src="https://i.hd-r.cn/92fbd585d1a53a99363fb15c88917428.png"><br><img src="https://i.hd-r.cn/c06558a390d04de39e8e13382ad7f39b.png"></p><!-- ![]()![]()![]()![]()![]() -->          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
@@ -369,6 +336,39 @@
       <url>/wallpaper/bizhi/index.html</url>
       
         <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>小可爱</title>
+      <link href="/photo/xiaokeai/index.html"/>
+      <url>/photo/xiaokeai/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>girl</title>
+      <link href="/wallpaper/girl/index.html"/>
+      <url>/wallpaper/girl/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>动漫手绘壁纸</title>
+      <link href="/wallpaper/dongman/index.html"/>
+      <url>/wallpaper/dongman/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png"><br><img src="https://i.hd-r.cn/c5ced333c21d2fd92e104485638195db.jpg"><br><img src="https://i.hd-r.cn/92fbd585d1a53a99363fb15c88917428.png"><br><img src="https://i.hd-r.cn/c06558a390d04de39e8e13382ad7f39b.png"></p><!-- ![]()![]()![]()![]()![]() -->          </div>]]></content>
       
     </entry>
     
