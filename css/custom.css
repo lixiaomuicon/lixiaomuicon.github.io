@@ -1166,10 +1166,11 @@ button#go-up:hover #percent {
     max-width: 1200px;
 }
 
-.aside-content {
+
+/* .aside-content {
     max-width: 312px;
     min-width: 300px;
-}
+} */
 
 
 /* 页面宽度修改END */
