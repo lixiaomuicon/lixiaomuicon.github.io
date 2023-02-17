@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lixiaomu.fun/about/index.html</loc>
+    
+    <lastmod>2023-02-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lixiaomu.fun/2023/01/01/%E5%85%B3%E4%BA%8E%E6%88%91/</loc>
     
     <lastmod>2023-02-17</lastmod>
@@ -111,15 +120,6 @@
   
   <url>
     <loc>http://lixiaomu.fun/zanshang/index.html</loc>
-    
-    <lastmod>2023-02-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lixiaomu.fun/about/index.html</loc>
     
     <lastmod>2023-02-15</lastmod>
     

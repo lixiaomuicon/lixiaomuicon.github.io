@@ -97,6 +97,26 @@ svg.icon.faa-tada {
 }
 
 
+/* 页脚透明 */
+
+#footer {
+    /* background: transparent !important; */
+    background: rgba(196, 196, 196, 0.2);
+}
+
+
+/* 头图透明 */
+
+#page-header {
+    /* background: transparent !important; */
+    background: rgba(196, 196, 196, 0.2);
+}
+
+#rightside>div>button {
+    border-radius: 5px;
+}
+
+
 /* 首页文章卡片 */
 
 #recent-posts>.recent-post-item {
@@ -134,7 +154,7 @@ svg.icon.faa-tada {
 /*说说、  侧边卡片的透明度 */
 
 :root {
-    --card-bg: rgba(255, 255, 255, .5);
+    --card-bg: rgba(255, 255, 255, .6);
 }
 
 
@@ -205,26 +225,6 @@ div#category {
 
 [data-theme="dark"] div#category {
     background: transparent !important;
-}
-
-
-/* 页脚透明 */
-
-#footer {
-    /* background: transparent !important; */
-    background: rgba(196, 196, 196, 0.2);
-}
-
-
-/* 头图透明 */
-
-#page-header {
-    /* background: transparent !important; */
-    background: rgba(196, 196, 196, 0.2);
-}
-
-#rightside>div>button {
-    border-radius: 5px;
 }
 
 
@@ -414,9 +414,10 @@ div#category {
 
 /* 博主昵称颜色 --也就是首页侧边栏头像下面那个昵称*/
 
-.author-info__name {
-    color: #060605;
-}
+
+/* .author-info__name {
+    color: #ff8000;
+} */
 
 
 /*页脚自定义字段字体颜色,也就是配置文件里的footer_custom_text*/
