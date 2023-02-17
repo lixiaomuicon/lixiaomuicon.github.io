@@ -212,7 +212,7 @@ div#category {
 
 #footer {
     /* background: transparent !important; */
-    background: rgba(149, 149, 149, 0.1);
+    background: rgba(196, 196, 196, 0.2);
 }
 
 
@@ -220,7 +220,7 @@ div#category {
 
 #page-header {
     /* background: transparent !important; */
-    background: rgba(196, 196, 196, 0.1);
+    background: rgba(196, 196, 196, 0.2);
 }
 
 #rightside>div>button {
@@ -675,7 +675,7 @@ a {
 
 #welcome-info {
     /* background: linear-gradient(45deg, #fbfbfb, #fafbfb); */
-    background: transparent;
+    background: rgba(255, 255, 255, 0.6);
     border-radius: 18px;
     padding: 8px;
 }
@@ -774,7 +774,7 @@ div#main_top {
 #bber-talk {
     border-radius: 12px;
     box-shadow: none;
-    /* border: 1px solid #ffffff; */
+    border: 1px solid #ffffff;
     box-sizing: border-box;
     transition: all .3s ease-in-out;
     cursor: pointer;
@@ -789,7 +789,7 @@ div#main_top {
 }
 
 #bber-talk:hover {
-    border-color: #000000;
+    border-color: #49b1f5;
     box-shadow: none;
 }
 
@@ -825,7 +825,7 @@ div#main_top {
 }
 
 #bber-talk .talk-list :hover {
-    color: #000000 !important;
+    color: #49b1f5 !important;
     transition: all .2s ease-in-out;
 }
 
