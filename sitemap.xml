@@ -2,7 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://lixiaomu.fun/wenan/wenrou/index.html</loc>
+    <loc>http://lixiaomu.fun/wallpaper/index.html</loc>
+    
+    <lastmod>2023-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lixiaomu.fun/comments/index.html</loc>
     
     <lastmod>2023-02-20</lastmod>
     
@@ -12,6 +21,15 @@
   
   <url>
     <loc>http://lixiaomu.fun/wenan/index.html</loc>
+    
+    <lastmod>2023-02-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lixiaomu.fun/wenan/wenrou/index.html</loc>
     
     <lastmod>2023-02-20</lastmod>
     
@@ -110,15 +128,6 @@
   </url>
   
   <url>
-    <loc>http://lixiaomu.fun/comments/index.html</loc>
-    
-    <lastmod>2023-02-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lixiaomu.fun/shuoshuo/index.html</loc>
     
     <lastmod>2023-02-17</lastmod>
@@ -182,15 +191,6 @@
   </url>
   
   <url>
-    <loc>http://lixiaomu.fun/navigate/index.html</loc>
-    
-    <lastmod>2023-02-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://lixiaomu.fun/music/index.html</loc>
     
     <lastmod>2023-02-09</lastmod>
@@ -210,15 +210,6 @@
   
   <url>
     <loc>http://lixiaomu.fun/photo/xiaokeai/index.html</loc>
-    
-    <lastmod>2023-02-08</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lixiaomu.fun/wallpaper/index.html</loc>
     
     <lastmod>2023-02-08</lastmod>
     

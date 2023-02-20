@@ -124,22 +124,22 @@
     
     
     <entry>
-      <title>追番</title>
-      <link href="/bangumis/index.html"/>
-      <url>/bangumis/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p><i class="fa-sharp fa-solid fa-user"></i><font face="黑体" size=5>基本信息</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Name:</span> <span class="string">李小沐</span></span><br><span class="line"><span class="attr">age:</span> <span class="number">25</span></span><br><span class="line"><span class="attr">address:</span> <span class="string">NanJing</span></span><br><span class="line"><span class="attr">hobby:</span> <span class="string">旅游、爬山</span></span><br><span class="line"><span class="attr">character:</span> <span class="string">好吃懒做、无欲无求</span></span><br><span class="line"><span class="attr">expectation:</span> <span class="string">赚大钱，更加热爱生活</span></span><br><span class="line"><span class="attr">blog:</span> <span class="string">https://lixiaomu.fun/</span></span><br></pre></td></tr></table></figure><p>一个混迹在俗世的普通人<br>陪自己看世界<br>试着把人生中的每个第一次都当做是最后一次<br>和别人一起游山玩水，那只是旅游<br>唯有自己独自面对苍茫的群山和大海之时，才会真正感受到与自然的沟通<br>我一直在履行自己和自己的诺言<br>我不知道自己能走多远<br>也不知道以后会怎么样<br>反正，余生还长，我又何必慌张</p><p><i class="fa-sharp fa-solid fa-envelope"></i><font face="黑体" size=5 bgcolor=pink>联系我</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">qq:</span> <span class="number">1006877324</span></span><br><span class="line"><span class="attr">vx:</span> <span class="string">sweetday0102</span> <span class="string">（记得备注哦）</span></span><br><span class="line"><span class="attr">email:</span> <span class="number">1006877324</span><span class="string">@qq.com</span></span><br><span class="line"><span class="attr">motto:</span> <span class="string">古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。</span></span><br></pre></td></tr></table></figure>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>追番</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
       
-        <content type="html"><![CDATA[<p><i class="fa-sharp fa-solid fa-user"></i><font face="黑体" size=5>基本信息</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Name:</span> <span class="string">李小沐</span></span><br><span class="line"><span class="attr">age:</span> <span class="number">25</span></span><br><span class="line"><span class="attr">address:</span> <span class="string">NanJing</span></span><br><span class="line"><span class="attr">hobby:</span> <span class="string">旅游、爬山</span></span><br><span class="line"><span class="attr">character:</span> <span class="string">好吃懒做、无欲无求</span></span><br><span class="line"><span class="attr">expectation:</span> <span class="string">赚大钱，更加热爱生活</span></span><br><span class="line"><span class="attr">blog:</span> <span class="string">https://lixiaomu.fun/</span></span><br></pre></td></tr></table></figure><p>一个混迹在俗世的普通人<br>陪自己看世界<br>试着把人生中的每个第一次都当做是最后一次<br>和别人一起游山玩水，那只是旅游<br>唯有自己独自面对苍茫的群山和大海之时，才会真正感受到与自然的沟通<br>我一直在履行自己和自己的诺言<br>我不知道自己能走多远<br>也不知道以后会怎么样<br>反正，余生还长，我又何必慌张</p><p><i class="fa-sharp fa-solid fa-envelope"></i><font face="黑体" size=5 bgcolor=pink>联系我</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">qq:</span> <span class="number">1006877324</span></span><br><span class="line"><span class="attr">vx:</span> <span class="string">sweetday0102</span> <span class="string">（记得备注哦）</span></span><br><span class="line"><span class="attr">email:</span> <span class="number">1006877324</span><span class="string">@qq.com</span></span><br><span class="line"><span class="attr">motto:</span> <span class="string">古今之成大事者，不惟有超世之才，亦必有坚忍不拔之志。</span></span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -161,7 +161,7 @@
       <link href="/comments/index.html"/>
       <url>/comments/index.html</url>
       
-        <content type="html"><![CDATA[<h4 id="I-wish-you-to-become-your-own-sun-no-need-to-rely-on-who’s-light-—-愿你成为自己的太阳，无需凭借谁的光芒。"><a href="#I-wish-you-to-become-your-own-sun-no-need-to-rely-on-who’s-light-—-愿你成为自己的太阳，无需凭借谁的光芒。" class="headerlink" title="I wish you to become your own sun , no need to rely on who’s light.— 愿你成为自己的太阳，无需凭借谁的光芒。"></a><table><tr><td bgcolor=pink>I wish you to become your own sun , no need to rely on who’s light.<br>— 愿你成为自己的太阳，无需凭借谁的光芒。</td></tr></table></h4>]]></content>
+        <content type="html"><![CDATA[<center><font color=red>I wish you to become your own sun , no need to rely on who's light.<br>愿你成为自己的太阳,无需借助谁的光。<br>_</font></center><img src="https://cdn.seovx.com/?mom=302" width=50% >]]></content>
       
     </entry>
     
@@ -205,7 +205,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-DwxEYZhu" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-ooSLjJAI" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -223,44 +223,11 @@
     
     
     <entry>
-      <title>照片</title>
-      <link href="/images/index.html"/>
-      <url>/images/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>导航</title>
-      <link href="/navigate/index.html"/>
-      <url>/navigate/index.html</url>
-      
-        <content type="html"><![CDATA[<p><button type="button" onclick="alert('Hello world!')"> Click Me! </button></p><div class="navi-height bg-cover pd-header">    <div class="link-box container">        <div class="baidu baidu-2 large-screen">            <form name="f" action="https://www.baidu.com/" target="_blank">                <div id="Select-2">                    <div class="Select-box-2" id="baidu">                        <ul style="height:46px">                            <li class="this_s">百 · 度</li>                            <li class="bing_s">必 · 应</li>                            <li class="google_s">谷 · 歌</li>                            <li class="baidu_s">百 · 度</li>                        </ul>                    </div> <input name="wd" id="kw-2" maxlength="100" autocomplete="off" type="text">                </div>                <div class="qingkong" id="qingkong" title="清 · 空" style="display:none">x</div> <input value="搜 · 索" id="su-2" type="submit">                <ul class="keylist"></ul>            </form>        </div>        <div class="row tags-posts">            <div class="col s12 m6 l4 friend-div aos-init" data-aos="zoom-in-up">                <div class="card">                    <div class="jj-list-tit">娱乐 · 影视</div>                    <ul class="jj-list-con">                        <li><a href="https://www.jd.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">京东</a>                        </li>                        <li><a href="https://www.taobao.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">淘宝</a></li>                        <li><a href="https://www.tmall.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">天猫</a></li>                        <li><a href="https://v.qq.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">腾讯视频</a></li>                        <li><a href="http://www.iqiyi.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">爱奇艺</a></li>                        <li><a href="https://www.bilibili.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">哔哩哔哩</a> </li>                        <li><a href="https://music.163.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">网易云音乐</a></li>                        <li><a href="https://y.qq.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">QQ音乐</a></li>                        <li><a href="http://www.kugou.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">酷狗音乐</a></li>                    </ul>                </div>            </div>            <div class="col s12 m6 l4 friend-div aos-init" data-aos="zoom-in-up">                <div class="card">                    <div class="jj-list-tit">社区 · Code</div>                    <ul class="jj-list-con">                        <li><a href="https://www.mobaijun.com/contact/" rel="external nofollow noreferrer" class="link-3" target="_blank">留言</a></li>                        <li><a href="https://github.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">GitHub</a></li>                        <li><a href="https://coding.net/" rel="external nofollow noreferrer" class="link-3" target="_blank">Coding</a></li>                        <li><a href="https://juejin.im/" rel="external nofollow noreferrer" class="link-3" target="_blank">掘金</a></li>                        <li><a href="https://gitee.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">码云</a></li>                        <li><a href="https://www.csdn.net/" rel="external nofollow noreferrer" class="link-3" target="_blank">CSDN</a></li>                        <li><a href="https://www.jianshu.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">简书</a></li>                        <li><a href="https://segmentfault.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">思否</a></li>                        <li><a href="https://cloud.tencent.com/developer/" rel="external nofollow noreferrer" class="link-3" target="_blank">云+社区</a></li>                    </ul>                </div>            </div>            <div class="col s12 m6 l4 friend-div aos-init" data-aos="zoom-in-up">                <div class="card">                    <div class="jj-list-tit">实用 · 工具</div>                    <ul class="jj-list-con">                        <li><a href="https://mdnice.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">Markdown编辑器</a></li>                        <li><a href="https://translate.google.cn/" rel="external nofollow noreferrer" class="link-3" target="_blank">谷歌翻译</a></li>                        <li><a href="https://www.uupoop.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">在线PS</a></li>                        <li><a href="https://www.processon.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">思维导图</a></li>                        <li><a href="https://wallhaven.cc/" rel="external nofollow noreferrer" class="link-3" target="_blank">超清壁纸</a></li>                        <li><a href="https://cli.im/" rel="external nofollow noreferrer" class="link-3" target="_blank">二维码生成</a></li>                        <li><a href="http://tool.cc/pic-resizer/" rel="external nofollow noreferrer" class="link-3" target="_blank">图片在线压缩</a></li>                        <li><a href="https://www.iconfont.cn/" rel="external nofollow noreferrer" class="link-3" target="_blank">阿里巴巴图标库</a></li>                        <li><a href="https://my.openwrite.cn/" rel="external nofollow noreferrer" class="link-3" target="_blank">OW分发</a></li>                    </ul>                </div>            </div>            <div class="col s12 m6 l4 friend-div aos-init" data-aos="zoom-in-up">                <div class="card">                    <div class="jj-list-tit">编程 · 学习</div>                    <ul class="jj-list-con">                        <li><a href="https://www.oschina.net/" rel="external nofollow noreferrer" class="link-3" target="_blank">开源中国</a></li>                        <li><a href="https://htmldog.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">HTML狗</a></li>                        <li><a href="https://www.icourse163.org/" rel="external nofollow noreferrer" class="link-3" target="_blank">中国大学慕课</a></li>                        <li><a href="https://www.imooc.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">慕课网</a></li>                        <li><a href="http://www.wxapp-union.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">小程序</a></li>                        <li><a href="https://www.runoob.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">菜鸟教程</a></li>                        <li><a href="https://blog.51cto.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">51CTO</a></li>                        <li><a href="https://www.shiyanlou.com/library/" rel="external nofollow noreferrer" class="link-3" target="_blank">实验楼</a></li>                        <li><a href="https://spring.io/" rel="external nofollow noreferrer" class="link-3" target="_blank">Spring</a></li>                    </ul>                </div>            </div>            <div class="col s12 m6 l4 friend-div aos-init" data-aos="zoom-in-up">                <div class="card">                    <div class="jj-list-tit">资讯 · 趋势</div>                    <ul class="jj-list-con">                        <li><a href="https://www.huxiu.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">虎嗅</a></li>                        <li><a href="https://insights.stackoverflow.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">技术调查</a></li>                        <li><a href="http://www.asciiworld.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">摸鱼</a></li>                        <li><a href="https://sspai.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">少数派</a></li>                        <li><a href="https://zh.wikihow.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">WikeHom</a></li>                        <li><a href="https://www.awesomes.cn/rank?sort=hot" rel="external nofollow noreferrer" class="link-3" target="_blank">前端趋势</a></li>                        <li><a href="https://github-trending.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">GitHub趋势</a></li>                        <li><a href="https://www.tiobe.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">编程趋势</a></li>                        <li><a href="https://trends.google.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">Google趋势</a></li>                    </ul>                </div>            </div>            <div class="col s12 m6 l4 friend-div aos-init" data-aos="zoom-in-up">                <div class="card">                    <div class="jj-list-tit">搜索 · 其他</div>                    <ul class="jj-list-con">                        <li><a href="https://ac.scmor.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">谷歌镜像</a></li>                        <li><a href="http://www.pansoso.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">网盘搜索</a></li>                        <li><a href="http://tool.mkblog.cn/music/" rel="external nofollow noreferrer" class="link-3" target="_blank">音乐搜索</a></li>                        <li><a href="https://www.upyun.com/?utm_source=lianmeng&amp;utm_medium=referral" rel="external nofollow noreferrer" class="link-3" target="_blank">又拍云</a></li>                        <li><a href="https://carbon.now.sh/" rel="external nofollow noreferrer" class="link-3" target="_blank">代码图片</a></li>                        <li><a href="https://www.zhipin.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">Boos</a></li>                        <li><a href="http://www.fontawesome.com.cn/" rel="external nofollow noreferrer" class="link-3" target="_blank">图标库</a></li>                        <li><a href="https://www.qvdv.com/tools/qvdv-guid.html" rel="external nofollow noreferrer" class="link-3" target="_blank">在线工具</a>                        </li>                        <li><a href="http://zhongguose.com/" rel="external nofollow noreferrer" class="link-3" target="_blank">中国色</a></li>                    </ul>                </div>            </div>        </div>        <script>            $(".Select-box ul").hover(function() {                $(this).css("height", "auto")            }, function() {                $(this).css("height", "40px")            }), $(".Select-box-2 ul").hover(function() {                $(this).css("height", "auto")            }, function() {                $(this).css("height", "46px")            }), $(".Select-box li").click(function() {                var t = $(this).attr("class"),                    s = $(this).html();                "baidu_s" == t && (t = "https://www.baidu.com/s", _name = "wd"), "google_s" == t && (t = "https://www.google.com/search", _name = "q"), "bing_s" == t && (t = "https://www.bing.com/search", _name = "q"), $(".baidu form").attr("action", t), $(".this_s").html(s), $("#kw").attr("name", _name), $(".Select-box ul").css("height", "40px")            }), $(".Select-box-2 li").click(function() {                var t = $(this).attr("class"),                    s = $(this).html();                "baidu_s" == t && (t = "https://www.baidu.com/s", _name = "wd"), "google_s" == t && (t = "https://www.google.com/search", _name = "q"), "bing_s" == t && (t = "https://www.bing.com/search", _name = "q"), $(".baidu form").attr("action", t), $(".this_s").html(s), $("#kw-2").attr("name", _name), $(".Select-box-2 ul").css("height", "48px")            })        </script>    </div></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>生活碎片</title>
       <link href="/photos/index.html"/>
       <url>/photos/index.html</url>
       
         <content type="html"><![CDATA[<h3 id="记录生活的小美好"><a href="#记录生活的小美好" class="headerlink" title="记录生活的小美好"></a>记录生活的小美好</h3><div class="gallery-photos page"><img src="/img/loading.svg" style="margin:auto"></div><style>#article-container a img {margin: 0; border-radius:0;}.gallery-photos{width:100%;margin-top: 10px;}.gallery-photo{min-height:5rem;width:24.97%;padding:4px;position: relative;}.gallery-photo a{border-radius:8px;display:block;overflow: hidden;}.gallery-photo img{display: block;width:100%;animation: fadeIn 1s;cursor: pointer;transition: all .4s ease-in-out !important;}.gallery-photo span.photo-title,.gallery-photo span.photo-time{max-width: calc(100% - 7px);line-height:1.8;position:absolute;left:4px;font-size:14px;background: rgba(0, 0, 0, 0.3);padding:0px 8px;color: #fff;animation: fadeIn 1s;}.gallery-photo span.photo-title{bottom:4px;border-radius: 0 8px 0 8px;}.gallery-photo span.photo-time{top:4px;border-radius: 8px 0 8px 0;}.gallery-photo:hover img{transform: scale(1.1);}@media screen and (max-width: 1100px) {.gallery-photo{width:33.3%;}}@media screen and (max-width: 768px) {    .gallery-photo{width:49.9%;padding:3px}    .gallery-photo span.photo-time{display:none}    .gallery-photo span.photo-title{font-size:12px}    .gallery-photo span.photo-title{left:3px;bottom:3px;}}@keyframes fadeIn{0% {opacity: 0;}100%{opacity: 1;}}</style>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -278,11 +245,22 @@
     
     
     <entry>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>收藏的壁纸</title>
       <link href="/wallpaper/index.html"/>
       <url>/wallpaper/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/girl'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[<img src="https://cdn.seovx.com/?mom=302" width=70% ><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/girl'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -294,6 +272,17 @@
       <url>/wenan/index.html</url>
       
         <content type="html"><![CDATA[<center><b><font color=red><p id="hitokoto">获取中...</p><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer ></script></center></b></font><br><table><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="/wenan/wenrou">温柔且永不落俗的惊艳文案</a></td></tr></tbody></table>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>照片</title>
+      <link href="/images/index.html"/>
+      <url>/images/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -322,11 +311,11 @@
     
     
     <entry>
-      <title>拙劣的拍摄</title>
-      <link href="/photo/suipai/index.html"/>
-      <url>/photo/suipai/index.html</url>
+      <title>好看的壁纸</title>
+      <link href="/wallpaper/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg"></p><!-- ![]()![]()![]()![]()![]()![]()![]()![]() -->          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"></p>          </div>]]></content>
       
     </entry>
     
@@ -355,11 +344,11 @@
     
     
     <entry>
-      <title>好看的壁纸</title>
-      <link href="/wallpaper/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/index.html</url>
+      <title>拙劣的拍摄</title>
+      <link href="/photo/suipai/index.html"/>
+      <url>/photo/suipai/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg"></p><!-- ![]()![]()![]()![]()![]()![]()![]()![]() -->          </div>]]></content>
       
     </entry>
     
@@ -399,22 +388,22 @@
     
     
     <entry>
-      <title>girl</title>
-      <link href="/wallpaper/girl/index.html"/>
-      <url>/wallpaper/girl/index.html</url>
+      <title>温柔且永不落俗的惊艳文案</title>
+      <link href="/wenan/wenrou/index.html"/>
+      <url>/wenan/wenrou/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<center><img src="https://cdn.seovx.com/?mom=302" width=70% ><p>去拥抱陌生，去期待惊喜。<br><br>向海风许愿，在山海相见。<br><br>愿你保持善良，从此拥有远方。<br><br>风停在窗边，嘱咐我要热爱这个世界。<br><br>往事不再过问，未来共赴前程。<br><br>一切都是成长，包括热泪盈眶。<br><br>不要眼眶一红，就觉得人间不值得。<br><br>经历与年龄无关，但优秀与努力有关。<br><br>蕞好的状态是一点点向喜欢的东西靠近。<br><br>有幸被照亮，也想成为光。<br><br><img src="https://www.dmoe.cc/random.php" width=70%><br>海鸥不眷恋大海的话 可以飞得更高。<br><br>销声匿迹是所有告别里最勇敢的。<br><br>路还长，温柔的事一定会发生。<br><br>无人问津的港口总是开满鲜花。<br><br>兜兜转转的重逢才是浪漫的开始。<br><br>慢慢理解世界，慢慢更新自己。<br><br>所有事情只要你觉得值得就好。<br><br>慢慢走 沿途有风景 背后有阳光。<br><br>保持心脏震荡，有人等你共鸣。<br><br>要成为别人的遥不可望不可及。<br><br>深夜和清晨，都请用力去生活。<br><br><img src="https://api.ixiaowai.cn/api/api.php" width=70%><br>我走过的路要繁花盛开，人声鼎沸。<br><br>风停在窗边嘱咐你要热爱这个世界。<br><br>上了生活的贼船，就做快乐的海盗。<br><br>足够温柔的人一定会有足够的幸运。<br><br>做你自己，爱你的人自然爱你。<br><br>愿你熬过万丈孤独，藏下星辰大海。<br><br>简单的喜欢最长远，懂你的人最温柔.<br><br>不同的列车都在开往更好的方向。<br><br>隔过星辰大海，无畏世俗和尘埃。<br><br>你生来就值得被爱，这点你无需质疑。<br><br><img src="https://api.ixiaowai.cn/mcapi/mcapi.php" width=70%></p></center>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>温柔且永不落俗的惊艳文案</title>
-      <link href="/wenan/wenrou/index.html"/>
-      <url>/wenan/wenrou/index.html</url>
+      <title>girl</title>
+      <link href="/wallpaper/girl/index.html"/>
+      <url>/wallpaper/girl/index.html</url>
       
-        <content type="html"><![CDATA[<center><img src="https://cdn.seovx.com/?mom=302" width=50% ><p>去拥抱陌生，去期待惊喜。<br><br>向海风许愿，在山海相见。<br><br>愿你保持善良，从此拥有远方。<br><br>风停在窗边，嘱咐我要热爱这个世界。<br><br>往事不再过问，未来共赴前程。<br><br>一切都是成长，包括热泪盈眶。<br><br>不要眼眶一红，就觉得人间不值得。<br><br>经历与年龄无关，但优秀与努力有关。<br><br>蕞好的状态是一点点向喜欢的东西靠近。<br><br>有幸被照亮，也想成为光。<br><br><img src="https://www.dmoe.cc/random.php" width=50%><br>海鸥不眷恋大海的话 可以飞得更高。<br><br>销声匿迹是所有告别里最勇敢的。<br><br>路还长，温柔的事一定会发生。<br><br>无人问津的港口总是开满鲜花。<br><br>兜兜转转的重逢才是浪漫的开始。<br><br>慢慢理解世界，慢慢更新自己。<br><br>所有事情只要你觉得值得就好。<br><br>慢慢走 沿途有风景 背后有阳光。<br><br>保持心脏震荡，有人等你共鸣。<br><br>要成为别人的遥不可望不可及。<br><br>深夜和清晨，都请用力去生活。<br><br><img src="https://api.ixiaowai.cn/api/api.php" width=50%><br>我走过的路要繁花盛开，人声鼎沸。<br><br>风停在窗边嘱咐你要热爱这个世界。<br><br>上了生活的贼船，就做快乐的海盗。<br><br>足够温柔的人一定会有足够的幸运。<br><br>做你自己，爱你的人自然爱你。<br><br>愿你熬过万丈孤独，藏下星辰大海。<br><br>简单的喜欢最长远，懂你的人最温柔.<br><br>不同的列车都在开往更好的方向。<br><br>隔过星辰大海，无畏世俗和尘埃。<br><br>你生来就值得被爱，这点你无需质疑。<br><br><img src="https://api.ixiaowai.cn/mcapi/mcapi.php" width=50%></p></center>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"></p>          </div>]]></content>
       
     </entry>
     
