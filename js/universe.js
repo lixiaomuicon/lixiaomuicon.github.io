@@ -287,8 +287,6 @@ function createWinbox() {
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)')"></a>
     <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/66c60769626630318f6635dc7876db56.png)" class="imgbox" onclick="changeBg('url(https\://api.btstu.cn/sjbz/api.php)')"></a>
-    <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/ce5e47d187aab6b1d612c3f77452f99e.png)" class="imgbox" onclick="changeBg('url(https\://api.mtyqx.cn/tapi/random.php)')"></a>
     </div>
 
     
