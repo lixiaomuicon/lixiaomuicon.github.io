@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lixiaomu.fun/collect/index.html</loc>
+    
+    <lastmod>2023-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lixiaomu.fun/wallpaper/index.html</loc>
     
     <lastmod>2023-02-20</lastmod>
@@ -319,7 +328,7 @@
 
   <url>
     <loc>http://lixiaomu.fun/</loc>
-    <lastmod>2023-02-21</lastmod>
+    <lastmod>2023-02-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
