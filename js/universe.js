@@ -368,7 +368,9 @@ function createWinbox() {
         <div class="bgbox">
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xh6rA.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/mcapi/mcapi.php)')"></a>
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhdZN.png)" class="imgbox" onclick="changeBg('url(https\://api.r10086.com/img-api.php?type=王者荣耀)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhI98.png)" class="imgbox" onclick="changeBg('url(https\://api.r10086.com/img-api.php?type=极品美女图片))')"></a>
 
+        
         </div>
     </div>
     </details>
