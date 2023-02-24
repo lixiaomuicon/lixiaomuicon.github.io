@@ -101,7 +101,7 @@ svg.icon.faa-tada {
 
 #footer {
     /* background: transparent !important; */
-    background: rgba(196, 196, 196, 0.2);
+    background: rgba(196, 196, 196, 0.3);
 }
 
 
@@ -109,7 +109,7 @@ svg.icon.faa-tada {
 
 #page-header {
     /* background: transparent !important; */
-    background: rgba(196, 196, 196, 0.2);
+    background: rgba(196, 196, 196, 0.3);
 }
 
 #rightside>div>button {
@@ -133,28 +133,28 @@ svg.icon.faa-tada {
 .layout_post>#post,
 .read-mode .layout_post>#post {
     /* 以下代表透明度为0.5 */
-    background: rgba(255, 255, 255, .6);
+    background: rgba(255, 255, 255, .7);
 }
 
 
 /* 顶部导航栏 */
 
 #nav a {
-    color: #eeecf4;
+    color: #000000;
 }
 
 
 /* 首页侧栏卡片 */
 
 #aside-content .card-widget {
-    background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /*说说、  侧边卡片的透明度 */
 
 :root {
-    --card-bg: rgba(255, 255, 255, .6);
+    --card-bg: rgba(255, 255, 255, .7);
 }
 
 
@@ -256,7 +256,7 @@ div#category {
 
 .vwrap {
     box-shadow: 2px 2px 5px #bbb;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 8px;
     padding: 30px;
     margin: 30px 0px 30px 0px;
@@ -267,7 +267,7 @@ div#category {
 
 .vcard {
     box-shadow: 2px 2px 5px #bbb;
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 8px;
     padding: 30px;
     margin: 30px 0px 0px 0px;
