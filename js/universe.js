@@ -263,7 +263,7 @@ function createWinbox() {
 
     // 每一类我放了一个演示，直接往下复制粘贴 a标签 就可以，需要注意的是 函数里面的链接 冒号前面需要添加反斜杠\进行转义
     winbox.body.innerHTML = `
-    <div class="note success modern"><p>点击对应样式即可切换背景。<br>导航栏本站壁纸图片也可以替换哦~ <a href="/wallpaper/">前往相册</a></p></div>
+    <div class="note success modern"><p>点击对应样式即可切换背景。<br>导航栏本站壁纸图片也可以替换哦~ <a href="/wallpaper/" style="color:red">前往相册</a></p></div>
     <div class="note pink fa-image"><p>有效期为一天,到期切回默认壁纸。<br>随机壁纸--刷新页面后会变哦~</p></div>
     <div id="article-container" style="padding:10px;"> 
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:#5fcdff;display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
@@ -286,6 +286,8 @@ function createWinbox() {
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)')"></a>
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)')"></a>
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhI98.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/gqapi/gqapi.php)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xh6rA.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/mcapi/mcapi.php)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhdZN.png)" class="imgbox" onclick="changeBg('url(https\://api.r10086.com/img-api.php?type=王者荣耀)')"></a>
         </div>
     </div>
     </details>
@@ -321,8 +323,11 @@ function createWinbox() {
     <div class="toggle-content">
         <div class="bgbox">
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhpHE.png)" class="imgbox" onclick="changeBg('url(https://api.ixiaowai.cn/api/api.php)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhcuQ.png)" class="imgbox" onclick="changeBg('url(https://www.dmoe.cc/random.php)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7favw.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7favw.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fTmz.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fTmz.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fQya.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fQya.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhpHE.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/api/api.php)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhcuQ.png)" class="imgbox" onclick="changeBg('url(https\://www.dmoe.cc/random.php)')"></a>
         </div>
     </div>
     </details>
@@ -359,18 +364,6 @@ function createWinbox() {
         <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #CDCDCD" onclick="changeBg('#CDCDCD')"></a> 
         <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #CC3299" onclick="changeBg('#CC3299')"></a> 
         <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #A67D3D" onclick="changeBg('#A67D3D')"></a> 
-        </div>
-    </div>
-    </details>
-
-    <details class="toggle" =""><summary class="toggle-button" style="">其它壁纸</summary>
-    <div class="toggle-content">
-        <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xh6rA.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/mcapi/mcapi.php)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhdZN.png)" class="imgbox" onclick="changeBg('url(https\://api.r10086.com/img-api.php?type=王者荣耀)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhI98.png)" class="imgbox" onclick="changeBg('url(https\://api.r10086.com/img-api.php?type=极品美女图片)')"></a>
-
-        
         </div>
     </div>
     </details>
