@@ -1522,7 +1522,7 @@ button#go-up:hover #percent {
 }
 
 .aplayer {
-    position: absolute!important;
+    position: absolute;
 }
 
 .aplayer.aplayer-fixed .aplayer-body {
