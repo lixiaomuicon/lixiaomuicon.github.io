@@ -101,7 +101,7 @@ svg.icon.faa-tada {
 
 #footer {
     /* background: transparent !important; */
-    background: rgba(196, 196, 196, 0.3);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 
@@ -109,7 +109,7 @@ svg.icon.faa-tada {
 
 #page-header {
     /* background: transparent !important; */
-    background: rgba(196, 196, 196, 0.3);
+    background: rgba(255, 255, 255, 0.2);
 }
 
 #rightside>div>button {
@@ -140,7 +140,7 @@ svg.icon.faa-tada {
 /* 顶部导航栏 */
 
 #nav a {
-    color: #000000;
+    color: #ffffff;
 }
 
 
@@ -458,7 +458,7 @@ div#category {
 /* a标签默认颜色 */
 
 #article-container a {
-    color: #00c4b6;
+    color: #a8fdf8;
     text-decoration: none;
 }
 
@@ -466,7 +466,7 @@ div#category {
 /*a标签颜色*/
 
 a {
-    color: #00c4b6;
+    color: #b4fffa;
 }
 
 
