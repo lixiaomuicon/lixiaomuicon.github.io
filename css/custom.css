@@ -458,7 +458,7 @@ div#category {
 /* a标签默认颜色 */
 
 #article-container a {
-    color: #a8fdf8;
+    color: #fc7ec3;
     text-decoration: none;
 }
 
@@ -466,7 +466,7 @@ div#category {
 /*a标签颜色*/
 
 a {
-    color: #b4fffa;
+    color: #fc7ec3;
 }
 
 
@@ -1742,3 +1742,47 @@ button#go-up:hover #percent {
     border: solid 2px rgba(236, 233, 233, 0.8);
     background: #043749d0;
 }
+
+
+/* 给网站增加悬浮伸缩侧边栏END  */
+
+
+/* 表情包放大  */
+
+#owo-big {
+    position: fixed;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 1px #aaa solid;
+    border-radius: 10px;
+    z-index: 9999;
+    display: none;
+    transform: translate(0, -105%);
+    overflow: hidden;
+    animation: owoIn 0.3s cubic-bezier(0.42, 0, 0.3, 1.11);
+}
+
+[data-theme=dark] #owo-big {
+    background-color: #4a4a4a
+}
+
+#owo-big img {
+    width: 100%;
+}
+
+
+/* 动画效果代码由 Heo：https://blog.zhheo.com/ 提供 */
+
+@keyframes owoIn {
+    0% {
+        transform: translate(0, -95%);
+        opacity: 0;
+    }
+    100% {
+        transform: translate(0, -105%);
+        opacity: 1;
+    }
+}
+
+
+/* 表情包放大END  */
