@@ -1,95 +1,118 @@
-#rightMenu {
+/* rightMenu */
+
+[data-theme='light'] #rightMenu {
     display: none;
     position: fixed;
-    padding: 0 .25rem;
-    width: 9rem;
+    width: 160px;
     height: fit-content;
     top: 10%;
     left: 10%;
-    background-color: rgba(238, 255, 255, .85);
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
-    color: #363636;
-    border-radius: 12px;
-    z-index: 99994;
-    border: #e3e8f7;
-    user-select: none;
-    box-shadow: rgba(0, 0, 0, .05);
+    background-color: var(--card-bg);
+    border: 1px solid rgb(210, 210, 210);
+    ;
+    border-radius: 8px;
+    z-index: 100;
+    box-shadow: 3px 3px 5px #88888894;
+    background-color: var(--lyx-white-acrylic1);
+    backdrop-filter: blur(30px);
 }
 
-#rightMenu a {
-    color: #363636;
+[data-theme='dark'] #rightMenu {
+    display: none;
+    position: fixed;
+    width: 160px;
+    height: fit-content;
+    top: 10%;
+    left: 10%;
+    background-color: var(--card-bg);
+    border: 1px solid rgb(210, 210, 210);
+    ;
+    border-radius: 8px;
+    z-index: 100;
+    box-shadow: 3px 3px 5px #88888894;
+    background-color: var(--lyx-black-acrylic1);
+    backdrop-filter: blur(30px);
 }
 
 #rightMenu .rightMenu-group {
-    padding: .35rem .3rem;
-    transition: .3s
+    padding: 7px 6px;
 }
 
-#rightMenu .rightMenu-line {
-    border-top: 1px dashed #4259ef23
+#rightMenu .rightMenu-group:not(:nth-last-child(1)) {
+    border-bottom: 1px solid rgb(180, 180, 180);
 }
 
 #rightMenu .rightMenu-group.rightMenu-small {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 #rightMenu .rightMenu-group .rightMenu-item {
+    height: 30px;
+    line-height: 30px;
     border-radius: 8px;
-    transition: .3s;
-    cursor: pointer
-}
-
-#rightMenu .rightMenu-line .rightMenu-item {
-    margin: .25rem 0;
-    padding: .25rem 0
+    transition: 0.3s;
+    color: var(--font-color);
 }
 
 #rightMenu .rightMenu-group.rightMenu-line .rightMenu-item {
-    display: flex
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 4px;
 }
 
 #rightMenu .rightMenu-group .rightMenu-item:hover {
-    background-color: #6f42c1;
-    color: #fff;
-}
-
-#rightMenu .rightMenu-group .rightMenu-item:active {
-    transform: scale(.97)
+    background-color: var(--text-bg-hover);
+    box-shadow: 0px 0px 5px var(--lyx-border);
 }
 
 #rightMenu .rightMenu-group .rightMenu-item i {
     display: inline-block;
     text-align: center;
-    line-height: 1.5rem;
-    width: 1.5rem;
-    padding: 0 .25rem
-}
-
-#rightMenu .rightMenu-line .rightMenu-item i {
-    margin: 0 .25rem
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    padding: 0 5px;
 }
 
 #rightMenu .rightMenu-group .rightMenu-item span {
-    line-height: 1.5rem
+    line-height: 30px;
 }
 
-.rightMenu-small .rightMenu-item {
-    width: 30px;
-    height: 30px;
-    line-height: 30px
+#rightMenu:hover {
+    border: 1px solid var(--lyx-blue);
+    /* box-shadow:0 0 3px var(--lyx-blue)!important; */
 }
 
-#rightmenu-mask {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: 0 0;
-    top: 0;
-    left: 0;
+#rightMenu .rightMenu-group.rightMenu-line .rightMenu-item * {
+    height: 40px;
+    line-height: 40px;
+}
+
+.rightMenu-group.hide {
     display: none;
-    z-index: 101;
-    margin: 0 !important;
-    z-index: 99993
+}
+
+.rightMenu-item:hover {
+    color: white!important;
+    background-color: var(--lyx-blue)!important;
+}
+
+:root {
+    --lyx-border: #c9c9c9;
+    --lyx-blue: #6cf;
+    --lyx-gray: #e2e2e2;
+    --lyx-theme: #6cf;
+    --lyx-green: #39c5bb;
+    --lyx-black-acrylic1: #0008;
+    --lyx-black-acrylic2: #000a;
+    --lyx-black-acrylic3: #00000099;
+    --lyx-black: black;
+    --lyx-white: white;
+    --lyx-white-acrylic1: #fffd;
+    --lyx-white-acrylic2: #fffa;
+    --lyx-blackgray: #797979;
+    --lyx-0: #0000;
+    --lyx-scrollbar: #acacacDD;
 }

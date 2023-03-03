@@ -1786,3 +1786,19 @@ button#go-up:hover #percent {
 
 
 /* 表情包放大END  */
+
+
+/* 鼠标样式 */
+
+body {
+    cursor: url("https://cdn.jsdelivr.net/gh/xlenco/JS-X@main/mouse/normal.cur"), default;
+}
+
+a,
+img,
+button {
+    cursor: url("https://cdn.jsdelivr.net/gh/xlenco/JS-X@main/mouse/link.cur"), default !important;
+}
+
+
+/* 鼠标样式END */
