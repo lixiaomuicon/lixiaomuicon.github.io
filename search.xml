@@ -244,9 +244,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>charts</title>
+      <link href="/charts/index.html"/>
+      <url>/charts/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -255,9 +255,9 @@
     
     
     <entry>
-      <title>charts</title>
-      <link href="/charts/index.html"/>
-      <url>/charts/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -310,22 +310,22 @@
     
     
     <entry>
-      <title>日常清单</title>
-      <link href="/list/index.html"/>
-      <url>/list/index.html</url>
+      <title>友情链接</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note pink flat"><h3 id="原来我有这么多想要做的事吖"><a href="#原来我有这么多想要做的事吖" class="headerlink" title="原来我有这么多想要做的事吖"></a><center><a style="color:red">原来我有这么多想要做的事吖</a></h3></div><style>/* 页面初始化 */div#page {    background: rgba(255, 255, 255, 0.8);    border: 0;    padding: 0;}[data-theme=dark] #twikoo .tk-content,#twikoo .tk-content {    padding: 0;    background: none;}.tk-comments-container>.tk-comment,.tk-submit:nth-child(1){    background: var(--card-bg);    border: 1px rgba(188, 188, 188, 0.8) solid;    box-shadow: 0 5px 10px rgb(189 189 189 / 10%);    transition: all .3s ease-in-out;    border-radius: 12px;}.tk-comments-container>.tk-comment:hover,.tk-submit:nth-child(1):hover {    border-color: #6dc3fd;}.tk-submit {    padding: 20px 10px 0;}.tk-comments-container>.tk-comment {    padding: 15px;}/* 页面初始化结束 */div#todolist {    display: flex;    flex-wrap: wrap;    margin-top: 1rem;}.list_item {    display: inline-block;    width: calc(50% - .4rem);    background: #ffe3dd;    border-radius: 12px;    padding: 10px 1rem 1.2rem;    border: 2px dashed #f7a796;    --todo-border: 1px solid #f7a796;    margin-right: 1rem;    margin-bottom: 1rem;}.list_item h3 {    margin: 0;    border-bottom: var(--todo-border);}.list_item ul {    font-size: 17px;    padding: 0 !important;    margin: 0;} .list_item li{    margin: 0 !important;    border-bottom: var(--todo-border); }.list_item li::marker {  content: none;}li.achieve {    opacity: .8;    text-decoration: line-through;}@media screen and (max-width: 900px) {  div#todolist {    margin: 1rem 5px 0;  }}@media screen and (max-width: 768px) {  .list_item{    width: 100%;  }}</style><div id="todolist"></div><script>// 瀑布流函数，不用管function waterfall(t){function e(t,e){var n=window.getComputedStyle(e);return parseFloat(n["margin"+t])||0}function n(t){return t+"px"}function r(t){return parseFloat(t.style.left)}function o(t){return t.clientWidth}function l(t){return function(t){return parseFloat(t.style.top)}(t)+function(t){return t.clientHeight}(t)+e("Bottom",t)}function i(t){return r(t)+o(t)+e("Right",t)}function u(t){t=t.sort((function(t,e){return l(t)===l(e)?r(e)-r(t):l(e)-l(t)}))}function a(e){o(t)!=h&&(e.target.removeEventListener(e.type,arguments.callee),waterfall(t))}"string"==typeof t&&(t=document.querySelector(t));var s=[].map.call(t.children,(function(t){return t.style.position="absolute",t}));t.style.position="relative";var f=[];s.length&&(s[0].style.top="0px",s[0].style.left=n(e("Left",s[0])),f.push(s[0]));for(var p=1;p<s.length;p++){var c=s[p-1],y=s[p];if(!(i(c)+o(y)<=o(t)))break;y.style.top=c.style.top,y.style.left=n(i(c)+e("Left",y)),f.push(y)}for(;p<s.length;p++){u(f);y=s[p];var d=f.pop();y.style.top=n(l(d)+e("Top",y)),y.style.left=n(r(d)),f.push(y)}u(f);var v=f[0];t.style.height=n(l(v));var h=o(t);window.addEventListener?window.addEventListener("resize",a):document.body.onresize=a}// 清单函数todolist();function todolist() {    fetch('https://memos-on-replit.lixiaomuicon.repl.co/api/memo?creatorId=1&tag=清单').then(res => res.json()).then(data => { // 注意替换链接        // 获取并处理数据        data = data.data        let box = document.getElementById('todolist')        data.forEach(item => {            // 处理数据            let content = item.content,                title = content.match(/\[(.*?)\]/g)[0].replace(/\[(.*?)\]/,'$1');            // 去掉多余内容，替换清单内容            content = content.replace(/#.*\s/g, '').replace(/(-\s\[\s\]\s)(.*)/g, `<li><i style="margin-right: 5px;" class="fa-regular fa-circle"></i>$2</li>`).replace(/(-\s\[x\]\s)(.*)/g, `<li class="achieve"><i style="margin-right: 5px;" class="fa-regular fa-circle-check"></i>$2</li>`);            // 渲染数据            let div = document.createElement('div');            div.className = 'list_item';            div.innerHTML = `<h3>${title}</h3><ul>${content}</ul>`;            box.appendChild(div);        });        waterfall('#todolist');    }).catch()}</script>]]></content>
+        <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>如果您也有自己的个人博客，并且想要互换友链，<strong>请在下方留言,并注明贵站的类型</strong>，审核之后贵站的信息就会被添加到下方列表中～</p><h4 id="友链列表"><a href="#友链列表" class="headerlink" title="友链列表"></a>友链列表</h4><pre><code>以下排名不分先后，欢迎访问(～￣▽￣)～</code></pre><table><thead><tr><th align="center">站名</th><th align="center">链接</th><th align="center">类型</th></tr></thead><tbody><tr><td align="center">Fomalhaut🥝</td><td align="center"><a href="https://fomal.cc/">https://fomal.cc</a></td><td align="center"></td></tr><tr><td align="center">唐志远の博客</td><td align="center"><a href="https://tzy1997.com/">https://tzy1997.com</a></td><td align="center"></td></tr><tr><td align="center">Akilarの糖果屋</td><td align="center"><a href="https://akilar.top/">https://akilar.top</a></td><td align="center"></td></tr><tr><td align="center">安知鱼</td><td align="center"><a href="https://anzhiy.cn/">https://anzhiy.cn</a></td><td align="center"></td></tr></tbody></table>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>友情链接</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>日常清单</title>
+      <link href="/list/index.html"/>
+      <url>/list/index.html</url>
       
-        <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>如果您也有自己的个人博客，并且想要互换友链，<strong>请在下方留言,并注明贵站的类型</strong>，审核之后贵站的信息就会被添加到下方列表中～</p><h4 id="友链列表"><a href="#友链列表" class="headerlink" title="友链列表"></a>友链列表</h4><pre><code>以下排名不分先后，欢迎访问(～￣▽￣)～</code></pre><table><thead><tr><th align="center">站名</th><th align="center">链接</th><th align="center">类型</th></tr></thead><tbody><tr><td align="center">Fomalhaut🥝</td><td align="center"><a href="https://fomal.cc/">https://fomal.cc</a></td><td align="center"></td></tr><tr><td align="center">唐志远の博客</td><td align="center"><a href="https://tzy1997.com/">https://tzy1997.com</a></td><td align="center"></td></tr><tr><td align="center">Akilarの糖果屋</td><td align="center"><a href="https://akilar.top/">https://akilar.top</a></td><td align="center"></td></tr><tr><td align="center">安知鱼</td><td align="center"><a href="https://anzhiy.cn/">https://anzhiy.cn</a></td><td align="center"></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<div class="note pink flat"><h3 id="原来我有这么多想要做的事吖"><a href="#原来我有这么多想要做的事吖" class="headerlink" title="原来我有这么多想要做的事吖"></a><center><a style="color:red">原来我有这么多想要做的事吖</a></h3></div><style>/* 页面初始化 */div#page {    background: rgba(255, 255, 255, 0.8);    border: 0;    padding: 0;}[data-theme=dark] #twikoo .tk-content,#twikoo .tk-content {    padding: 0;    background: none;}.tk-comments-container>.tk-comment,.tk-submit:nth-child(1){    background: var(--card-bg);    border: 1px rgba(188, 188, 188, 0.8) solid;    box-shadow: 0 5px 10px rgb(189 189 189 / 10%);    transition: all .3s ease-in-out;    border-radius: 12px;}.tk-comments-container>.tk-comment:hover,.tk-submit:nth-child(1):hover {    border-color: #6dc3fd;}.tk-submit {    padding: 20px 10px 0;}.tk-comments-container>.tk-comment {    padding: 15px;}/* 页面初始化结束 */div#todolist {    display: flex;    flex-wrap: wrap;    margin-top: 1rem;}.list_item {    display: inline-block;    width: calc(50% - .4rem);    background: #ffe3dd;    border-radius: 12px;    padding: 10px 1rem 1.2rem;    border: 2px dashed #f7a796;    --todo-border: 1px solid #f7a796;    margin-right: 1rem;    margin-bottom: 1rem;}.list_item h3 {    margin: 0;    border-bottom: var(--todo-border);}.list_item ul {    font-size: 17px;    padding: 0 !important;    margin: 0;} .list_item li{    margin: 0 !important;    border-bottom: var(--todo-border); }.list_item li::marker {  content: none;}li.achieve {    opacity: .8;    text-decoration: line-through;}@media screen and (max-width: 900px) {  div#todolist {    margin: 1rem 5px 0;  }}@media screen and (max-width: 768px) {  .list_item{    width: 100%;  }}</style><div id="todolist"></div><script>// 瀑布流函数，不用管function waterfall(t){function e(t,e){var n=window.getComputedStyle(e);return parseFloat(n["margin"+t])||0}function n(t){return t+"px"}function r(t){return parseFloat(t.style.left)}function o(t){return t.clientWidth}function l(t){return function(t){return parseFloat(t.style.top)}(t)+function(t){return t.clientHeight}(t)+e("Bottom",t)}function i(t){return r(t)+o(t)+e("Right",t)}function u(t){t=t.sort((function(t,e){return l(t)===l(e)?r(e)-r(t):l(e)-l(t)}))}function a(e){o(t)!=h&&(e.target.removeEventListener(e.type,arguments.callee),waterfall(t))}"string"==typeof t&&(t=document.querySelector(t));var s=[].map.call(t.children,(function(t){return t.style.position="absolute",t}));t.style.position="relative";var f=[];s.length&&(s[0].style.top="0px",s[0].style.left=n(e("Left",s[0])),f.push(s[0]));for(var p=1;p<s.length;p++){var c=s[p-1],y=s[p];if(!(i(c)+o(y)<=o(t)))break;y.style.top=c.style.top,y.style.left=n(i(c)+e("Left",y)),f.push(y)}for(;p<s.length;p++){u(f);y=s[p];var d=f.pop();y.style.top=n(l(d)+e("Top",y)),y.style.left=n(r(d)),f.push(y)}u(f);var v=f[0];t.style.height=n(l(v));var h=o(t);window.addEventListener?window.addEventListener("resize",a):document.body.onresize=a}// 清单函数todolist();function todolist() {    fetch('https://memos-on-replit.lixiaomuicon.repl.co/api/memo?creatorId=1&tag=清单').then(res => res.json()).then(data => { // 注意替换链接        // 获取并处理数据        data = data.data        let box = document.getElementById('todolist')        data.forEach(item => {            // 处理数据            let content = item.content,                title = content.match(/\[(.*?)\]/g)[0].replace(/\[(.*?)\]/,'$1');            // 去掉多余内容，替换清单内容            content = content.replace(/#.*\s/g, '').replace(/(-\s\[\s\]\s)(.*)/g, `<li><i style="margin-right: 5px;" class="fa-regular fa-circle"></i>$2</li>`).replace(/(-\s\[x\]\s)(.*)/g, `<li class="achieve"><i style="margin-right: 5px;" class="fa-regular fa-circle-check"></i>$2</li>`);            // 渲染数据            let div = document.createElement('div');            div.className = 'list_item';            div.innerHTML = `<h3>${title}</h3><ul>${content}</ul>`;            box.appendChild(div);        });        waterfall('#todolist');    }).catch()}</script>]]></content>
       
     </entry>
     
@@ -347,7 +347,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-vJzBFFcd" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-DTFAugyN" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -475,6 +475,17 @@
     
     
     <entry>
+      <title>收藏的壁纸</title>
+      <link href="/wallpaper/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/bizhi/girl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/bizhi/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7eCZ.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>没去过的地方</p>  <a href='/wallpaper/bizhi/fengjing'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7wrd.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Food</div>  <p>美食</p>  <a href='/wallpaper/bizhi/food'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7bOz.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">创意</div>  <p>创意图片</p>  <a href='/wallpaper/bizhi/chuangyi'></a>  </figcaption>  </figure>  </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>手机壁纸</title>
       <link href="/wallpaper/sjbizhi/index.html"/>
       <url>/wallpaper/sjbizhi/index.html</url>
@@ -502,50 +513,6 @@
       <url>/wenan/wenrou/index.html</url>
       
         <content type="html"><![CDATA[<center><img src="https://cdn.seovx.com/?mom=302" width=70% ><p>去拥抱陌生，去期待惊喜。<br><br>向海风许愿，在山海相见。<br><br>愿你保持善良，从此拥有远方。<br><br>风停在窗边，嘱咐我要热爱这个世界。<br><br>往事不再过问，未来共赴前程。<br><br>一切都是成长，包括热泪盈眶。<br><br>不要眼眶一红，就觉得人间不值得。<br><br>经历与年龄无关，但优秀与努力有关。<br><br>蕞好的状态是一点点向喜欢的东西靠近。<br><br>有幸被照亮，也想成为光。<br><br><img src="https://www.dmoe.cc/random.php" width=70%><br>海鸥不眷恋大海的话 可以飞得更高。<br><br>销声匿迹是所有告别里最勇敢的。<br><br>路还长，温柔的事一定会发生。<br><br>无人问津的港口总是开满鲜花。<br><br>兜兜转转的重逢才是浪漫的开始。<br><br>慢慢理解世界，慢慢更新自己。<br><br>所有事情只要你觉得值得就好。<br><br>慢慢走 沿途有风景 背后有阳光。<br><br>保持心脏震荡，有人等你共鸣。<br><br>要成为别人的遥不可望不可及。<br><br>深夜和清晨，都请用力去生活。<br><br><img src="https://api.ixiaowai.cn/api/api.php" width=70%><br>我走过的路要繁花盛开，人声鼎沸。<br><br>风停在窗边嘱咐你要热爱这个世界。<br><br>上了生活的贼船，就做快乐的海盗。<br><br>足够温柔的人一定会有足够的幸运。<br><br>做你自己，爱你的人自然爱你。<br><br>愿你熬过万丈孤独，藏下星辰大海。<br><br>简单的喜欢最长远，懂你的人最温柔.<br><br>不同的列车都在开往更好的方向。<br><br>隔过星辰大海，无畏世俗和尘埃。<br><br>你生来就值得被爱，这点你无需质疑。<br><br><img src="https://api.ixiaowai.cn/mcapi/mcapi.php" width=70%></p></center>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>收藏的壁纸</title>
-      <link href="/wallpaper/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/bizhi/girl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/bizhi/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7eCZ.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>没去过的地方</p>  <a href='/wallpaper/bizhi/fengjing'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7wrd.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Food</div>  <p>美食</p>  <a href='/wallpaper/bizhi/food'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7bOz.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">创意</div>  <p>创意图片</p>  <a href='/wallpaper/bizhi/chuangyi'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>girl</title>
-      <link href="/wallpaper/sjbizhi/girl/index.html"/>
-      <url>/wallpaper/sjbizhi/girl/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="/"><br><img src="https://img.vm.laomishuo.com/image/2021/12/2021122715170589.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/05/2021053107390019.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/08/2021082418471438.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/05/2021053111333664.jpeg"><br><img src="https://img.vm.aomishuo.com/image/2021/05/2021052509214162.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/10/2021101113150626.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/12/2021121119294157.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2022/05/2022050211365433.jpg">)<br><img src="https://img.vm.laomishuo.com/image/2021/01/2021011114540487.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/10/2021101112481925.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2020/12/2020120109592351.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/08/2021081519313621.jpeg"><br><img src="https://i.hd-r.cn/47a7ec6716eb5b0dc890e9d3cfcb0a35.jpg"><br><img src="https://i.hd-r.cn/bfedbd8587210ff63bd4a4b1487fd9cb.jpg"><br><img src="https://i.hd-r.cn/e796a9c4206dcb68f39851dabf4cf470.jpg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>手机壁纸</title>
-      <link href="/wallpaper/sjbizhi/bizhi/index.html"/>
-      <url>/wallpaper/sjbizhi/bizhi/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg"><br><img src="https://i.hd-r.cn/b053a2071adde852043f50734f2e520d.jpg"><br><img src="https://i.hd-r.cn/522f9361e3e049457b5f89c8b2be4b7c.jpg"><br><img src="https://i.hd-r.cn/30ac4b9bfcaccc71e8bcf0f59ce1437e.jpg"><br><img src="https://i.hd-r.cn/c69da0ce7c2c83f81ca447ba28ecd293.jpg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>女生头像</title>
-      <link href="/wallpaper/touxiang/nvsheng/index.html"/>
-      <url>/wallpaper/touxiang/nvsheng/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/24/7CBFy.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7Cpj3.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CXQ5.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7Cxl8.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CELF.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CznH.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7C6RQ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CFoE.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CdfC.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72463.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72ybv.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72AQy.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72UC5.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72ng8.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72tLZ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72kUF.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/720RH.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72CSQ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72wVE.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/722jC.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72H6P.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72OQX.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72jlt.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/728gJ.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
@@ -612,6 +579,39 @@
       <url>/wallpaper/bizhi/girl/index.html</url>
       
         <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"><br><img src="https://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg"><br><img src="https://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg"><br><img src="https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png"><br><img src="https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg"><br><img src="https://i.328888.xyz/2023/02/23/x7JCc.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7v1J.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7KgA.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7LKo.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>手机壁纸</title>
+      <link href="/wallpaper/sjbizhi/bizhi/index.html"/>
+      <url>/wallpaper/sjbizhi/bizhi/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg"><br><img src="https://i.hd-r.cn/b053a2071adde852043f50734f2e520d.jpg"><br><img src="https://i.hd-r.cn/522f9361e3e049457b5f89c8b2be4b7c.jpg"><br><img src="https://i.hd-r.cn/30ac4b9bfcaccc71e8bcf0f59ce1437e.jpg"><br><img src="https://i.hd-r.cn/c69da0ce7c2c83f81ca447ba28ecd293.jpg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>girl</title>
+      <link href="/wallpaper/sjbizhi/girl/index.html"/>
+      <url>/wallpaper/sjbizhi/girl/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="/"><br><img src="https://img.vm.laomishuo.com/image/2021/12/2021122715170589.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/05/2021053107390019.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/08/2021082418471438.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/05/2021053111333664.jpeg"><br><img src="https://img.vm.aomishuo.com/image/2021/05/2021052509214162.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/10/2021101113150626.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/12/2021121119294157.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2022/05/2022050211365433.jpg">)<br><img src="https://img.vm.laomishuo.com/image/2021/01/2021011114540487.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/10/2021101112481925.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2020/12/2020120109592351.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/08/2021081519313621.jpeg"><br><img src="https://i.hd-r.cn/47a7ec6716eb5b0dc890e9d3cfcb0a35.jpg"><br><img src="https://i.hd-r.cn/bfedbd8587210ff63bd4a4b1487fd9cb.jpg"><br><img src="https://i.hd-r.cn/e796a9c4206dcb68f39851dabf4cf470.jpg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>女生头像</title>
+      <link href="/wallpaper/touxiang/nvsheng/index.html"/>
+      <url>/wallpaper/touxiang/nvsheng/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/24/7CBFy.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7Cpj3.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CXQ5.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7Cxl8.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CELF.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CznH.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7C6RQ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CFoE.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CdfC.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72463.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72ybv.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72AQy.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72UC5.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72ng8.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72tLZ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72kUF.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/720RH.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72CSQ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72wVE.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/722jC.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72H6P.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72OQX.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72jlt.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/728gJ.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
