@@ -244,17 +244,6 @@
     
     
     <entry>
-      <title>藏宝阁</title>
-      <link href="/collect/index.html"/>
-      <url>/collect/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -269,6 +258,17 @@
       <title>charts</title>
       <link href="/charts/index.html"/>
       <url>/charts/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>藏宝阁</title>
+      <link href="/collect/index.html"/>
+      <url>/collect/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -321,17 +321,6 @@
     
     
     <entry>
-      <title>宝藏</title>
-      <link href="/moyu/index.html"/>
-      <url>/moyu/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="tabs" id="图片"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#图片-1">天气情况</button></li><li class="tab"><button type="button" data-href="#图片-2">摸鱼人日历</button></li><li class="tab"><button type="button" data-href="#图片-3">职场人日历</button></li><li class="tab"><button type="button" data-href="#图片-4">访客地球</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="图片-1"><div align=center><img src="https://api.vvhan.com/api/ip" /><!-- <img src="https://api.vvhan.com/api/ipCard" width=428px height=250px/> --></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-2"><div align=center><img src="https://api.vvhan.com/api/moyu" height=804px/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-3"><div align=center><img src="https://api.vvhan.com/api/zhichang" height=804px/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-4"><div align=center><script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5ou2x9idd0d&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!--分割线  --><div class="tabs" id="文字"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#文字-1">每日诗词</button></li><li class="tab"><button type="button" data-href="#文字-2">一句一言</button></li><li class="tab"><button type="button" data-href="#文字-3">一句情话</button></li><li class="tab"><button type="button" data-href="#文字-4">喜欢的句子</button></li><li class="tab"><button type="button" data-href="#文字-5">一句骚话</button></li><li class="tab"><button type="button" data-href="#文字-6">一段笑话</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="文字-1"><div class="note pink flat"><center><b><font color=red>每日诗词</font></b><br><span id="jinrishici-sentence">正在加载今日诗词....</span><script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-2"><div class="note pink flat"><center><b><font color=red>一句一言</font></b><p  id="hitokoto"></p><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer ></script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-3"><div class="note pink flat"><center><b><font color=red>随机一句情话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/love?type=js"></script><script>ishan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-4"><div class="note pink flat"><center><b><font color=red>随机一句喜欢的句子</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/ian?type=js"></script><script>vhan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-5"><div class="note pink flat"><center><b><font color=red>随机一句骚话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/sao?type=js"></script><script>ishan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-6"><div class="note pink flat"><center><b><font color=red>随机一段笑话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/joke?type=js"></script><script>vhan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!--分割线  --><div class="tabs" id="图片"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#图片-1">风景壁纸</button></li><li class="tab"><button type="button" data-href="#图片-2">手机壁纸</button></li><li class="tab"><button type="button" data-href="#图片-3">女生壁纸</button></li><li class="tab"><button type="button" data-href="#图片-4">随机古风壁纸</button></li><li class="tab"><button type="button" data-href="#图片-5">动漫壁纸</button></li><li class="tab"><button type="button" data-href="#图片-6">PC.cosplay福利姬</button></li><li class="tab"><button type="button" data-href="#图片-7">PE.cosplay福利姬</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="图片-1"><div align=center><img src="https://api.vvhan.com/api/view"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-2"><div align=center><img src="https://api.wuque.cc/random/images"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-3"><div align=center><img src="https://cdn.seovx.com/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-4"><div align=center><img src="https://cdn.seovx.com/ha/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-5"><div align=center><img src="https://cdn.seovx.com/d/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-6"><div align=center><img src="https://api.vvhan.com/api/girl"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-7"><div align=center><img src="https://api.vvhan.com/api/mobil.girl"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!-- 分割线 --><div class="tabs" id="其它图片"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#其它图片-1">MC酱动漫</button></li><li class="tab"><button type="button" data-href="#其它图片-2">王者荣耀</button></li><li class="tab"><button type="button" data-href="#其它图片-3">火隐忍者</button></li><li class="tab"><button type="button" data-href="#其它图片-4">重装战姬</button></li><li class="tab"><button type="button" data-href="#其它图片-5">P站系列</button></li><li class="tab"><button type="button" data-href="#其它图片-6">随机头像</button></li><li class="tab"><button type="button" data-href="#其它图片-7">表情包</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="其它图片-1"><div align=center><img src="https://api.ixiaowai.cn/mcapi/mcapi.php"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-2"><div align=center><img src="https://api.r10086.com/img-api.php?type=王者荣耀"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-3"><div align=center><img src="https://api.r10086.com/img-api.php?type=火影忍者横屏系列1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-4"><div align=center><img src="https://api.r10086.com/img-api.php?type=重装战姬1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-5"><div align=center><img src="https://api.r10086.com/img-api.php?type=P站系列1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-6"><div align=center><img src="https://api.vvhan.com/api/avatar"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-7"><div align=center><img src="https://api.isoyu.com/ARU_GIF_S.php"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>日常清单</title>
       <link href="/list/index.html"/>
       <url>/list/index.html</url>
@@ -343,11 +332,22 @@
     
     
     <entry>
+      <title>宝藏</title>
+      <link href="/moyu/index.html"/>
+      <url>/moyu/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="tabs" id="图片"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#图片-1">天气情况</button></li><li class="tab"><button type="button" data-href="#图片-2">摸鱼人日历</button></li><li class="tab"><button type="button" data-href="#图片-3">职场人日历</button></li><li class="tab"><button type="button" data-href="#图片-4">访客地球</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="图片-1"><div align=center><img src="https://api.vvhan.com/api/ip" /><!-- <img src="https://api.vvhan.com/api/ipCard" width=428px height=250px/> --></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-2"><div align=center><img src="https://api.vvhan.com/api/moyu" height=804px/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-3"><div align=center><img src="https://api.vvhan.com/api/zhichang" height=804px/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-4"><div align=center><script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5ou2x9idd0d&amp;m=7&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80" async="async"></script></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!--分割线  --><div class="tabs" id="文字"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#文字-1">每日诗词</button></li><li class="tab"><button type="button" data-href="#文字-2">一句一言</button></li><li class="tab"><button type="button" data-href="#文字-3">一句情话</button></li><li class="tab"><button type="button" data-href="#文字-4">喜欢的句子</button></li><li class="tab"><button type="button" data-href="#文字-5">一句骚话</button></li><li class="tab"><button type="button" data-href="#文字-6">一段笑话</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="文字-1"><div class="note pink flat"><center><b><font color=red>每日诗词</font></b><br><span id="jinrishici-sentence">正在加载今日诗词....</span><script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-2"><div class="note pink flat"><center><b><font color=red>一句一言</font></b><p  id="hitokoto"></p><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer ></script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-3"><div class="note pink flat"><center><b><font color=red>随机一句情话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/love?type=js"></script><script>ishan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-4"><div class="note pink flat"><center><b><font color=red>随机一句喜欢的句子</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/ian?type=js"></script><script>vhan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-5"><div class="note pink flat"><center><b><font color=red>随机一句骚话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/sao?type=js"></script><script>ishan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-6"><div class="note pink flat"><center><b><font color=red>随机一段笑话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/joke?type=js"></script><script>vhan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!--分割线  --><div class="tabs" id="图片"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#图片-1">风景壁纸</button></li><li class="tab"><button type="button" data-href="#图片-2">手机壁纸</button></li><li class="tab"><button type="button" data-href="#图片-3">女生壁纸</button></li><li class="tab"><button type="button" data-href="#图片-4">随机古风壁纸</button></li><li class="tab"><button type="button" data-href="#图片-5">动漫壁纸</button></li><li class="tab"><button type="button" data-href="#图片-6">PC.cosplay福利姬</button></li><li class="tab"><button type="button" data-href="#图片-7">PE.cosplay福利姬</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="图片-1"><div align=center><img src="https://api.vvhan.com/api/view"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-2"><div align=center><img src="https://api.wuque.cc/random/images"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-3"><div align=center><img src="https://cdn.seovx.com/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-4"><div align=center><img src="https://cdn.seovx.com/ha/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-5"><div align=center><img src="https://cdn.seovx.com/d/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-6"><div align=center><img src="https://api.vvhan.com/api/girl"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-7"><div align=center><img src="https://api.vvhan.com/api/mobil.girl"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!-- 分割线 --><div class="tabs" id="其它图片"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#其它图片-1">MC酱动漫</button></li><li class="tab"><button type="button" data-href="#其它图片-2">王者荣耀</button></li><li class="tab"><button type="button" data-href="#其它图片-3">火隐忍者</button></li><li class="tab"><button type="button" data-href="#其它图片-4">重装战姬</button></li><li class="tab"><button type="button" data-href="#其它图片-5">P站系列</button></li><li class="tab"><button type="button" data-href="#其它图片-6">随机头像</button></li><li class="tab"><button type="button" data-href="#其它图片-7">表情包</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="其它图片-1"><div align=center><img src="https://api.ixiaowai.cn/mcapi/mcapi.php"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-2"><div align=center><img src="https://api.r10086.com/img-api.php?type=王者荣耀"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-3"><div align=center><img src="https://api.r10086.com/img-api.php?type=火影忍者横屏系列1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-4"><div align=center><img src="https://api.r10086.com/img-api.php?type=重装战姬1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-5"><div align=center><img src="https://api.r10086.com/img-api.php?type=P站系列1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-6"><div align=center><img src="https://api.vvhan.com/api/avatar"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-7"><div align=center><img src="https://api.isoyu.com/ARU_GIF_S.php"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>音乐</title>
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<!--     <div id="aplayer-drhZpnIN" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div> --><!-- 播放器 --><div class="music-player"><!-- audio标签 --><audio class="music-player__audio" ></audio><!-- 播放器主体 --><div class="music-player__main"><!-- 模糊背景 --><div class="music-player__blur"></div><!-- 唱片 --><div class="music-player__disc"><!-- 唱片图片 --><div class="music-player__image"><img width="100%" src="" alt=""></div><!-- 指针 --><div class="music-player__pointer"><img width="100%" src="/img/cd_tou.png" alt=""></div></div><!-- 控件主体 --><div class="music-player__controls"><!-- 歌曲信息 --><div class="music__info"><h3 class="music__info--title">...</h3></div><!-- 控件... --><div class="player-control"><div class="player-control__content"><div class="player-control__btns"><div class="player-control__btn player-control__btn--prev"><i class="iconfont icon-prev"></i></div><div class="player-control__btn player-control__btn--play"><i class="iconfont icon-play"></i></div><div class="player-control__btn player-control__btn--next"><i class="iconfont icon-next"></i></div><div class="player-control__btn player-control__btn--mode"><i class="iconfont icon-random"></i></div></div><div class="player-control__volume"><div class="control__volume--icon player-control__btn"><i class="iconfont icon-volume"></i></div><div class="control__volume--progress progress"></div></div></div><div class="player-control__content"><div class="player__song--progress progress"></div><div class="player__song--timeProgess nowTime">00:00</div><div class="player__song--timeProgess totalTime">00:00</div></div></div></div></div><!-- 歌曲列表 --><div class="music-player__list"><ul class="music__list_content"></ul></div></div><script src="/js/utill.js"></script><script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.slim.min.js"></script><script src="/js/player.js?10"></script><div style="text-align:center;margin:-100px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff"></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-bjaYasxM" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -387,22 +387,22 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>收藏的壁纸</title>
+      <link href="/wallpaper/index.html"/>
+      <url>/wallpaper/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>收藏的壁纸</title>
-      <link href="/wallpaper/index.html"/>
-      <url>/wallpaper/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -464,22 +464,22 @@
     
     
     <entry>
-      <title>小可爱</title>
-      <link href="/photo/xiaokeai/index.html"/>
-      <url>/photo/xiaokeai/index.html</url>
+      <title>收藏的壁纸</title>
+      <link href="/wallpaper/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/bizhi/girl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/bizhi/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7eCZ.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>没去过的地方</p>  <a href='/wallpaper/bizhi/fengjing'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7wrd.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Food</div>  <p>美食</p>  <a href='/wallpaper/bizhi/food'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7bOz.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">创意</div>  <p>创意图片</p>  <a href='/wallpaper/bizhi/chuangyi'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>收藏的壁纸</title>
-      <link href="/wallpaper/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/index.html</url>
+      <title>小可爱</title>
+      <link href="/photo/xiaokeai/index.html"/>
+      <url>/photo/xiaokeai/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/bizhi/girl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/bizhi/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7eCZ.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>没去过的地方</p>  <a href='/wallpaper/bizhi/fengjing'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7wrd.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Food</div>  <p>美食</p>  <a href='/wallpaper/bizhi/food'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7bOz.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">创意</div>  <p>创意图片</p>  <a href='/wallpaper/bizhi/chuangyi'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png"></p>          </div>]]></content>
       
     </entry>
     
@@ -519,22 +519,22 @@
     
     
     <entry>
-      <title>创意图片</title>
-      <link href="/wallpaper/bizhi/chuangyi/index.html"/>
-      <url>/wallpaper/bizhi/chuangyi/index.html</url>
+      <title>好看的壁纸</title>
+      <link href="/wallpaper/bizhi/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/bizhi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7bOz.jpeg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"><br><img src="https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg"><br><img src="https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png"><br><img src="https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>好看的壁纸</title>
-      <link href="/wallpaper/bizhi/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/bizhi/index.html</url>
+      <title>创意图片</title>
+      <link href="/wallpaper/bizhi/chuangyi/index.html"/>
+      <url>/wallpaper/bizhi/chuangyi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"><br><img src="https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg"><br><img src="https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png"><br><img src="https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7bOz.jpeg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
