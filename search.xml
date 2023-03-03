@@ -244,9 +244,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>charts</title>
+      <link href="/charts/index.html"/>
+      <url>/charts/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -255,9 +255,9 @@
     
     
     <entry>
-      <title>charts</title>
-      <link href="/charts/index.html"/>
-      <url>/charts/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -271,17 +271,6 @@
       <url>/collect/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
-      
-        <content type="html"><![CDATA[<center><div class="note flat"><p><font color=red>I wish you to become your own sun , no need to rely on who’s light.<br>愿你成为自己的太阳,无需借助谁的光。</font></p></div></center>]]></content>
       
     </entry>
     
@@ -304,6 +293,17 @@
       <url>/images/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
+      
+        <content type="html"><![CDATA[<center><div class="note flat"><p><font color=red>I wish you to become your own sun , no need to rely on who’s light.<br>愿你成为自己的太阳,无需借助谁的光。</font></p></div></center>]]></content>
       
     </entry>
     
@@ -347,7 +347,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-bjaYasxM" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-kyFUKuNZ" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -387,22 +387,22 @@
     
     
     <entry>
-      <title>收藏的壁纸</title>
-      <link href="/wallpaper/index.html"/>
-      <url>/wallpaper/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>收藏的壁纸</title>
+      <link href="/wallpaper/index.html"/>
+      <url>/wallpaper/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -475,17 +475,6 @@
     
     
     <entry>
-      <title>小可爱</title>
-      <link href="/photo/xiaokeai/index.html"/>
-      <url>/photo/xiaokeai/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png"></p>          </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>手机壁纸</title>
       <link href="/wallpaper/sjbizhi/index.html"/>
       <url>/wallpaper/sjbizhi/index.html</url>
@@ -519,11 +508,11 @@
     
     
     <entry>
-      <title>好看的壁纸</title>
-      <link href="/wallpaper/bizhi/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/bizhi/index.html</url>
+      <title>小可爱</title>
+      <link href="/photo/xiaokeai/index.html"/>
+      <url>/photo/xiaokeai/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"><br><img src="https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg"><br><img src="https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png"><br><img src="https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png"></p>          </div>]]></content>
       
     </entry>
     
@@ -541,22 +530,22 @@
     
     
     <entry>
-      <title>动漫手绘壁纸</title>
-      <link href="/wallpaper/bizhi/dongman/index.html"/>
-      <url>/wallpaper/bizhi/dongman/index.html</url>
+      <title>好看的壁纸</title>
+      <link href="/wallpaper/bizhi/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/bizhi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png"><br><img src="https://i.hd-r.cn/c5ced333c21d2fd92e104485638195db.jpg"><br><img src="https://i.hd-r.cn/92fbd585d1a53a99363fb15c88917428.png"><br><img src="https://i.hd-r.cn/c06558a390d04de39e8e13382ad7f39b.png"><br><img src="https://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png"><br><img src="https://i.328888.xyz/2023/02/23/x7d3E.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7hSC.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7SiP.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7obX.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"><br><img src="https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg"><br><img src="https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png"><br><img src="https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>风景图片</title>
-      <link href="/wallpaper/bizhi/fengjing/index.html"/>
-      <url>/wallpaper/bizhi/fengjing/index.html</url>
+      <title>动漫手绘壁纸</title>
+      <link href="/wallpaper/bizhi/dongman/index.html"/>
+      <url>/wallpaper/bizhi/dongman/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7eCZ.jpeg"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png"><br><img src="https://i.hd-r.cn/c5ced333c21d2fd92e104485638195db.jpg"><br><img src="https://i.hd-r.cn/92fbd585d1a53a99363fb15c88917428.png"><br><img src="https://i.hd-r.cn/c06558a390d04de39e8e13382ad7f39b.png"><br><img src="https://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png"><br><img src="https://i.328888.xyz/2023/02/23/x7d3E.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7hSC.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7SiP.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7obX.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
@@ -574,22 +563,22 @@
     
     
     <entry>
-      <title>girl</title>
-      <link href="/wallpaper/bizhi/girl/index.html"/>
-      <url>/wallpaper/bizhi/girl/index.html</url>
+      <title>风景图片</title>
+      <link href="/wallpaper/bizhi/fengjing/index.html"/>
+      <url>/wallpaper/bizhi/fengjing/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"><br><img src="https://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg"><br><img src="https://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg"><br><img src="https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png"><br><img src="https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg"><br><img src="https://i.328888.xyz/2023/02/23/x7JCc.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7v1J.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7KgA.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7LKo.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7eCZ.jpeg"></p>          </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>手机壁纸</title>
-      <link href="/wallpaper/sjbizhi/bizhi/index.html"/>
-      <url>/wallpaper/sjbizhi/bizhi/index.html</url>
+      <title>girl</title>
+      <link href="/wallpaper/bizhi/girl/index.html"/>
+      <url>/wallpaper/bizhi/girl/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg"><br><img src="https://i.hd-r.cn/b053a2071adde852043f50734f2e520d.jpg"><br><img src="https://i.hd-r.cn/522f9361e3e049457b5f89c8b2be4b7c.jpg"><br><img src="https://i.hd-r.cn/30ac4b9bfcaccc71e8bcf0f59ce1437e.jpg"><br><img src="https://i.hd-r.cn/c69da0ce7c2c83f81ca447ba28ecd293.jpg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"><br><img src="https://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg"><br><img src="https://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg"><br><img src="https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png"><br><img src="https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg"><br><img src="https://i.328888.xyz/2023/02/23/x7JCc.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7v1J.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7KgA.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7LKo.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
@@ -612,6 +601,17 @@
       <url>/wallpaper/touxiang/nvsheng/index.html</url>
       
         <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/24/7CBFy.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7Cpj3.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CXQ5.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7Cxl8.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CELF.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CznH.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7C6RQ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CFoE.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/7CdfC.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72463.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72ybv.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72AQy.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72UC5.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72ng8.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72tLZ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72kUF.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/720RH.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72CSQ.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72wVE.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/722jC.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72H6P.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72OQX.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/72jlt.jpeg"><br><img src="https://i.328888.xyz/2023/02/24/728gJ.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>手机壁纸</title>
+      <link href="/wallpaper/sjbizhi/bizhi/index.html"/>
+      <url>/wallpaper/sjbizhi/bizhi/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg"><br><img src="https://i.hd-r.cn/b053a2071adde852043f50734f2e520d.jpg"><br><img src="https://i.hd-r.cn/522f9361e3e049457b5f89c8b2be4b7c.jpg"><br><img src="https://i.hd-r.cn/30ac4b9bfcaccc71e8bcf0f59ce1437e.jpg"><br><img src="https://i.hd-r.cn/c69da0ce7c2c83f81ca447ba28ecd293.jpg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
