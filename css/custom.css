@@ -774,7 +774,7 @@ div#main_top {
 #bber-talk {
     border-radius: 12px;
     box-shadow: none;
-    border: 1px solid #ffffff;
+    border: 1px solid #000000;
     box-sizing: border-box;
     transition: all .3s ease-in-out;
     cursor: pointer;
@@ -789,7 +789,7 @@ div#main_top {
 }
 
 #bber-talk:hover {
-    border-color: #49b1f5;
+    border-color: #000000;
     box-shadow: none;
 }
 
@@ -825,7 +825,7 @@ div#main_top {
 }
 
 #bber-talk .talk-list :hover {
-    color: #49b1f5 !important;
+    color: #000000 !important;
     transition: all .2s ease-in-out;
 }
 
