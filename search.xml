@@ -233,9 +233,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>追番</title>
+      <link href="/bangumis/index.html"/>
+      <url>/bangumis/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -244,9 +244,9 @@
     
     
     <entry>
-      <title>追番</title>
-      <link href="/bangumis/index.html"/>
-      <url>/bangumis/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -343,22 +343,22 @@
     
     
     <entry>
-      <title>每张照片都是一次美好的记忆</title>
-      <link href="/photo/index.html"/>
-      <url>/photo/index.html</url>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">随拍</div>  <p>拙劣的拍摄</p>  <a href='/photo/suipai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/dae91f31db1c5e41a239bf24fe474eeb.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">日常</div>  <p>关于生活</p>  <a href='/photo/richang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">小可爱</div>  <p>粘人的小可爱</p>  <a href='/photo/xiaokeai'></a>  </figcaption>  </figure>  <!--   <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c032ad14b972558badf0cc8446dc0291.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>很多地方没有去过，但它们都在我的清单里</p>  <a href='/photo/fengjing'></a>  </figcaption>  </figure>   --></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-MhZCWCGb" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>每张照片都是一次美好的记忆</title>
+      <link href="/photo/index.html"/>
+      <url>/photo/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-MzlLLvMq" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">随拍</div>  <p>拙劣的拍摄</p>  <a href='/photo/suipai'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/dae91f31db1c5e41a239bf24fe474eeb.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">日常</div>  <p>关于生活</p>  <a href='/photo/richang'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/7dbcda8b58002eac459d1fda7969c837.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">小可爱</div>  <p>粘人的小可爱</p>  <a href='/photo/xiaokeai'></a>  </figcaption>  </figure>  <!--   <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c032ad14b972558badf0cc8446dc0291.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>很多地方没有去过，但它们都在我的清单里</p>  <a href='/photo/fengjing'></a>  </figcaption>  </figure>   --></div>]]></content>
       
     </entry>
     
@@ -387,17 +387,6 @@
     
     
     <entry>
-      <title>收藏的壁纸</title>
-      <link href="/wallpaper/index.html"/>
-      <url>/wallpaper/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>标签</title>
       <link href="/tags/index.html"/>
       <url>/tags/index.html</url>
@@ -409,11 +398,22 @@
     
     
     <entry>
+      <title>收藏的壁纸</title>
+      <link href="/wallpaper/index.html"/>
+      <url>/wallpaper/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/80599ef6faf1b87a0ee8a43025e2ccd4.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">手机壁纸</div>  <p>好看的手机壁纸</p>  <a href='/wallpaper/sjbizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/2d91f018ebaca19a8ea325a2584987bd.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">头像</div>  <p>头像</p>  <a href='/wallpaper/touxiang'></a>  </figcaption>  </figure>  </div><div class="tabs" id="图片"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#图片-1">风景壁纸</button></li><li class="tab"><button type="button" data-href="#图片-2">手机壁纸</button></li><li class="tab"><button type="button" data-href="#图片-3">女生壁纸</button></li><li class="tab"><button type="button" data-href="#图片-4">随机古风壁纸</button></li><li class="tab"><button type="button" data-href="#图片-5">动漫壁纸</button></li><li class="tab"><button type="button" data-href="#图片-6">PC.cosplay福利姬</button></li><li class="tab"><button type="button" data-href="#图片-7">PE.cosplay福利姬</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="图片-1"><div align=center><img src="https://api.vvhan.com/api/view"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-2"><div align=center><img src="https://api.wuque.cc/random/images"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-3"><div align=center><img src="https://cdn.seovx.com/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-4"><div align=center><img src="https://cdn.seovx.com/ha/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-5"><div align=center><img src="https://cdn.seovx.com/d/?mom=302"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-6"><div align=center><img src="https://api.vvhan.com/api/girl"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="图片-7"><div align=center><img src="https://api.vvhan.com/api/mobil.girl"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><!-- 分割线 --><div class="tabs" id="其它图片"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#其它图片-1">MC酱动漫</button></li><li class="tab"><button type="button" data-href="#其它图片-2">王者荣耀</button></li><li class="tab"><button type="button" data-href="#其它图片-3">火隐忍者</button></li><li class="tab"><button type="button" data-href="#其它图片-4">重装战姬</button></li><li class="tab"><button type="button" data-href="#其它图片-5">P站系列</button></li><li class="tab"><button type="button" data-href="#其它图片-6">随机头像</button></li><li class="tab"><button type="button" data-href="#其它图片-7">表情包</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="其它图片-1"><div align=center><img src="https://api.ixiaowai.cn/mcapi/mcapi.php"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-2"><div align=center><img src="https://api.r10086.com/img-api.php?type=王者荣耀"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-3"><div align=center><img src="https://api.r10086.com/img-api.php?type=火影忍者横屏系列1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-4"><div align=center><img src="https://api.r10086.com/img-api.php?type=重装战姬1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-5"><div align=center><img src="https://api.r10086.com/img-api.php?type=P站系列1"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-6"><div align=center><img src="https://api.vvhan.com/api/avatar"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="其它图片-7"><div align=center><img src="https://api.isoyu.com/ARU_GIF_S.php"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>文案</title>
       <link href="/wenan/index.html"/>
       <url>/wenan/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note flat"><center><b><a id="hitokoto" style="color:red">获取中...</a><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer ></script></b></center></div><table><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="/wenan/wenrou">温柔且永不落俗的惊艳文案</a></td></tr></tbody></table>]]></content>
+        <content type="html"><![CDATA[<div class="note black flat"><center><b>展示不出来，记得刷新一下哦</b></center></div><div class="tabs" id="文字"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#文字-1">每日诗词</button></li><li class="tab"><button type="button" data-href="#文字-2">一句一言</button></li><li class="tab"><button type="button" data-href="#文字-3">一句情话</button></li><li class="tab"><button type="button" data-href="#文字-4">喜欢的句子</button></li><li class="tab"><button type="button" data-href="#文字-5">一句骚话</button></li><li class="tab"><button type="button" data-href="#文字-6">一段笑话</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="文字-1"><div class="note pink flat"><center><b><font color=red>每日诗词</font></b><br><span id="jinrishici-sentence">正在加载今日诗词....</span><script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-2"><div class="note pink flat"><center><b><font color=red>一句一言</font></b><p  id="hitokoto"></p><script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer ></script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-3"><div class="note pink flat"><center><b><font color=red>随机一句情话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/love?type=js"></script><script>ishan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-4"><div class="note pink flat"><center><b><font color=red>随机一句喜欢的句子</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/ian?type=js"></script><script>vhan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-5"><div class="note pink flat"><center><b><font color=red>随机一句骚话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/sao?type=js"></script><script>ishan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="文字-6"><div class="note pink flat"><center><b><font color=red>随机一段笑话</font></b><br><script type="text/javascript" src="https://api.vvhan.com/api/joke?type=js"></script><script>vhan()</script></center></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><table><thead><tr><th align="center"></th></tr></thead><tbody><tr><td align="center"><a href="/wenan/wenrou">温柔且永不落俗的惊艳文案</a></td></tr></tbody></table>]]></content>
       
     </entry>
     
@@ -442,22 +442,22 @@
     
     
     <entry>
-      <title>关于我的日常</title>
-      <link href="/photo/richang/index.html"/>
-      <url>/photo/richang/index.html</url>
+      <title>拙劣的拍摄</title>
+      <link href="/photo/suipai/index.html"/>
+      <url>/photo/suipai/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg"></p><!-- ![]()![]()![]()![]()![]()![]()![]()![]() -->          </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>拙劣的拍摄</title>
-      <link href="/photo/suipai/index.html"/>
-      <url>/photo/suipai/index.html</url>
+      <title>关于我的日常</title>
+      <link href="/photo/richang/index.html"/>
+      <url>/photo/richang/index.html</url>
       
-        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="https://i.hd-r.cn/a473a2a2795683c26fdc829190bc06cf.jpg"></p><!-- ![]()![]()![]()![]()![]()![]()![]()![]() -->          </div>]]></content>
+        <content type="html"><![CDATA[<div class="fj-gallery"><p><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
