@@ -101,7 +101,7 @@ svg.icon.faa-tada {
 
 #footer {
     /* background: transparent !important; */
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(0, 0, 0, 0.2);
 }
 
 
@@ -414,10 +414,9 @@ div#category {
 
 /* 博主昵称颜色 --也就是首页侧边栏头像下面那个昵称*/
 
-
-/* .author-info__name {
-    color: #ff8000;
-} */
+.author-info__name {
+    color: #ffacf0;
+}
 
 
 /*页脚自定义字段字体颜色,也就是配置文件里的footer_custom_text*/
@@ -458,15 +457,8 @@ div#category {
 /* a标签默认颜色 */
 
 #article-container a {
-    color: #fc7ec3;
+    color: #0584fb;
     text-decoration: none;
-}
-
-
-/*a标签颜色*/
-
-a {
-    color: #fc7ec3;
 }
 
 
@@ -483,31 +475,6 @@ a {
     width: 100%;
     margin: auto;
 }
-
-
-/* 头像卡片背景 */
-
-
-/*白天主题下的配置*/
-
-#aside-content>.card-widget.card-info {
-    /*换成自己图片的地址*/
-    background-image: url('');
-    background-repeat: no-repeat;
-    background-attachment: inherit;
-    background-size: 100%
-}
-
-
-/*黑暗主题下的配置*/
-
-[data-theme=dark] #aside-content>.card-widget.card-info {
-    /*换成自己图片的地址*/
-    background-image: url('') !important
-}
-
-
-/* 头像卡片背景END */
 
 
 /* 公众号 Start */
@@ -683,14 +650,6 @@ a {
 
 [data-theme="dark"] #welcome-info {
     background: rgba(18, 18, 18);
-}
-
-
-/* #加载动画*/
-
-.loading-img {
-    background: url() no-repeat center center;
-    background-size: cover;
 }
 
 
@@ -1441,8 +1400,7 @@ button#go-up:hover #percent {
 
 /* 鼠标样式 */
 
-
-/* body {
+body {
     cursor: url("https://cdn.jsdelivr.net/gh/xlenco/JS-X@main/mouse/normal.cur"), default;
 }
 
@@ -1451,7 +1409,6 @@ img,
 button {
     cursor: url("https://cdn.jsdelivr.net/gh/xlenco/JS-X@main/mouse/link.cur"), default !important;
 }
- */
 
 
 /* 鼠标样式END */
