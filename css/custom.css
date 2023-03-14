@@ -109,7 +109,7 @@ svg.icon.faa-tada {
 
 #page-header {
     /* background: transparent !important; */
-    background: rgb(0, 0, 0);
+    background: rgb(255, 255, 255, .1);
 }
 
 #rightside>div>button {
@@ -120,7 +120,7 @@ svg.icon.faa-tada {
 /* 首页文章卡片 */
 
 #recent-posts>.recent-post-item {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 1);
 }
 
 
@@ -133,63 +133,63 @@ svg.icon.faa-tada {
 .layout_post>#post,
 .read-mode .layout_post>#post {
     /* 以下代表透明度为0.5 */
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, 1);
 }
 
 
 /* 顶部导航栏 */
 
 #nav a {
-    color: #ffffff;
+    color: #000000;
 }
 
 
 /* 首页侧栏卡片 */
 
 #aside-content .card-widget {
-    background: rgba(255, 255, 255, 0.7);
+    background: rgb(255, 255, 255);
 }
 
 
 /*说说、  侧边卡片的透明度 */
 
 :root {
-    --card-bg: rgba(255, 255, 255, .7);
+    --card-bg: rgba(255, 255, 255, 1);
 }
 
 
 /* 文章页面正文背景 */
 
 div#post {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 1);
 }
 
 
 /* 分页页面 */
 
 div#page {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 1);
 }
 
 
 /* 归档页面 */
 
 div#archive {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 1);
 }
 
 
 /* 标签页面 */
 
 div#tag {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 1);
 }
 
 
 /* 分类页面 */
 
 div#category {
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 1);
 }
 
 
@@ -256,7 +256,7 @@ div#category {
 
 .vwrap {
     box-shadow: 2px 2px 5px #bbb;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 1);
     border-radius: 8px;
     padding: 30px;
     margin: 30px 0px 30px 0px;
@@ -267,7 +267,7 @@ div#category {
 
 .vcard {
     box-shadow: 2px 2px 5px #bbb;
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 1);
     border-radius: 8px;
     padding: 30px;
     margin: 30px 0px 0px 0px;
@@ -562,7 +562,7 @@ div#category {
     position: relative;
     width: 730px;
     max-width: 80%;
-    border: 2px solid #797979;
+    border: 2px solid #ffffff;
     border-top: none;
     text-align: center;
     margin: 80px auto;
@@ -574,14 +574,14 @@ div#category {
     margin-top: -20px;
     display: inline-block;
     letter-spacing: 4px;
-    color: #797979;
+    color: #ffffff;
 }
 
 .poem-wrap p {
     width: 70%;
     margin: auto;
     line-height: 30px;
-    color: #797979;
+    color: #ffffff;
 }
 
 .poem-wrap p#poem {
@@ -643,13 +643,13 @@ div#category {
 
 #welcome-info {
     /* background: linear-gradient(45deg, #fbfbfb, #fafbfb); */
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(255, 255, 255, 1);
     border-radius: 18px;
     padding: 8px;
 }
 
 [data-theme="dark"] #welcome-info {
-    background: rgba(18, 18, 18);
+    background: rgb(0, 0, 0);
 }
 
 
@@ -821,178 +821,6 @@ div#main_top {
     pointer-events: none;
     /* 这个是调置顶的优先级的，-1在文章页下面，背景上面，个人推荐这种 */
     z-index: -1;
-}
-
-
-/* tzy页脚样式 */
-
-#ft {
-    max-width: 1200px;
-    margin: 0 auto 12px;
-    display: flex;
-    color: rgb(255 255 255 / 80%) !important;
-    text-align: left;
-    flex-wrap: wrap;
-}
-
-.ft-item-1,
-.ft-item-2 {
-    display: flex;
-    height: 100%;
-    padding: 2px 14px;
-}
-
-.ft-item-1 {
-    flex-direction: column;
-    flex: 2;
-}
-
-.ft-item-2 {
-    flex: 1;
-    flex-direction: column;
-}
-
-.t-top {
-    display: flex;
-}
-
-.t-top .t-t-l {
-    display: flex;
-    flex-direction: column;
-    flex: 1.4;
-    margin-right: 10px;
-}
-
-.t-top .t-t-l .bg-ad {
-    width: 85%;
-    border-radius: 10px;
-    padding: 0 10px;
-}
-
-.btn-xz-box {
-    margin-top: 10px;
-}
-
-
-/* 按钮背景颜色等 */
-
-.btn-xz {
-    display: block;
-    background-color: var(--btn-bg);
-    color: var(--btn-color);
-    text-align: center;
-    line-height: 2.4;
-    margin: 8px 0;
-}
-
-.btn-xz:hover {
-    text-decoration: none !important;
-}
-
-
-/* 按钮悬浮颜色 */
-
-.btn-xz-box:hover .btn-xz {
-    background-color: var(--text-bg-hover);
-}
-
-.t-top .t-t-r {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-}
-
-.ft-links {
-    padding: 0 14px;
-    list-style: none;
-    margin-top: 0 !important;
-}
-
-.ft-links li a {
-    display: inline-block !important;
-    width: 50%;
-}
-
-
-/* 链接悬浮颜色 */
-
-.ft-links li a:hover {
-    text-decoration: none !important;
-    color: var(--theme-color) !important;
-}
-
-.ft-item-2 .ft-img-group {
-    width: 100%;
-}
-
-.ft-t {
-    font-size: 1.1rem;
-    margin-bottom: 20px;
-    line-height: 1;
-    font-weight: 600;
-}
-
-.t-l-t {
-    padding-left: 14px;
-}
-
-.ft-item-2 .ft-img-group .img-group-item {
-    display: inline-block;
-    width: 18.4%;
-    margin-right: 14px;
-    margin-bottom: 6px;
-}
-
-.ft-item-2 .ft-img-group .img-group-item a {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-
-.ft-item-2 .ft-img-group .img-group-item a img {
-    width: 100%;
-    max-height: 80px;
-    border-radius: 10px;
-}
-
-
-/* 头像悬浮颜色框 */
-
-.ft-item-2 .ft-img-group .img-group-item a img:hover {
-    border: 2px solid var(--theme-color);
-}
-
-@media screen and (max-width: 768px) {
-    .ft-item-1 {
-        flex-basis: 100% !important;
-    }
-    .ft-item-2 {
-        flex-basis: 100% !important;
-    }
-    .t-top .t-t-l .bg-ad {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    .t-top {
-        flex-wrap: wrap;
-    }
-    .t-top .t-t-l {
-        flex-basis: 100% !important;
-    }
-    .t-top .t-t-r {
-        margin-top: 16px;
-        flex-basis: 100% !important;
-    }
-}
-
-#footer-wrap a {
-    border-radius: 30px;
-}
-
-#footer-wrap {
-    padding: 20px 20px;
 }
 
 
@@ -1427,6 +1255,9 @@ button {
 
 /* 下班倒计时 */
 
+
+/* 我的爱情 */
+
 #yuan {
     width: 80px;
     height: 80px;
@@ -1441,3 +1272,6 @@ button {
 .mimgs #yuan {
     float: left;
 }
+
+
+/* 我的爱情 */

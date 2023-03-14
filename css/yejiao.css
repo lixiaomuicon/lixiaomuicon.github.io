@@ -1,0 +1,501 @@
+/* tzy页脚样式 */
+
+
+/* 
+#ft {
+    max-width: 1200px;
+    margin: 0 auto 12px;
+    display: flex;
+    color: rgb(255 255 255 / 80%) !important;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.ft-item-1,
+.ft-item-2 {
+    display: flex;
+    height: 100%;
+    padding: 2px 14px;
+}
+
+.ft-item-1 {
+    flex-direction: column;
+    flex: 2;
+}
+
+.ft-item-2 {
+    flex: 1;
+    flex-direction: column;
+}
+
+.t-top {
+    display: flex;
+}
+
+.t-top .t-t-l {
+    display: flex;
+    flex-direction: column;
+    flex: 1.4;
+    margin-right: 10px;
+}
+
+.t-top .t-t-l .bg-ad {
+    width: 85%;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+.btn-xz-box {
+    margin-top: 10px;
+} */
+
+
+/* 按钮背景颜色等 */
+
+
+/* 
+.btn-xz {
+    display: block;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    text-align: center;
+    line-height: 2.4;
+    margin: 8px 0;
+}
+
+.btn-xz:hover {
+    text-decoration: none !important;
+}
+ */
+
+
+/* 按钮悬浮颜色 */
+
+
+/* 
+.btn-xz-box:hover .btn-xz {
+    background-color: var(--text-bg-hover);
+}
+
+.t-top .t-t-r {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.ft-links {
+    padding: 0 14px;
+    list-style: none;
+    margin-top: 0 !important;
+}
+
+.ft-links li a {
+    display: inline-block !important;
+    width: 50%;
+}
+ */
+
+
+/* 链接悬浮颜色 */
+
+
+/* 
+.ft-links li a:hover {
+    text-decoration: none !important;
+    color: var(--theme-color) !important;
+}
+
+.ft-item-2 .ft-img-group {
+    width: 100%;
+}
+
+.ft-t {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.t-l-t {
+    padding-left: 14px;
+}
+
+.ft-item-2 .ft-img-group .img-group-item {
+    display: inline-block;
+    width: 18.4%;
+    margin-right: 14px;
+    margin-bottom: 6px;
+}
+
+.ft-item-2 .ft-img-group .img-group-item a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.ft-item-2 .ft-img-group .img-group-item a img {
+    width: 100%;
+    max-height: 80px;
+    border-radius: 10px;
+}
+ */
+
+
+/* 头像悬浮颜色框 */
+
+
+/* 
+.ft-item-2 .ft-img-group .img-group-item a img:hover {
+    border: 2px solid var(--theme-color);
+}
+
+@media screen and (max-width: 768px) {
+    .ft-item-1 {
+        flex-basis: 100% !important;
+    }
+    .ft-item-2 {
+        flex-basis: 100% !important;
+    }
+    .t-top .t-t-l .bg-ad {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .t-top {
+        flex-wrap: wrap;
+    }
+    .t-top .t-t-l {
+        flex-basis: 100% !important;
+    }
+    .t-top .t-t-r {
+        margin-top: 16px;
+        flex-basis: 100% !important;
+    }
+}
+
+#footer-wrap a {
+    border-radius: 30px;
+}
+
+#footer-wrap {
+    padding: 20px 20px;
+} */
+
+
+/* 页脚按钮 */
+
+body {
+    background-color: #fff8fb76;
+}
+
+#footer_button {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    padding: 2rem 0 0 0;
+}
+
+#footer_button i {
+    font-size: 1.6rem;
+    transition: .3s;
+    line-height: 1.3rem;
+    height: 1.3rem;
+}
+
+.buttons {
+    display: grid;
+    width: 45%;
+    padding: 0;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.buttons .icon {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    padding: 5px;
+    margin: 0px;
+    width: 50px;
+    height: 50px;
+    box-shadow: 1px 10px 10px 1px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.buttons a {
+    display: block;
+    height: 28px;
+    width: 26px;
+    font-size: 18px;
+    line-height: 35px;
+    color: #4c4948;
+}
+
+.buttons .bubble {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background: #ffffff;
+    color: #ffffff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.buttons .bubble::before {
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 8px;
+    background: #ffffff;
+    bottom: -4px;
+    left: 50%;
+    transform: translate(-50%) rotate(45deg);
+    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.buttons .icon:hover .bubble {
+    top: -15px;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.buttons .icon:hover span,
+.buttons .icon:hover .bubble {
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buttons .Email:hover,
+.buttons .Email:hover .bubble,
+.buttons .Email:hover .bubble::before {
+    background: #1877F2;
+    color: #ffffff;
+}
+
+.buttons .Email:hover a {
+    color: #ffffff;
+}
+
+.buttons .QQ:hover,
+.buttons .QQ:hover .bubble,
+.buttons .QQ:hover .bubble::before {
+    background: #1DA1F2;
+    color: #ffffff;
+}
+
+.buttons .QQ:hover a {
+    color: #ffffff;
+}
+
+.buttons .top:hover,
+.buttons .top:hover .bubble,
+.buttons .top:hover .bubble::before {
+    background: #cfcacea5;
+    color: #ffffff;
+}
+
+.buttons .top:hover a {
+    color: #ffffff;
+}
+
+.buttons .github:hover,
+.buttons .github:hover .bubble,
+.buttons .github:hover .bubble::before {
+    background: #333333;
+    color: #ffffff;
+}
+
+.buttons .github:hover a {
+    color: #ffffff;
+}
+
+.buttons .CSDN:hover,
+.buttons .CSDN:hover .bubble,
+.buttons .CSDN:hover .bubble::before {
+    background: #CD201F;
+    color: #ffffff;
+}
+
+.buttons .CSDN:hover a {
+    color: #ffffff;
+}
+
+
+/* 自适应 */
+
+@media screen and (max-width: 780px) {
+    .buttons {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1450px) and (min-width: 780px) {
+    .buttons {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    #Hsu-foot {
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
+
+
+/* dark ♂ mode */
+
+[data-theme="dark"] body {
+    background-color: #313131;
+}
+
+[data-theme="dark"] #Hsu-foot {
+    background-color: #121212;
+}
+
+[data-theme="light"] #footer {
+    padding-top: 15px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.4) 18%, #ffffff 97%)
+}
+
+
+/* 深色模式的按钮全部是黑白色 */
+
+[data-theme="dark"] .buttons .icon,
+[data-theme="dark"] .buttons .icon:hover,
+[data-theme="dark"] .buttons .icon:hover .bubble,
+[data-theme="dark"] .buttons .icon:hover .bubble::before,
+[data-theme="dark"] .buttons .icon:hover a {
+    background: #121212;
+    color: #ffffff;
+}
+
+
+/* 页脚 */
+
+#Hsu-foot {
+    background-color: rgba(255, 255, 255, 0.4);
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    column-gap: 15px;
+    margin: 1%;
+    margin-top: 30px;
+    padding-bottom: 15px;
+    max-width: 1200px;
+    box-shadow: 9px 10px 16px 3px rgb(0 0 0 / 10%);
+    border-radius: 10px;
+}
+
+#Hsu-foot .footer-group {
+    display: grid;
+    grid-template-rows: 0fr 1fr;
+    margin-left: 30px;
+}
+
+#Hsu-foot .footer-title {
+    display: block;
+    font-size: 1rem;
+    height: 2rem;
+}
+
+#Hsu-foot .footer-links {
+    display: grid;
+    grid-auto-rows: 2rem;
+}
+
+#Hsu-foot .footer-item {
+    font-size: 1rem;
+    line-height: .8rem;
+    margin: .38rem 0;
+    color: var(--Jay-fontcolor);
+    /*margin-right: auto*/
+}
+
+
+/* 徽章 */
+
+#footer-badges {
+    max-width: 1200px;
+    margin: auto;
+}
+
+#footer-badges .badge {
+    margin: 25px 5px 0px 0px;
+}
+
+#footer-banner {
+    padding: 1rem;
+    color: var(--Jay-fontcolor);
+    margin-top: 1rem;
+    background: var(--Jay-secondbg);
+    display: flex;
+    overflow: hidden;
+    z-index: 1002;
+    transition: .3s;
+    /*border-top: var(--style-border)*/
+}
+
+[data-theme=dark] #footer-banner {
+    background: var(--Jay-secondbg)
+}
+
+#footer-banner .footer-banner-links {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#footer-banner .footer-banner-left {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 32px
+}
+
+#footer-banner .footer-banner-link {
+    margin-right: 1rem;
+    color: var(--Jay-fontcolor);
+    font-size: 1rem;
+    font-weight: 700;
+    white-space: nowrap
+}
+
+#footer-banner .footer-banner-link.cc {
+    margin-right: 0
+}
+
+#footer-banner .footer-banner-link.cc i {
+    margin-right: .5rem
+}
+
+#footer-banner .footer-banner-link:hover {
+    color: var(--Jay-theme)
+}
+
+#footer-banner>div>div.footer-banner-left>span {
+    margin-right: 1rem
+}
+
+#footer-banner .footer-banner-right a:hover {
+    color: var(--Jay-lighttext)
+}
+
+#footer_deal i {
+    font-size: 1.6rem;
+    transition: .3s;
+    line-height: 1.3rem;
+    height: 1.3rem
+}
