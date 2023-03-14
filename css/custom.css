@@ -101,7 +101,7 @@ svg.icon.faa-tada {
 
 #footer {
     /* background: transparent !important; */
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 1);
 }
 
 
@@ -109,7 +109,7 @@ svg.icon.faa-tada {
 
 #page-header {
     /* background: transparent !important; */
-    background: rgba(255, 255, 255, 0.2);
+    background: rgb(0, 0, 0);
 }
 
 #rightside>div>button {
@@ -1088,6 +1088,9 @@ div#main_top {
 }
 
 
+/* TZY页脚样式END */
+
+
 /* 返回顶部*/
 
 button#go-up #percent {
@@ -1412,3 +1415,29 @@ button {
 
 
 /* 鼠标样式END */
+
+
+/* 下班倒计时 */
+
+.djs {
+    list-style-type: none;
+    display: inline;
+}
+
+
+/* 下班倒计时 */
+
+#yuan {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.mimgs {
+    width: 240px;
+    height: 80px;
+}
+
+.mimgs #yuan {
+    float: left;
+}
