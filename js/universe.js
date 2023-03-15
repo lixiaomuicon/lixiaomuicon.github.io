@@ -268,6 +268,44 @@ function createWinbox() {
     <div id="article-container" style="padding:10px;"> 
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:#5fcdff;display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
 
+    
+
+    <details class="toggle" =""><summary class="toggle-button" style="">查看渐变背景</summary>
+    <div class="toggle-content">
+        <div class="bgbox">
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #eecda3, #ef629f)" onclick="changeBg('linear-gradient(to right, #eecda3, #ef629f)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #ff4b1f, #1fddff)" onclick="changeBg('linear-gradient(to right, #ff4b1f, #1fddff)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, rgb(251, 215, 134), rgb(247, 121, 125))" onclick="changeBg('linear-gradient(to right, rgb(251, 215, 134), rgb(247, 121, 125))')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #16bffd, #cb3066)" onclick="changeBg('linear-gradient(to right, #16bffd, #cb3066)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, rgb(192, 192, 170), rgb(28, 239, 255))" onclick="changeBg('linear-gradient(to right, rgb(192, 192, 170), rgb(28, 239, 255))')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #6cbcbf, #96d7c6)" onclick="changeBg('linear-gradient(to right, #6cbcbf, #96d7c6)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #bac94a, #e2d36b)" onclick="changeBg('linear-gradient(to right, #bac94a, #e2d36b)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #a8dee0, #f9e2ae)" onclick="changeBg('linear-gradient(to right, #a8dee0, #f9e2ae)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #f9e2ae, #a7d676)" onclick="changeBg('linear-gradient(to right, #f9e2ae, #a7d676)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #bce6ff, #015c92)" onclick="changeBg('linear-gradient(to right, #bce6ff, #015c92)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #cdb3d4, #ffbe88)" onclick="changeBg('linear-gradient(to right, #cdb3d4, #ffbe88)')"></a>
+        </div>
+    </div>
+    </details>
+
+    <details class="toggle" =""><summary class="toggle-button" style="">查看纯色背景</summary>
+    <div class="toggle-content">
+        <div class="bgbox">
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #7D9D9C" onclick="changeBg('#7D9D9C')"></a> 
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #F2D7D9" onclick="changeBg('#F2D7D9')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #76BA99" onclick="changeBg('#76BA99')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #9FC088" onclick="changeBg('#9FC088')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #00FFFF" onclick="changeBg('#00FFFF')"></a> 
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #E6E8FA" onclick="changeBg('#E6E8FA')"></a> 
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #238E23" onclick="changeBg('#238E23')"></a> 
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #EAADEA" onclick="changeBg('#EAADEA')"></a> 
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #CDCDCD" onclick="changeBg('#CDCDCD')"></a> 
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #CC3299" onclick="changeBg('#CC3299')"></a> 
+        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #A67D3D" onclick="changeBg('#A67D3D')"></a> 
+        </div>
+    </div>
+    </details>
+
     <details class="toggle" =""><summary class="toggle-button" style="">查看电脑壁纸</summary>
     <div class="toggle-content">
         <div class="bgbox">
@@ -328,42 +366,6 @@ function createWinbox() {
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fQya.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fQya.jpeg)')"></a>
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhpHE.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/api/api.php)')"></a>
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhcuQ.png)" class="imgbox" onclick="changeBg('url(https\://www.dmoe.cc/random.php)')"></a>
-        </div>
-    </div>
-    </details>
-
-    <details class="toggle" =""><summary class="toggle-button" style="">查看渐变背景</summary>
-    <div class="toggle-content">
-        <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #eecda3, #ef629f)" onclick="changeBg('linear-gradient(to right, #eecda3, #ef629f)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #ff4b1f, #1fddff)" onclick="changeBg('linear-gradient(to right, #ff4b1f, #1fddff)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, rgb(251, 215, 134), rgb(247, 121, 125))" onclick="changeBg('linear-gradient(to right, rgb(251, 215, 134), rgb(247, 121, 125))')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #16bffd, #cb3066)" onclick="changeBg('linear-gradient(to right, #16bffd, #cb3066)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, rgb(192, 192, 170), rgb(28, 239, 255))" onclick="changeBg('linear-gradient(to right, rgb(192, 192, 170), rgb(28, 239, 255))')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #6cbcbf, #96d7c6)" onclick="changeBg('linear-gradient(to right, #6cbcbf, #96d7c6)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #bac94a, #e2d36b)" onclick="changeBg('linear-gradient(to right, #bac94a, #e2d36b)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #a8dee0, #f9e2ae)" onclick="changeBg('linear-gradient(to right, #a8dee0, #f9e2ae)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #f9e2ae, #a7d676)" onclick="changeBg('linear-gradient(to right, #f9e2ae, #a7d676)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #bce6ff, #015c92)" onclick="changeBg('linear-gradient(to right, #bce6ff, #015c92)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: linear-gradient(to right, #cdb3d4, #ffbe88)" onclick="changeBg('linear-gradient(to right, #cdb3d4, #ffbe88)')"></a>
-        </div>
-    </div>
-    </details>
-
-    <details class="toggle" =""><summary class="toggle-button" style="">查看纯色背景</summary>
-    <div class="toggle-content">
-        <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #7D9D9C" onclick="changeBg('#7D9D9C')"></a> 
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #F2D7D9" onclick="changeBg('#F2D7D9')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #76BA99" onclick="changeBg('#76BA99')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #9FC088" onclick="changeBg('#9FC088')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #00FFFF" onclick="changeBg('#00FFFF')"></a> 
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #E6E8FA" onclick="changeBg('#E6E8FA')"></a> 
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #238E23" onclick="changeBg('#238E23')"></a> 
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #EAADEA" onclick="changeBg('#EAADEA')"></a> 
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #CDCDCD" onclick="changeBg('#CDCDCD')"></a> 
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #CC3299" onclick="changeBg('#CC3299')"></a> 
-        <a href="javascript:;" rel="noopener external nofollow" class="box" style="background: #A67D3D" onclick="changeBg('#A67D3D')"></a> 
         </div>
     </div>
     </details>

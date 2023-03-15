@@ -120,7 +120,7 @@ svg.icon.faa-tada {
 /* 首页文章卡片 */
 
 #recent-posts>.recent-post-item {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -133,7 +133,7 @@ svg.icon.faa-tada {
 .layout_post>#post,
 .read-mode .layout_post>#post {
     /* 以下代表透明度为0.5 */
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.9);
 }
 
 
@@ -147,49 +147,63 @@ svg.icon.faa-tada {
 /* 首页侧栏卡片 */
 
 #aside-content .card-widget {
-    background: rgb(255, 255, 255);
+    background: rgb(255, 255, 255, 0.7);
 }
 
 
 /*说说、  侧边卡片的透明度 */
 
 :root {
-    --card-bg: rgba(255, 255, 255, 1);
+    --card-bg: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 文章页面正文背景 */
 
 div#post {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 分页页面 */
 
 div#page {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 归档页面 */
 
 div#archive {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 标签页面 */
 
 div#tag {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 分类页面 */
 
 div#category {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
+}
+
+
+/* 欢迎信息 */
+
+#welcome-info {
+    /* background: linear-gradient(45deg, #fbfbfb, #fafbfb); */
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 18px;
+    padding: 8px;
+}
+
+[data-theme="dark"] #welcome-info {
+    background: rgb(0, 0, 0);
 }
 
 
@@ -415,7 +429,7 @@ div#category {
 /* 博主昵称颜色 --也就是首页侧边栏头像下面那个昵称*/
 
 .author-info__name {
-    color: #ffacf0;
+    color: #000000;
 }
 
 
@@ -456,16 +470,21 @@ div#category {
 
 /* a标签默认颜色 */
 
+a {
+    color: #002b90;
+    /* text-decoration: none; */
+}
+
 #article-container a {
-    color: #0584fb;
-    text-decoration: none;
+    color: #002b90;
+    /* text-decoration: none; */
 }
 
 
 /* 鼠标悬停时的颜色 */
 
 #article-container a:hover {
-    color: #e58a8a;
+    color: #5768ff;
 }
 
 
@@ -636,20 +655,6 @@ div#category {
         display: none;
         font-size: 13px;
     }
-}
-
-
-/* 欢迎信息 */
-
-#welcome-info {
-    /* background: linear-gradient(45deg, #fbfbfb, #fafbfb); */
-    background: rgba(255, 255, 255, 1);
-    border-radius: 18px;
-    padding: 8px;
-}
-
-[data-theme="dark"] #welcome-info {
-    background: rgb(0, 0, 0);
 }
 
 
@@ -1275,3 +1280,17 @@ button {
 
 
 /* 我的爱情 */
+
+
+/* 页脚运行时间和字数统计 */
+
+#workboard {
+    text-align: center;
+}
+
+.wordcount {
+    text-align: center;
+}
+
+
+/* 页脚运行时间和字数统计 */

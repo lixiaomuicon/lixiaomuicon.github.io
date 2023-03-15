@@ -1,3 +1,4 @@
+//- 运行时间和字数统计
 var now = new Date();
 
 function createtime() {

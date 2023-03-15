@@ -214,9 +214,9 @@ function showWelcome() {
     else timeChange = "夜深了，早点休息，少熬夜。";
 
     try {
-        //自定义文本和需要放的位置         当前地址为： <span style="color:var(--theme-color)">${ip}</span>，
+        //自定义文本和需要放的位置         
         document.getElementById("welcome-info").innerHTML =
-            `<b><center>🎉 欢迎光临 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离博主约 <span style="color:var(--theme-color)">${dist}</span> 公里， ${posdesc}</b>`;
+            `<b><center>🎉 欢迎光临 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}当前地址为： <span style="color:var(--theme-color)">${ip}</span>，您现在距离博主约 <span style="color:var(--theme-color)">${dist}</span> 公里， ${posdesc}</b>`;
     } catch (err) {
         // console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
     }
