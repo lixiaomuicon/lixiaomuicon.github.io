@@ -256,7 +256,7 @@
       <link href="/aiqing/index.html"/>
       <url>/aiqing/index.html</url>
       
-        <content type="html"><![CDATA[<center><div align="center" class="mimgs"><img src='https://i.328888.xyz/2023/03/14/9RdLU.jpeg' id="yuan" ><img src='https://i.328888.xyz/2023/03/14/9RQRP.gif' id="yuan"><img src='https://i.328888.xyz/2023/03/14/9RGgp.jpeg' id="yuan"></div></center><br><center><b><span>李小沐 &nbsp&nbsp❀&nbsp&nbsp 暂定<br><!-- 爱情计时在runtime.js里改 --><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></span></b></center><h2 id="爱情历程"><a href="#爱情历程" class="headerlink" title="爱情历程"></a>爱情历程</h2><p>待补充…</p><h2 id="爱情故事"><a href="#爱情故事" class="headerlink" title="爱情故事"></a>爱情故事</h2><p>待补充…</p><h2 id="我们的相册"><a href="#我们的相册" class="headerlink" title="我们的相册"></a>我们的相册</h2><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/03/14/9ml4P.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">一起吃</div>  <p>我们一起吃过的FOOD</p>  <a href='/aiqing/yiqichi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/03/14/9m2ht.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">一起玩</div>  <p>我们一起吃过的MOMENT</p>  <a href='/aiqing/yiqiwan'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/03/14/9m09C.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">一起看</div>  <p>我们一起吃过的MOVIE</p>  <a href='/aiqing/yiqikan'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/03/14/9mwNX.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">一个神秘的相册</div>  <p>这里记录了其它的事情哦!</p>  <a href='/aiqing/shenmi'></a>  </figcaption>  </figure>  </div>]]></content>
+        <content type="html"><![CDATA[<center><div align="center" class="mimgs"><img src='https://i.328888.xyz/2023/03/14/9RdLU.jpeg' id="yuan" ><img src='https://i.328888.xyz/2023/03/14/9RQRP.gif' id="yuan"><img src='https://i.328888.xyz/2023/03/14/9RGgp.jpeg' id="yuan"></div></center><br><center><b><span>李小沐 &nbsp&nbsp❀&nbsp&nbsp 暂定<br><span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span></span></b></center><h2 id="爱情历程"><a href="#爱情历程" class="headerlink" title="爱情历程"></a>爱情历程</h2><p>待补充…</p><h2 id="爱情故事"><a href="#爱情故事" class="headerlink" title="爱情故事"></a>爱情故事</h2><p>待补充…</p><h2 id="我们的相册"><a href="#我们的相册" class="headerlink" title="我们的相册"></a>我们的相册</h2><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/03/14/9ml4P.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">一起吃</div>  <p>我们一起吃过的FOOD</p>  <a href='/aiqing/yiqichi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/03/14/9m2ht.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">一起玩</div>  <p>我们一起吃过的MOMENT</p>  <a href='/aiqing/yiqiwan'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/03/14/9m09C.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">一起看</div>  <p>我们一起吃过的MOVIE</p>  <a href='/aiqing/yiqikan'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/03/14/9mwNX.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">一个神秘的相册</div>  <p>这里记录了其它的事情哦!</p>  <a href='/aiqing/shenmi'></a>  </figcaption>  </figure>  </div><script>// 爱情计时!(function() {    /** 计时起始时间，自行修改 **/    var start = new Date("2022/01/02 00:00:00");    function update() {        var now = new Date();        now.setTime(now.getTime() + 250);        days = (now - start) / 1000 / 60 / 60 / 24;        dnum = Math.floor(days);        hours = (now - start) / 1000 / 60 / 60 - (24 * dnum);        hnum = Math.floor(hours);        if (String(hnum).length === 1) {            hnum = "0" + hnum;        }        minutes = (now - start) / 1000 / 60 - (24 * 60 * dnum) - (60 * hnum);        mnum = Math.floor(minutes);        if (String(mnum).length === 1) {            mnum = "0" + mnum;        }        seconds = (now - start) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum);        snum = Math.round(seconds);        if (String(snum).length === 1) {            snum = "0" + snum;        }        /** 字样根据需要调整 **/        document.getElementById("timeDate").innerHTML = "我们已经在一起&nbsp" + dnum + "&nbsp天";        document.getElementById("times").innerHTML = hnum + "&nbsp小时&nbsp" + mnum + "&nbsp分&nbsp" + snum + "&nbsp秒啦!";    }    update();    setInterval(update, 1000);})();</script>]]></content>
       
     </entry>
     
@@ -333,7 +333,18 @@
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>如果您也有自己的个人博客，并且想要互换友链，<strong>请在下方留言,并注明贵站的类型</strong>，审核之后贵站的信息就会被添加到下方列表中～</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">李小沐の博客</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://lixiaomu.fun/</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://s3.bmp.ovh/imgs/2022/11/23/129c19d56d22c637.png</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">念念不忘，必有回响。</span></span><br></pre></td></tr></table></figure><hr><div class="post-body">   <div id="links">      <style>         .links-content{         margin-top:1rem;         }         .link-navigation::after {         content: " ";         display: block;         clear: both;         }         .card {         width: 45%;         font-size: 1rem;         padding: 10px 20px;         border-radius: 4px;         transition-duration: 0.15s;         margin-bottom: 1rem;         display:flex;         }         .card:nth-child(odd) {         float: left;         }         .card:nth-child(even) {         float: right;         }         .card:hover {         transform: scale(1.1);         box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);         }         .card a {         border:none;         }         .card .ava {         width: 3rem!important;         height: 3rem!important;         margin:0!important;         margin-right: 1em!important;         border-radius:4px;         }         .card .card-header {         font-style: italic;         overflow: hidden;         width: 100%;         }         .card .card-header a {         font-style: normal;         color: #2bbc8a;         font-weight: bold;         text-decoration: none;         }         .card .card-header a:hover {         color: #d480aa;         text-decoration: none;         }         .card .card-header .info {         font-style:normal;         color:#a3a3a3;         font-size:14px;         min-width: 0;         overflow: hidden;         white-space: nowrap;         }      </style>      <div class="links-content">         <div class="link-navigation">            <div class="card">               <img class="ava" src="https://source.fomal.cc/siteshot/www.fomal.cn.jpg" />               <div class="card-header">                  <div>                     <a href="https://fomal.cc/">Fomalhaut🥝</a>                  </div>                  <div class="info">Future is now 🍭🍭🍭</div>               </div>            </div>            <div class="card">               <img class="ava" src="https://lskypro.acozycotage.net/LightPicture/2022/12/6bf1ed05796db59c.jpg" />               <div class="card-header">                  <div>                     <a href="https://akilar.top/">Akilarの糖果屋</a>                  </div>                  <div class="info">---</div>               </div>            </div>            <div class="card">               <img class="ava" src="https://lskypro.acozycotage.net/LightPicture/2022/12/1b33fef8f5fb7e63.jpg" />               <div class="card-header">                  <div>                     <a href="https://anzhiy.cn/">安知鱼</a>                  </div>                  <div class="info">---</div>               </div>            </div>         </div>      </div>   </div></div><!-- <a onclick="toRandomFlink()">随机访问一条友链</a> --><!-- #### 友链列表    以下排名不分先后，欢迎访问(～￣▽￣)～| 站名     | 链接                        | 类型       ||:--------------:|:---------------:|:--------------:||Fomalhaut🥝|<a href="https://fomal.cc/">https://fomal.cc/</a>|||唐志远の博客|<a href="https://tzy1997.com/">https://tzy1997.com/</a>|||Akilarの糖果屋|<a href="https://akilar.top/">https://akilar.top/</a>|||安知鱼|<a href="https://anzhiy.cn/">https://anzhiy.cn/</a>|||Bensz-苯苯|<a href="https://blognas.hwb0307.com/">https://blognas.hwb0307.com/</a>|||Ariasakaの小窝|<a href="https://yisous.xyz/">https://yisous.xyz/</a>|||轻笑Chuckle|<a href="https://www.chuckle.top/">https://www.chuckle.top</a>|||张洪Heo|<a href="https://blog.zhheo.com/">https://blog.zhheo.com/</a>|||Mycpen|<a href="https://cpen.top/">https://cpen.top/</a>|||如诗|<a href="https://likepoems.com/">https://likepoems.com/</a>|学习笔记||夏沫|<a href="https://www.seovx.com/">https://www.seovx.com/</a>|| -->]]></content>
+        <content type="html"><![CDATA[<h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>如果您也有自己的个人博客，并且想要互换友链，<strong>请在下方留言,并注明贵站的类型</strong>，审核之后贵站的信息就会被添加到下方列表中～</p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">李小沐の博客</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://lixiaomu.fun/</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://s3.bmp.ovh/imgs/2022/11/23/129c19d56d22c637.png</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">念念不忘，必有回响。</span></span><br></pre></td></tr></table></figure><div class="addBtn"><button onclick="leonus.linkCom()"><i class="fa-solid fa-circle-plus"></i>快速申请 (默认样式)</button> <button onclick="leonus.linkCom(&quot;bf&quot;)"><i class="fa-solid fa-circle-plus"></i>快速申请 (Butterfly)</button></div><link rel="stylesheet" href="/css/kslink.css"><script src="/js/kslink.js"></script><hr><div class="post-body">   <div id="links">      <style>         .links-content{         margin-top:1rem;         }         .link-navigation::after {         content: " ";         display: block;         clear: both;         }         .card {         width: 45%;         font-size: 1rem;         padding: 10px 20px;         border-radius: 4px;         transition-duration: 0.15s;         margin-bottom: 1rem;         display:flex;         }         .card:nth-child(odd) {         float: left;         }         .card:nth-child(even) {         float: right;         }         .card:hover {         transform: scale(1.1);         box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.12), 0 0 6px 0 rgba(0, 0, 0, 0.04);         }         .card a {         border:none;         }         .card .ava {         width: 3rem!important;         height: 3rem!important;         margin:0!important;         margin-right: 1em!important;         border-radius:4px;         }         .card .card-header {         font-style: italic;         overflow: hidden;         width: 100%;         }         .card .card-header a {         font-style: normal;         color: #2bbc8a;         font-weight: bold;         text-decoration: none;         }         .card .card-header a:hover {         color: #d480aa;         text-decoration: none;         }         .card .card-header .info {         font-style:normal;         color:#a3a3a3;         font-size:14px;         min-width: 0;         overflow: hidden;         white-space: nowrap;         }      </style>      <div class="links-content">         <div class="link-navigation">            <div class="card">               <img class="ava" src="https://source.fomal.cc/siteshot/www.fomal.cn.jpg" />               <div class="card-header">                  <div>                     <a href="https://fomal.cc/">Fomalhaut🥝</a>                  </div>                  <div class="info">Future is now 🍭🍭🍭</div>               </div>            </div>            <div class="card">               <img class="ava" src="https://lskypro.acozycotage.net/LightPicture/2022/12/6bf1ed05796db59c.jpg" />               <div class="card-header">                  <div>                     <a href="https://akilar.top/">Akilarの糖果屋</a>                  </div>                  <div class="info">---</div>               </div>            </div>            <div class="card">               <img class="ava" src="https://lskypro.acozycotage.net/LightPicture/2022/12/1b33fef8f5fb7e63.jpg" />               <div class="card-header">                  <div>                     <a href="https://anzhiy.cn/">安知鱼</a>                  </div>                  <div class="info">---</div>               </div>            </div>         </div>      </div>   </div></div><!-- <a onclick="toRandomFlink()">随机访问一条友链</a> --><!-- #### 友链列表    以下排名不分先后，欢迎访问(～￣▽￣)～| 站名     | 链接                        | 类型       ||:--------------:|:---------------:|:--------------:||Fomalhaut🥝|<a href="https://fomal.cc/">https://fomal.cc/</a>|||唐志远の博客|<a href="https://tzy1997.com/">https://tzy1997.com/</a>|||Akilarの糖果屋|<a href="https://akilar.top/">https://akilar.top/</a>|||安知鱼|<a href="https://anzhiy.cn/">https://anzhiy.cn/</a>|||Bensz-苯苯|<a href="https://blognas.hwb0307.com/">https://blognas.hwb0307.com/</a>|||Ariasakaの小窝|<a href="https://yisous.xyz/">https://yisous.xyz/</a>|||轻笑Chuckle|<a href="https://www.chuckle.top/">https://www.chuckle.top</a>|||张洪Heo|<a href="https://blog.zhheo.com/">https://blog.zhheo.com/</a>|||Mycpen|<a href="https://cpen.top/">https://cpen.top/</a>|||如诗|<a href="https://likepoems.com/">https://likepoems.com/</a>|学习笔记||夏沫|<a href="https://www.seovx.com/">https://www.seovx.com/</a>|| -->]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>音乐</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
+      
+        <content type="html"><![CDATA[    <div id="aplayer-xUGoSqlk" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -351,11 +362,11 @@
     
     
     <entry>
-      <title>音乐</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
+      <title>加密日记</title>
+      <link href="/secret/index.html"/>
+      <url>/secret/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-SgGHWgMe" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="c948ab4558dc83f98841885cc78fd1fc802e2262c4ce74f9a8a23d57a8a9e0a5">22064b17c03cb0c0e58c99349b6889d08ea8549dd0d4c00f665b8881b304afe8</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">您好, 这里需要密码.</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       
     </entry>
     
@@ -428,9 +439,9 @@
     
     
     <entry>
-      <title>一起吃</title>
-      <link href="/aiqing/yiqichi/index.html"/>
-      <url>/aiqing/yiqichi/index.html</url>
+      <title>神秘的相册</title>
+      <link href="/aiqing/shenmi/index.html"/>
+      <url>/aiqing/shenmi/index.html</url>
       
         <content type="html"><![CDATA[<p>待补充…</p><!-- <div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/24/7CBFy.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生头像</div>  <p>女生头像</p>  <a href='/wallpaper/touxiang/nvsheng'></a>  </figcaption>  </figure>  </div> -->]]></content>
       
@@ -439,9 +450,9 @@
     
     
     <entry>
-      <title>神秘的相册</title>
-      <link href="/aiqing/shenmi/index.html"/>
-      <url>/aiqing/shenmi/index.html</url>
+      <title>一起吃</title>
+      <link href="/aiqing/yiqichi/index.html"/>
+      <url>/aiqing/yiqichi/index.html</url>
       
         <content type="html"><![CDATA[<p>待补充…</p><!-- <div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/24/7CBFy.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生头像</div>  <p>女生头像</p>  <a href='/wallpaper/touxiang/nvsheng'></a>  </figcaption>  </figure>  </div> -->]]></content>
       
@@ -472,17 +483,6 @@
     
     
     <entry>
-      <title>收藏的壁纸</title>
-      <link href="/wallpaper/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/bizhi/girl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/bizhi/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7eCZ.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>没去过的地方</p>  <a href='/wallpaper/bizhi/fengjing'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7wrd.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Food</div>  <p>美食</p>  <a href='/wallpaper/bizhi/food'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7bOz.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">创意</div>  <p>创意图片</p>  <a href='/wallpaper/bizhi/chuangyi'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>手机壁纸</title>
       <link href="/wallpaper/sjbizhi/index.html"/>
       <url>/wallpaper/sjbizhi/index.html</url>
@@ -494,22 +494,11 @@
     
     
     <entry>
-      <title>头像</title>
-      <link href="/wallpaper/touxiang/index.html"/>
-      <url>/wallpaper/touxiang/index.html</url>
+      <title>收藏的壁纸</title>
+      <link href="/wallpaper/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/24/7CBFy.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生头像</div>  <p>女生头像</p>  <a href='/wallpaper/touxiang/nvsheng'></a>  </figcaption>  </figure>  </div>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>好看的壁纸</title>
-      <link href="/wallpaper/bizhi/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/bizhi/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"><br><img src="https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg"><br><img src="https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png"><br><img src="https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">壁纸</div>  <p>收藏的壁纸</p>  <a href='/wallpaper/bizhi/bizhi'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生</div>  <p>好看的女生图片</p>  <a href='/wallpaper/bizhi/girl'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.hd-r.cn/65444bc93b2ef1caa311a70a6015eeb9.png' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">动漫手绘</div>  <p>动漫手绘壁纸</p>  <a href='/wallpaper/bizhi/dongman'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7eCZ.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">风景</div>  <p>没去过的地方</p>  <a href='/wallpaper/bizhi/fengjing'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7wrd.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">Food</div>  <p>美食</p>  <a href='/wallpaper/bizhi/food'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/23/x7bOz.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">创意</div>  <p>创意图片</p>  <a href='/wallpaper/bizhi/chuangyi'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
@@ -521,6 +510,17 @@
       <url>/wallpaper/bizhi/chuangyi/index.html</url>
       
         <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7bOz.jpeg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>好看的壁纸</title>
+      <link href="/wallpaper/bizhi/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/bizhi/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"><br><img src="https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg"><br><img src="https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png"><br><img src="https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
@@ -549,22 +549,22 @@
     
     
     <entry>
-      <title>Food</title>
-      <link href="/wallpaper/bizhi/food/index.html"/>
-      <url>/wallpaper/bizhi/food/index.html</url>
+      <title>头像</title>
+      <link href="/wallpaper/touxiang/index.html"/>
+      <url>/wallpaper/touxiang/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7wrd.jpeg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/24/7CBFy.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生头像</div>  <p>女生头像</p>  <a href='/wallpaper/touxiang/nvsheng'></a>  </figcaption>  </figure>  </div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>girl</title>
-      <link href="/wallpaper/bizhi/girl/index.html"/>
-      <url>/wallpaper/bizhi/girl/index.html</url>
+      <title>Food</title>
+      <link href="/wallpaper/bizhi/food/index.html"/>
+      <url>/wallpaper/bizhi/food/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"><br><img src="https://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg"><br><img src="https://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg"><br><img src="https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png"><br><img src="https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg"><br><img src="https://i.328888.xyz/2023/02/23/x7JCc.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7v1J.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7KgA.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7LKo.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7wrd.jpeg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
@@ -587,6 +587,17 @@
       <url>/wallpaper/sjbizhi/girl/index.html</url>
       
         <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="/"><br><img src="https://img.vm.laomishuo.com/image/2021/12/2021122715170589.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/05/2021053107390019.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/08/2021082418471438.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/05/2021053111333664.jpeg"><br><img src="https://img.vm.aomishuo.com/image/2021/05/2021052509214162.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/10/2021101113150626.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/12/2021121119294157.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2022/05/2022050211365433.jpg">)<br><img src="https://img.vm.laomishuo.com/image/2021/01/2021011114540487.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/10/2021101112481925.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2020/12/2020120109592351.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/08/2021081519313621.jpeg"><br><img src="https://i.hd-r.cn/47a7ec6716eb5b0dc890e9d3cfcb0a35.jpg"><br><img src="https://i.hd-r.cn/bfedbd8587210ff63bd4a4b1487fd9cb.jpg"><br><img src="https://i.hd-r.cn/e796a9c4206dcb68f39851dabf4cf470.jpg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>girl</title>
+      <link href="/wallpaper/bizhi/girl/index.html"/>
+      <url>/wallpaper/bizhi/girl/index.html</url>
+      
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/c9548095f0eaa776f623d9e8046d43a8.png"><br><img src="https://i.hd-r.cn/39934a9dc39e1172cd5875f9c75b34ae.png"><br><img src="https://i.hd-r.cn/d2176e8ec387290ac35e8a1993dbdad3.png"><br><img src="https://i.hd-r.cn/8aa7be08b15cd4b7b8744fcd8405def8.png"><br><img src="https://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg"><br><img src="https://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg"><br><img src="https://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg"><br><img src="https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png"><br><img src="https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg"><br><img src="https://i.328888.xyz/2023/02/23/x7JCc.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7v1J.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7KgA.jpeg"><br><img src="https://i.328888.xyz/2023/02/23/x7LKo.jpeg"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
