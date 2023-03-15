@@ -24,6 +24,8 @@
 
 /* 侧边栏卡片动态渐变色 */
 
+
+/* 
 #aside-content>.card-widget {
     background: linear-gradient(-45deg, #e8d8b9, #eccec5, #a3e9eb, #bdbdf0, #eec1ea);
     box-shadow: 0 0 5px rgb(66, 68, 68);
@@ -32,8 +34,10 @@
     -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 10s ease infinite;
     animation: Gradient 10s ease infinite !important;
-}
+} */
 
+
+/* 
 #welcome-info {
     background: linear-gradient(-45deg, #e8d8b9, #eccec5, #a3e9eb, #bdbdf0, #eec1ea);
     box-shadow: 0 0 5px rgb(66, 68, 68);
@@ -52,4 +56,4 @@
     -webkit-animation: Gradient 10s ease infinite;
     -moz-animation: Gradient 10s ease infinite;
     animation: Gradient 10s ease infinite !important;
-}
+} */
