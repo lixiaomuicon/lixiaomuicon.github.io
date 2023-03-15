@@ -296,22 +296,22 @@
     
     
     <entry>
-      <title>留言板</title>
-      <link href="/comments/index.html"/>
-      <url>/comments/index.html</url>
+      <title>藏宝阁</title>
+      <link href="/collect/index.html"/>
+      <url>/collect/index.html</url>
       
-        <content type="html"><![CDATA[<center><div class="note flat"><p><font color=red>I wish you to become your own sun , no need to rely on who’s light.<br>愿你成为自己的太阳,无需借助谁的光。</font></p></div></center>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>藏宝阁</title>
-      <link href="/collect/index.html"/>
-      <url>/collect/index.html</url>
+      <title>留言板</title>
+      <link href="/comments/index.html"/>
+      <url>/comments/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<center><div class="note flat"><p><font color=red>I wish you to become your own sun , no need to rely on who’s light.<br>愿你成为自己的太阳,无需借助谁的光。</font></p></div></center>]]></content>
       
     </entry>
     
@@ -355,7 +355,7 @@
       <link href="/music/index.html"/>
       <url>/music/index.html</url>
       
-        <content type="html"><![CDATA[    <div id="aplayer-vaYApHmm" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
+        <content type="html"><![CDATA[    <div id="aplayer-SgGHWgMe" class="aplayer aplayer-tag-marker meting-tag-marker"         data-id="8151948346" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="true" data-mutex="false" data-listmaxheight="400px" data-preload="none" data-theme="#ad7a86"    ></div>]]></content>
       
     </entry>
     
@@ -406,17 +406,6 @@
     
     
     <entry>
-      <title>赞赏墙</title>
-      <link href="/zanshang/index.html"/>
-      <url>/zanshang/index.html</url>
-      
-        <content type="html"><![CDATA[<div class="note flat"><p>网站建设与维护实属不易，如果我的文章帮助到了您，或者您想支持我的网站，可以扫描下方二维码进行赞助.<br>除非大佬们强烈要求，不然<u><font color=red>此页面上出现的ID均为匿名处理。赞助时建议带备注</font></u>，该备注会出现在下表的Message里。如无特殊要求，此页面会公布您的付款备注信息（可能会泄露个人信息的备注将不会明示）。<br>当然，您也可以随时要求删除!</p></div><h3 id="打赏方式"><a href="#打赏方式" class="headerlink" title="打赏方式"></a>打赏方式</h3><div class="tabs" id="赞赏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#赞赏-1">Q Q</button></li><li class="tab"><button type="button" data-href="#赞赏-2">微信</button></li><li class="tab"><button type="button" data-href="#赞赏-3">支付宝</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="赞赏-1"><div align=center><img src="/img/QQ.png" width = "200" height = "200"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="赞赏-2"><div align=center><img src="/img/weixin.png" width = "200" height = "200"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="赞赏-3"><div align=center><img src="/img/alipay.png" width = "200" height = "200"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="感谢各位小伙伴们の支持-🌹-特此鸣谢💓"><a href="#感谢各位小伙伴们の支持-🌹-特此鸣谢💓" class="headerlink" title=" 感谢各位小伙伴们の支持~🌹   特此鸣谢💓  "></a><table><tr><td> 感谢各位小伙伴们の支持~🌹   特此鸣谢💓  </td></tr></table></h3><table><thead><tr><th align="center">Date</th><th align="center">ID</th><th align="center">Platform</th><th align="center">Sum</th><th align="center">Unit</th><th align="left">Message</th></tr></thead><tbody><tr><td align="center">2023-02-01</td><td align="center">罗夏</td><td align="center">WeChat</td><td align="center">15</td><td align="center">RMB</td><td align="left">NA</td></tr><tr><td align="center">2023-01-29</td><td align="center">析悦子</td><td align="center">WeChat</td><td align="center">6.66</td><td align="center">RMB</td><td align="left">NA</td></tr><tr><td align="center">2023-01-23</td><td align="center">觉</td><td align="center">Alipay</td><td align="center">0.09</td><td align="center">RMB</td><td align="left">NA</td></tr><tr><td align="center">2023-01-11</td><td align="center">榕*</td><td align="center">WeChat</td><td align="center">6</td><td align="center">RMB</td><td align="left">靓仔来打赏剩下的半杯</td></tr><tr><td align="center">2023-01-06</td><td align="center">c*e</td><td align="center">WeChat</td><td align="center">6</td><td align="center">RMB</td><td align="left">送你半杯奶茶</td></tr></tbody></table>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>文案</title>
       <link href="/wenan/index.html"/>
       <url>/wenan/index.html</url>
@@ -428,11 +417,11 @@
     
     
     <entry>
-      <title>神秘的相册</title>
-      <link href="/aiqing/shenmi/index.html"/>
-      <url>/aiqing/shenmi/index.html</url>
+      <title>赞赏墙</title>
+      <link href="/zanshang/index.html"/>
+      <url>/zanshang/index.html</url>
       
-        <content type="html"><![CDATA[<p>待补充…</p><!-- <div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/24/7CBFy.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生头像</div>  <p>女生头像</p>  <a href='/wallpaper/touxiang/nvsheng'></a>  </figcaption>  </figure>  </div> -->]]></content>
+        <content type="html"><![CDATA[<div class="note flat"><p>网站建设与维护实属不易，如果我的文章帮助到了您，或者您想支持我的网站，可以扫描下方二维码进行赞助.<br>除非大佬们强烈要求，不然<u><font color=red>此页面上出现的ID均为匿名处理。赞助时建议带备注</font></u>，该备注会出现在下表的Message里。如无特殊要求，此页面会公布您的付款备注信息（可能会泄露个人信息的备注将不会明示）。<br>当然，您也可以随时要求删除!</p></div><h3 id="打赏方式"><a href="#打赏方式" class="headerlink" title="打赏方式"></a>打赏方式</h3><div class="tabs" id="赞赏"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#赞赏-1">Q Q</button></li><li class="tab"><button type="button" data-href="#赞赏-2">微信</button></li><li class="tab"><button type="button" data-href="#赞赏-3">支付宝</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="赞赏-1"><div align=center><img src="/img/QQ.png" width = "200" height = "200"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="赞赏-2"><div align=center><img src="/img/weixin.png" width = "200" height = "200"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="赞赏-3"><div align=center><img src="/img/alipay.png" width = "200" height = "200"/></div><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h3 id="感谢各位小伙伴们の支持-🌹-特此鸣谢💓"><a href="#感谢各位小伙伴们の支持-🌹-特此鸣谢💓" class="headerlink" title=" 感谢各位小伙伴们の支持~🌹   特此鸣谢💓  "></a><table><tr><td> 感谢各位小伙伴们の支持~🌹   特此鸣谢💓  </td></tr></table></h3><table><thead><tr><th align="center">Date</th><th align="center">ID</th><th align="center">Platform</th><th align="center">Sum</th><th align="center">Unit</th><th align="left">Message</th></tr></thead><tbody><tr><td align="center">2023-02-01</td><td align="center">罗夏</td><td align="center">WeChat</td><td align="center">15</td><td align="center">RMB</td><td align="left">NA</td></tr><tr><td align="center">2023-01-29</td><td align="center">析悦子</td><td align="center">WeChat</td><td align="center">6.66</td><td align="center">RMB</td><td align="left">NA</td></tr><tr><td align="center">2023-01-23</td><td align="center">觉</td><td align="center">Alipay</td><td align="center">0.09</td><td align="center">RMB</td><td align="left">NA</td></tr><tr><td align="center">2023-01-11</td><td align="center">榕*</td><td align="center">WeChat</td><td align="center">6</td><td align="center">RMB</td><td align="left">靓仔来打赏剩下的半杯</td></tr><tr><td align="center">2023-01-06</td><td align="center">c*e</td><td align="center">WeChat</td><td align="center">6</td><td align="center">RMB</td><td align="left">送你半杯奶茶</td></tr></tbody></table>]]></content>
       
     </entry>
     
@@ -442,6 +431,17 @@
       <title>一起吃</title>
       <link href="/aiqing/yiqichi/index.html"/>
       <url>/aiqing/yiqichi/index.html</url>
+      
+        <content type="html"><![CDATA[<p>待补充…</p><!-- <div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/24/7CBFy.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生头像</div>  <p>女生头像</p>  <a href='/wallpaper/touxiang/nvsheng'></a>  </figcaption>  </figure>  </div> -->]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>神秘的相册</title>
+      <link href="/aiqing/shenmi/index.html"/>
+      <url>/aiqing/shenmi/index.html</url>
       
         <content type="html"><![CDATA[<p>待补充…</p><!-- <div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://i.328888.xyz/2023/02/24/7CBFy.jpeg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">女生头像</div>  <p>女生头像</p>  <a href='/wallpaper/touxiang/nvsheng'></a>  </figcaption>  </figure>  </div> -->]]></content>
       
@@ -505,22 +505,22 @@
     
     
     <entry>
-      <title>创意图片</title>
-      <link href="/wallpaper/bizhi/chuangyi/index.html"/>
-      <url>/wallpaper/bizhi/chuangyi/index.html</url>
+      <title>好看的壁纸</title>
+      <link href="/wallpaper/bizhi/bizhi/index.html"/>
+      <url>/wallpaper/bizhi/bizhi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7bOz.jpeg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"><br><img src="https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg"><br><img src="https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png"><br><img src="https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>好看的壁纸</title>
-      <link href="/wallpaper/bizhi/bizhi/index.html"/>
-      <url>/wallpaper/bizhi/bizhi/index.html</url>
+      <title>创意图片</title>
+      <link href="/wallpaper/bizhi/chuangyi/index.html"/>
+      <url>/wallpaper/bizhi/chuangyi/index.html</url>
       
-        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.hd-r.cn/ea249636f5bce774dcbc6f61dae383f4.png"><br><img src="https://i.hd-r.cn/6ddeeaa6a808b9a1816fc196a2aba413.png"><br><img src="https://i.hd-r.cn/6dddf6d0d7ebaae85cc7c5a8a7d7aebb.png"><br><img src="https://i.hd-r.cn/cbb430ffb3c3e5c390c9f8da64fd37c8.png"><br><img src="https://i.hd-r.cn/8cbd74a8a2bbe06de3fb6120149e909f.png"><br><img src="https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg"><br><img src="https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg"><br><img src="https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png"><br><img src="https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png"></p>          </div><script>let time = ''let imgbox = document.querySelector('.fj-gallery')imgbox.addEventListener('contextmenu', e => e.preventDefault())imgbox.addEventListener('dragend', e => { changeBg('url(' + e.target.src + ')'); })imgbox.addEventListener('touchstart', e => { time = setTimeout(() => { changeBg('url(' + e.target.src + ')'); }, 500); })imgbox.addEventListener('touchend', ()=>{clearTimeout(time)})</script>]]></content>
+        <content type="html"><![CDATA[<div class="note info flat"><p>温馨提示：点击可以查看图片，<code>电脑端拖动图片/手机端长按图片</code> 可以实现切换壁纸哦~</p></div><div class="fj-gallery"><p><img src="https://i.328888.xyz/2023/02/23/x7bOz.jpeg"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"><br><img src="/"></p>          </div>]]></content>
       
     </entry>
     
