@@ -4098,7 +4098,7 @@ h1.page-title + .tag-cloud-list {
   position: relative;
   display: block;
   overflow: hidden;
-  height: 80px;
+  height: 150px;
 }
 #pagination.pagination-post {
   overflow: hidden;
