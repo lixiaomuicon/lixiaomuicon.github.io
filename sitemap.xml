@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lixiaomu.fun/video/index.html</loc>
+    
+    <lastmod>2023-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lixiaomu.fun/music/index.html</loc>
+    
+    <lastmod>2023-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lixiaomu.fun/zanshang/index.html</loc>
+    
+    <lastmod>2023-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lixiaomu.fun/shuoshuo/index.html</loc>
+    
+    <lastmod>2023-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://lixiaomu.fun/posts/109604c8a047/</loc>
+    
+    <lastmod>2023-03-16</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lixiaomu.fun/aiqing/index.html</loc>
     
     <lastmod>2023-03-16</lastmod>
@@ -21,33 +66,6 @@
   
   <url>
     <loc>http://lixiaomu.fun/link/index.html</loc>
-    
-    <lastmod>2023-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lixiaomu.fun/shuoshuo/index.html</loc>
-    
-    <lastmod>2023-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lixiaomu.fun/zanshang/index.html</loc>
-    
-    <lastmod>2023-03-15</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lixiaomu.fun/posts/109604c8a047/</loc>
     
     <lastmod>2023-03-15</lastmod>
     
@@ -122,15 +140,6 @@
     <loc>http://lixiaomu.fun/wallpaper/index.html</loc>
     
     <lastmod>2023-03-06</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lixiaomu.fun/music/index.html</loc>
-    
-    <lastmod>2023-03-03</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

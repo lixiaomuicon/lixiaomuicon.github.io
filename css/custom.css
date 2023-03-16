@@ -133,63 +133,56 @@ svg.icon.faa-tada {
 .layout_post>#post,
 .read-mode .layout_post>#post {
     /* 以下代表透明度为0.5 */
-    background: rgba(255, 255, 255, 1);
-}
-
-
-/* 顶部导航栏 */
-
-#nav a {
-    color: #000000;
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 首页侧栏卡片 */
 
 #aside-content .card-widget {
-    background: rgb(255, 255, 255, 1);
+    background: rgb(255, 255, 255, 0.7);
 }
 
 
 /*说说、  侧边卡片的透明度 */
 
 :root {
-    --card-bg: rgba(255, 255, 255, 1);
+    --card-bg: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 文章页面正文背景 */
 
 div#post {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 分页页面 */
 
 div#page {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 归档页面 */
 
 div#archive {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 标签页面 */
 
 div#tag {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
 /* 分类页面 */
 
 div#category {
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -197,7 +190,7 @@ div#category {
 
 #welcome-info {
     /* background: linear-gradient(45deg, #fbfbfb, #fafbfb); */
-    background: rgba(255, 255, 255, 1);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 18px;
     padding: 8px;
 }
@@ -244,10 +237,9 @@ div#category {
 
 /* 音乐播放器 */
 
-
-/* .aplayer .aplayer-lrc {
+.aplayer .aplayer-lrc {
     display: none !important;
-  } */
+}
 
 .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
     left: -66px !important;
@@ -693,6 +685,16 @@ a {
 }
 
 
+/* 菜单栏魔改 */
+
+
+/* 顶部导航栏 */
+
+#nav a {
+    color: #ffffff;
+}
+
+
 /* 一级菜单居中 */
 
 #nav .menus_items {
@@ -700,6 +702,25 @@ a {
     width: fit-content !important;
     left: 50% !important;
     transform: translateX(-50%) !important;
+}
+
+
+/* 菜单栏常驻 */
+
+.nav-fixed #nav {
+    transform: translateY(58px)!important;
+    -webkit-transform: translateY(58px)!important;
+    -moz-transform: translateY(58px)!important;
+    -ms-transform: translateY(58px)!important;
+    -o-transform: translateY(58px)!important;
+}
+
+#nav {
+    transition: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
 }
 
 
@@ -717,6 +738,9 @@ a {
 /* .menus_items .menus_item:nth-child(2) .menus_item_child {
     left: -125px;
 } */
+
+
+/* END */
 
 
 /* 空间说说   maintop */
@@ -1215,3 +1239,79 @@ button {
 
 
 /* 页脚运行时间和字数统计 */
+
+
+/* 博客背景切换  _由于全屏会出bug，所以直接给他隐藏 */
+
+.winbox {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.wb-full {
+    display: none;
+}
+
+.wb-min {
+    background-position: center;
+}
+
+[data-theme='dark'] .wb-body,
+[data-theme='dark'] #changeBgBox {
+    background: #333 !important;
+}
+
+.bgbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pimgbox,
+.imgbox,
+.box {
+    width: 166px;
+    margin: 10px;
+    background-size: cover
+}
+
+.pimgbox,
+.imgbox {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.pimgbox {
+    height: 240px;
+}
+
+.imgbox {
+    height: 95px;
+}
+
+.box {
+    height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+    /* 背景 */
+    .pimgbox,
+    .imgbox,
+    .box {
+        height: 73px;
+        width: 135px;
+    }
+    .pimgbox {
+        height: 205px;
+    }
+    /* 2.0新增内容 */
+    .wb-min {
+        display: none;
+    }
+    #changeBgBox .wb-body::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+
+/* 博客背景切换  _由于全屏会出bug，所以直接给他隐藏END */

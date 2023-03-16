@@ -1,4 +1,3 @@
-// 右下角切换背景
 // 存数据
 // name：命名 data：数据
 function saveData(name, data) {
@@ -69,7 +68,58 @@ function createWinbox() {
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:#5fcdff;display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>
 
     
+    <details class="toggle" =""><summary class="toggle-button" style="">查看电脑壁纸</summary>
+    <div class="toggle-content">
+        <div class="bgbox">
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhI98.png)" class="imgbox" onclick="changeBg('url(http\://cdn.seovx.com/?mom=302)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhI98.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/gqapi/gqapi.php)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhdZN.png)" class="imgbox" onclick="changeBg('url(https\://api.r10086.com/img-api.php?type=王者荣耀)')"></a>
+        </div>
+    </div>
+    </details>
 
+    <details class="toggle" =""><summary class="toggle-button" style="">查看手机壁纸</summary>
+    <div class="toggle-content">
+        <div class="bgbox">
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/47a7ec6716eb5b0dc890e9d3cfcb0a35.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/47a7ec6716eb5b0dc890e9d3cfcb0a35.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/522f9361e3e049457b5f89c8b2be4b7c.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/522f9361e3e049457b5f89c8b2be4b7c.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/30ac4b9bfcaccc71e8bcf0f59ce1437e.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/30ac4b9bfcaccc71e8bcf0f59ce1437e.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/c69da0ce7c2c83f81ca447ba28ecd293.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/c69da0ce7c2c83f81ca447ba28ecd293.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/bfedbd8587210ff63bd4a4b1487fd9cb.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/bfedbd8587210ff63bd4a4b1487fd9cb.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/e796a9c4206dcb68f39851dabf4cf470.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/e796a9c4206dcb68f39851dabf4cf470.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/x5DOQ.png)" class="pimgbox" onclick="changeBg('url(https\://api.isoyu.com/mm_images.php)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xh3NF.png)" class="pimgbox" onclick="changeBg('url(https\://api.wuque.cc/random/images)')"></a>
+        </div>
+    </div>
+    </details>
+
+    <details class="toggle" =""><summary class="toggle-button" style="">查看动漫壁纸</summary>
+    <div class="toggle-content">
+        <div class="bgbox">
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7favw.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7favw.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fTmz.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fTmz.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fQya.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fQya.jpeg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhpHE.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/api/api.php)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhcuQ.png)" class="imgbox" onclick="changeBg('url(https\://www.dmoe.cc/random.php)')"></a>
+        </div>
+    </div>
+    </details>
+    
     <details class="toggle" =""><summary class="toggle-button" style="">查看渐变背景</summary>
     <div class="toggle-content">
         <div class="bgbox">
@@ -105,71 +155,6 @@ function createWinbox() {
         </div>
     </div>
     </details>
-
-    <details class="toggle" =""><summary class="toggle-button" style="">查看电脑壁纸</summary>
-    <div class="toggle-content">
-        <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhI98.png)" class="imgbox" onclick="changeBg('url(http\://cdn.seovx.com/?mom=302)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.GBRTurtle_ZH-CN6069093254_1920x1080.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/04/2021040311203011.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/11/2021110119420045.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2020/12/2020121409235638.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/11/2021111016525829.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg)" class="imgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/11/2021111016580917.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/05f6ec390b2ba38fc1793b2bf45a5814.png)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhI98.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/gqapi/gqapi.php)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhdZN.png)" class="imgbox" onclick="changeBg('url(https\://api.r10086.com/img-api.php?type=王者荣耀)')"></a>
-        </div>
-    </div>
-    </details>
-
-    <details class="toggle" =""><summary class="toggle-button" style="">查看手机壁纸</summary>
-    <div class="toggle-content">
-        <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/12/2021122715170589.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/12/2021122715170589.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/05/2021053107390019.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/05/2021053107390019.jpeg')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/08/2021082418471438.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/08/2021082418471438.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/05/2021053111333664.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/05/2021053111333664.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/05/2021052509214162.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/05/2021052509214162.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/10/2021101113150626.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/10/2021101113150626.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/12/2021121119294157.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/12/2021121119294157.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2022/05/2022050211365433.jpg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2022/05/2022050211365433.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/01/2021011114540487.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/01/2021011114540487.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/10/2021101112481925.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/10/2021101112481925.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2020/12/2020120109592351.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2020/12/2020120109592351.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://img.vm.laomishuo.com/image/2021/08/2021081519313621.jpeg)" class="pimgbox" onclick="changeBg('url(https\://img.vm.laomishuo.com/image/2021/08/2021081519313621.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/47a7ec6716eb5b0dc890e9d3cfcb0a35.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/47a7ec6716eb5b0dc890e9d3cfcb0a35.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/522f9361e3e049457b5f89c8b2be4b7c.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/522f9361e3e049457b5f89c8b2be4b7c.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/30ac4b9bfcaccc71e8bcf0f59ce1437e.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/30ac4b9bfcaccc71e8bcf0f59ce1437e.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/c69da0ce7c2c83f81ca447ba28ecd293.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/c69da0ce7c2c83f81ca447ba28ecd293.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/bfedbd8587210ff63bd4a4b1487fd9cb.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/bfedbd8587210ff63bd4a4b1487fd9cb.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/e796a9c4206dcb68f39851dabf4cf470.jpg)" class="pimgbox" onclick="changeBg('url(https\://i.hd-r.cn/e796a9c4206dcb68f39851dabf4cf470.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/x5DOQ.png)" class="pimgbox" onclick="changeBg('url(https\://api.isoyu.com/mm_images.php)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xh3NF.png)" class="pimgbox" onclick="changeBg('url(https\://api.wuque.cc/random/images)')"></a>
-        </div>
-    </div>
-    </details>
-
-    <details class="toggle" =""><summary class="toggle-button" style="">查看动漫壁纸</summary>
-    <div class="toggle-content">
-        <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/3210f51642e2f8d2434f09b0980c9cbf.png)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7favw.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7favw.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fTmz.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fTmz.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fQya.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fQya.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhpHE.png)" class="imgbox" onclick="changeBg('url(https\://api.ixiaowai.cn/api/api.php)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhcuQ.png)" class="imgbox" onclick="changeBg('url(https\://www.dmoe.cc/random.php)')"></a>
-        </div>
-    </div>
-    </details>
-    <center><div style="font-size:1.2em;color:var(--theme-color);font-weight:bold;">------ ( •̀ ω •́ )y 到底啦 ------</div></center>
 `;
 }
 
