@@ -747,7 +747,7 @@ a {
 
 div#main_top {
     z-index: 1;
-    max-width: 1200px;
+    max-width: 1376px;
     margin: 20px auto -15px;
     width: 100%;
     padding: 0 15px;
@@ -979,7 +979,12 @@ button#go-up:hover #percent {
 /* 页面宽度修改*/
 
 .layout {
-    max-width: 1200px;
+    max-width: 1400px;
+}
+
+#nav #nav-group {
+    max-width: 1376px;
+    justify-content: center
 }
 
 .layout.hide-aside {
