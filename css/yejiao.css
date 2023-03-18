@@ -1,7 +1,5 @@
 /* tzy页脚样式 */
 
-
-/* 
 #ft {
     max-width: 1200px;
     margin: 0 auto 12px;
@@ -47,13 +45,11 @@
 
 .btn-xz-box {
     margin-top: 10px;
-} */
+}
 
 
 /* 按钮背景颜色等 */
 
-
-/* 
 .btn-xz {
     display: block;
     background-color: var(--btn-bg);
@@ -66,13 +62,10 @@
 .btn-xz:hover {
     text-decoration: none !important;
 }
- */
 
-
+*/
 /* 按钮悬浮颜色 */
 
-
-/* 
 .btn-xz-box:hover .btn-xz {
     background-color: var(--text-bg-hover);
 }
@@ -93,13 +86,10 @@
     display: inline-block !important;
     width: 50%;
 }
- */
 
-
+*/
 /* 链接悬浮颜色 */
 
-
-/* 
 .ft-links li a:hover {
     text-decoration: none !important;
     color: var(--theme-color) !important;
@@ -138,13 +128,10 @@
     max-height: 80px;
     border-radius: 10px;
 }
- */
 
-
+*/
 /* 头像悬浮颜色框 */
 
-
-/* 
 .ft-item-2 .ft-img-group .img-group-item a img:hover {
     border: 2px solid var(--theme-color);
 }
@@ -180,9 +167,9 @@
 
 #footer-wrap {
     padding: 20px 20px;
-} */
+}
 
-
+*/
 /* 页脚按钮 */
 
 body {
