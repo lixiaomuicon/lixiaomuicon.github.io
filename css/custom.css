@@ -1320,3 +1320,23 @@ button {
 
 
 /* 博客背景切换  _由于全屏会出bug，所以直接给他隐藏END */
+
+
+/*右下角按钮*/
+
+#rightside>div>button,
+#rightside>div>a {
+    display: block;
+    margin-bottom: 6px;
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+
+/*右下角按钮END*/
