@@ -1,0 +1,297 @@
+/* AB模版网 做最好的织梦整站模板下载网站 Www.AdminBuy.Cn */
+
+
+/* QQ：9490489 */
+
+
+/* 仿站：Fang.AdminBuy.Cn */
+
+
+/* 素材：Sc.AdminBuy.Cn */
+
+
+/* js特效：Js.AdminBuy.Cn */
+
+
+/*首页头部*/
+
+.head {
+    width: 100%;
+    min-width: 1210px;
+    height: auto;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    padding-top: 50px;
+    transition: all 0.3s;
+    max-width: 1920px;
+}
+
+.headon {
+    margin-top: 0;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.head .show {
+    /*max-width: 1720px;*/
+    min-width: 1210px;
+    margin: 0 auto;
+}
+
+.head .logo {
+    float: left;
+    margin-left: 5%
+}
+
+.head .nav {
+    float: right;
+    line-height: 48px;
+    margin-right: 5%;
+}
+
+.head .nav li {
+    float: left;
+    margin-left: 42px;
+}
+
+.head .nav li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.head .nav li a:after {
+    position: absolute;
+    background-color: #ffffff;
+    width: 0;
+    height: 1px;
+    right: 0%;
+    bottom: -1px;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    content: ''
+}
+
+.head .nav li a:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.head .nav .on a {
+    border-bottom: 1px solid #ffffff;
+}
+
+.banner {
+    position: relative;
+    height: 100%;
+    z-index: 11;
+    overflow: hidden;
+}
+
+.flexslider {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.flex-pauseplay {
+    display: none;
+}
+
+.slides {
+    position: relative;
+    z-index: 1;
+}
+
+.slides li {
+    height: 640px;
+    text-align: center;
+}
+
+.slides li a {
+    display: block;
+    height: 100%;
+}
+
+.slides li img {
+    margin: 0 auto;
+    display: none;
+}
+
+.slides li .video1 {
+    background-color: #000;
+}
+
+.flex-direction-nav {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 47%;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.flex-direction-nav li a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+.flex-direction-nav li a.flex-prev {
+    left: 30px;
+    background: url(../images/prev.png) center center no-repeat;
+    transition: all 0.5s;
+}
+
+.flex-direction-nav li a.flex-next {
+    right: 30px;
+    background: url(../images/next.png) center center no-repeat;
+    transition: all 0.5s;
+}
+
+.flex-direction-nav li a:hover {
+    width: 60px;
+    height: 50px;
+    opacity: 1;
+}
+
+.flexslider:hover .flex-direction-nav {
+    opacity: 1;
+}
+
+.flex-control-nav {
+    position: absolute;
+    z-index: 11;
+    width: 60px;
+    bottom: 0;
+    right: 108px;
+    height: 90px;
+    display: none;
+}
+
+.flex-control-nav li {
+    position: absolute;
+    z-index: 2;
+    width: 60px;
+    height: 90px;
+}
+
+.flex-control-nav li a {
+    color: #ffffff;
+    width: 60px;
+    line-height: 90px;
+    text-align: center;
+    display: none;
+}
+
+.flex-control-nav li .flex-active {
+    display: block;
+    font-size: 28px;
+    color: #15843b;
+    font-weight: bold;
+    font-family: te2;
+}
+
+.flexslider .flex-pauseplay {
+    position: absolute;
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    background-color: #0D6A28;
+    top: 50%;
+    right: 0;
+    text-align: center;
+    line-height: 100px;
+}
+
+.banner .show {
+    width: 210px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 20px;
+    margin: 30px auto;
+    cursor: pointer;
+    position: absolute;
+    z-index: 20;
+    left: 50%;
+    bottom: 200px;
+    margin-left: -105px;
+}
+
+.banner .show:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.video {
+    position: fixed;
+    z-index: 100;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    min-width: 1210px;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.video video {
+    width: 100%;
+}
+
+.stay {
+    position: absolute;
+    z-index: 12;
+    width: 1px;
+    bottom: 0;
+    left: 50%;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.stay p {
+    width: 1px;
+    background-color: #ffffff;
+    animation: chang ease-in-out 2s infinite;
+    height: 0;
+    margin-top: 0;
+}
+
+@keyframes chang {
+    0% {
+        height: 0;
+        margin-top: 0;
+    }
+    60% {
+        height: 150px;
+        margin-top: 0;
+    }
+    100% {
+        height: 150px;
+        margin-top: 150px;
+    }
+}
+
+.video-show {
+    width: 1210px;
+    background-color: #000000;
+    text-align: center;
+    display: none;
+}
+
+.video-show video {
+    max-width: 100%;
+    margin: 0 auto;
+}
