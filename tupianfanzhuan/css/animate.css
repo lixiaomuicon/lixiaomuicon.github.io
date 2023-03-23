@@ -28,7 +28,7 @@
     animation-fill-mode: both;
 }
 
-@-webkit-keyframes flipInYtest {
+@keyframes flipInYtest {
     from {
         -webkit-transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
         transform: perspective(1400px) rotate3d(0, 1, 0, -180deg);
