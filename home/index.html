@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<!--初始化页面并设置禁用右键属性-->
+<html lang="zh" onselectstart="return false" oncontextmenu=self.event.returnValue=false>
+	<!--head模块-->
+
+	<head>
+		<!--字符编码-->
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+		<!--语言-->
+		<meta http-equiv="Content-Language" contect="zh">
+		<!--移动端适配-->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- 避免IE使用兼容模式 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<!--窗口设定-->
+		<meta http-equiv="Window-target" content="_top">
+		<!-- 针对手持设备优化，主要是针对一些老的不识别viewport的浏览器，比如黑莓 -->
+		<meta name="HandheldFriendly" content="true">
+		<!-- 微软的老式浏览器 -->
+		<meta name="MobileOptimized" content="320">
+		<!-- windows phone 点击无高光 -->
+		<meta name="msapplication-tap-highlight" content="no">
+		<!--百度禁止转码-->
+		<meta http-equiv="Cache-Control" content="no-siteapp">
+		<!--浏览器的兼容配置-->
+		<!--Microsoft Internet Explorer-->
+		<!--是否开启cleartype显示效果-->
+		<meta http-equiv="cleartype" content="on">
+		<meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+		<!--Pinned Site-->
+		<!-- IE 10 / Windows 8 -->
+		<meta name="msapplication-TileImage" content="pinned-tile-144.png">
+		<meta name="msapplication-TileColor" content="#009900">
+		<!--IE 11 / Windows 9.1-->
+		<meta name="msapplication-config" content="ieconfig.xml">
+		<!--Google Chrome-->
+		<!--禁止自动翻译-->
+		<meta name="google" value="notranslate">
+		<!--360浏览器-->
+		<!--极速模式-->
+		<meta name="renderer" content="webkit">
+		<!--QQ手机浏览器-->
+		<!--锁定屏幕在特定方向-->
+		<meta name="x5-orientation" content="portrait">
+		<!-- 全屏显示 -->
+		<meta name="x5-fullscreen" content="true">
+		<!-- 应用模式 -->
+		<meta name="x5-page-mode" content="app">
+		<!--UC浏览器-->
+		<!-- uc强制竖屏 -->
+		<meta name="screen-orientation" content="portrait">
+		<!-- UC强制全屏 -->
+		<meta name="full-screen" content="yes">
+		<!-- UC应用模式 -->
+		<meta name="browsermode" content="application">
+		<!-- 禁止自动探测手机/邮箱号码 -->
+		<meta name="format-detection" content="telphone=no, email=no">
+		<!-- Add to Home Screen添加到主屏 -->
+		<!-- 是否启用 WebApp 全屏模式 -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<!-- 设置状态栏的背景颜色,只有在 “apple-mobile-web-app-capable” content=”yes” 时生效 -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<!-- 添加到主屏后的标题 -->
+		<meta name="apple-mobile-web-app-title" content="赵彤刚的小屋">
+		<!--Google Android-->
+		<meta name="theme-color" content="#CCFFFF">
+		<!-- 添加到主屏 -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<!--引入核心css-->
+		<link rel="stylesheet" href="./heheda/css/main.css" type="text/css" />
+		<!-- 引入FontAwesome图标库 -->
+		<link rel="stylesheet" href="./heheda/lib/font-awesome-4.7.0/css/font-awesome.min.css" type="text/css" />
+		<!-- 音乐播放器 -->
+		<link rel="stylesheet" href="https://www.blog.heheda.top/zplayer/css/zplayer.css" type="text/css" />
+		<!--PWA配置-->
+		<link rel='manifest' href='./manifest.json' />
+		<!--跨域内容预解析-->
+		<link rel="preconnect" href="https://cartoon.heheda.top/" crossorigin />
+		<link rel="preconnect" href="https://tva1.sinaimg.cn/" crossorigin />
+		<link rel="preconnect" href="https://q2.qlogo.cn/" crossorigin />
+		<link rel="dns-prefetch" href="https://cartoon.heheda.top/" />
+		<link rel="dns-prefetch" href="https://tva1.sinaimg.cn/" />
+		<link rel="dns-prefetch" href="https://q2.qlogo.cn/" />
+		<!--SEO优化-->
+		<!--标题-->
+		<title>赵彤刚的小屋</title>
+		<!--关键词-->
+		<meta name="keywords" content="赵彤刚,个人主页,引导页,导航,博客,音乐,电影,壁纸,解析,源码,教程">
+		<!--描述-->
+		<meta name="description"
+			content="赵彤刚，男，汉族，于1999年10月28日出生于新疆维吾尔自治区伊犁哈萨克自治州昭苏县。爱好翻唱和主持。同时，他对青春的赞美、对眼前事物的珍视之情、对知己挚友的珍惜，博取了众人瞩目。">
+		<!--作者 author-->
+		<meta name="author" content="赵彤刚,2585649532@qq.com">
+		<!--搜索引擎索引方式-->
+		<meta name="robots" content="all">
+		<!--logo-->
+		<link rel="shortcuticon" href="./favicon.ico" />
+	</head>
+	<!--body模块-->
+
+	<body class="is-loading" title="久违久违，欢迎您的到来！开始尽情探索吧！">
+		<!-- Wrapper -->
+		<div id="wrapper">
+			<!-- Main -->
+			<section id="main">
+				<!--header模块-->
+				<header>
+					<!--头像-->
+					<span class="avatar"><img src="https://q2.qlogo.cn/headimg_dl?dst_uin=2585649532&spec=5"
+							alt="2585649532" title="这是我的头像" /></span>
+					<!--内容-->
+					<a href="https://weixin.sogou.com/weixin?type=1&s_from=input&query=%E4%B8%80%E5%8F%AA%E5%B0%8F%E5%BD%A4%E5%88%9A"
+						rel="noopener" target="_blank" title="欢迎关注我的微信公众号">
+						<h1>赵彤刚</h1>
+					</a>
+					<!--一言-->
+					<p id="hitokoto" title="我是一个普通的男孩子！">:D
+						获取中...</p>
+				</header>
+				<!--footer模块-->
+				<footer>
+					<!--上部导航-->
+					<ul class="copylaft">
+						<li><a href="https://www.feihuayun.com/" class="fa fa-windows" rel="noopener" target="_blank"
+								title="高性价比香港云服务器">飞花云服务器</a></li>
+						<li><a href="https://unlock-music.heheda.top/" class="fa fa-music" rel="noopener"
+								target="_blank" title="神奇的音乐解密工具">音乐解密</a></li>
+						<li><a href="https://bing.heheda.top/" class="fa fa-picture-o" rel="noopener" target="_blank"
+								title="海量Bing图片">必应图库</a></li>
+					</ul>
+					<!--中部导航-->
+					<ul class="icons">
+						<li><a href="https://www.ttyuki.cn/" class="fa fa-globe" rel="noopener" target="_blank"
+								title="海外高性价比免备案虚拟主机">blog</a>土豆云
+						</li>
+						<li><a href="https://movie.heheda.top/" class="fa fa-film" rel="noopener" target="_blank"
+								title="免费看全网影视">movie</a>电影</li>
+						<li><a href="https://music.heheda.top/" class="fa fa-music" rel="noopener" target="_blank"
+								title="免费听音乐">music</a>音乐</li>
+						<li><a href="https://picture.heheda.top/" class="fa fa-picture-o" rel="noopener" target="_blank"
+								title="免费高清壁纸">picture</a>图片</li>
+						<li><a href="book" class="fa fa-book" rel="noopener" target="_blank" title="故障维护中">book</a>小说
+						</li>
+						<li><a href="https://tool.heheda.top/" class="fa fa-briefcase" rel="noopener" target="_blank"
+								title="一款神奇的工具箱">tool</a>工具</li>
+						<li><a href="https://api.heheda.top/" class="fa fa-cogs" rel="noopener" target="_blank"
+								title="提供免费的API">api</a>API
+						</li>
+						<li><a href="https://photo.heheda.top/" class="fa fa-camera" rel="noopener" target="_blank"
+								title="我的个人相册">photo</a>相册</li>
+					</ul>
+					<!--联系方式-->
+					<ul class="copylaft">
+						<li><a href="https://wpa.qq.com/msgrd?v=3&uin=2585649532&site=qq&menu=yes" class="fa fa-qq"
+								rel="noopener" target="_blank" title="QQ:2585649532">QQ</a></li>
+						<li><a href="404.html" class="fa fa-weixin" rel="noopener" target="_blank"
+								title="微信:yizhixiaoTG">微信</a></li>
+						<li><a href="https://weibo.com/u/5664350965" class="fa fa-weibo" rel="noopener" target="_blank"
+								title="期待您的关注">微博</a></li>
+						<li><a href="https://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=4ZuJgI6Vjo_GhoCPhtDY2NjQ0dPZoZeIkc_QkM_Cjow"
+								class="fa fa-envelope" rel="noopener" target="_blank" title="通过邮箱联系我">邮箱</a></li>
+					</ul>
+				</footer>
+			</section>
+			<!-- Footer -->
+			<!-- <footer id="footer">
+				<ul class="copyright">
+					<li>
+						<!--萌icp备案-->
+						<a href="https://icp.gov.moe/?keyword=20211315" target="_blank"
+							title="萌ICP备20211315号">萌ICP备20211315号</a>
+					</li>
+					<li>
+						<!--版权信息，请勿修改！-->
+						<a href="https://my.heheda.top/" rel="noopener" target="_blank"
+							title="原创页面，版权所有">赵彤刚</a>&nbsp;&copy;&nbsp;版权所有
+					</li>
+				</ul>
+			</footer> -->
+		</div>
+		<div id="cd-top" onclick="call()" title="喜欢，就分享一下吧">分享</div>
+		<div id="player3"></div>
+		<!--引入核心js-->
+		<script src="./heheda/js/jquery-3.6.0.min.js"></script>
+		<!--落叶效果依赖-->
+		<script src="./heheda/js/su.js"></script>
+		<!--一言API-->
+		<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
+		<!--页面逻辑-->
+		<script src="./heheda/js/index.js"></script>
+		<!-- 音乐播放器 -->
+		<script src="https://www.blog.heheda.top/zplayer/js/zplayer.js" defer></script>
+		<script src="https://www.blog.heheda.top/zplayers.js" defer></script>
+		<!--PWA渐进式应用配置-->
+		<script async="async" type="module">
+			import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+			const el = document.createElement('pwa-update');
+			document.body.appendChild(el);
+		</script>
+		<!--当动态内容被禁止时引入的css-->
+		<noscript>
+			<link rel="stylesheet" href="./heheda/css/noscript.css" type="text/css">
+		</noscript>
+	</body>
+
+</html>
