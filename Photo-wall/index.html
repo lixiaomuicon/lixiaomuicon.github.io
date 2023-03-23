@@ -641,7 +641,7 @@ button.swiper-pagination-bullet {
 				justify-content: center;
 			}
 		</style>
-	</head>
+	</head> 
 <body>
 		<div class="main">
 			<div class="text">
@@ -677,7 +677,7 @@ if(c&&u[c]&&(i||u[c].data)||r!==t||"string"!=typeof n)return c||(c=l?e[s]=p.pop(
 			// (function() {
 			let swiperNode = '';
 			for (let i = 1, len = 61; i < len; i++) {
-				swiperNode += '<div class="swiper-slide"><img src="Photo-wall/images/' + i + '.jpg" alt=""></div>'
+				swiperNode += '<div class="swiper-slide"><img src="Photo-wall/images/' + i + '.webp" alt=""></div>'
 			}
 			$('.swiper-wrapper').html(swiperNode)
 			let swiper = new Swiper('.swiper-container', {
@@ -695,7 +695,7 @@ if(c&&u[c]&&(i||u[c].data)||r!==t||"string"!=typeof n)return c||(c=l?e[s]=p.pop(
 			let htm = '';
 			let timer
 			for (let i = 1, len = 61; i < len; i++) {
-				htm += '<div class="item" data-i="' + i + '"><img src="Photo-wall/images/' + i + '.jpg" alt=""></div>'
+				htm += '<div class="item" data-i="' + i + '"><img src="Photo-wall/images/' + i + '.webp" alt=""></div>'
 			}
 			$('.ct').html(htm)
 			let list = $('.item')
@@ -763,6 +763,5 @@ if(c&&u[c]&&(i||u[c].data)||r!==t||"string"!=typeof n)return c||(c=l?e[s]=p.pop(
 			// })()
 		</script>
 	</body>
-
 </html>
 
