@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buckzo - Responsive Minimal Template</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="MyraStudio">
+	<link rel="shortcut icon" type=image/png href=https://i.328888.xyz/2023/03/01/zv9Hw.png>
+    <link rel="stylesheet" type="text/css" href="./assets/css/bootstrap.min.css">
+    <!-- Pe 7 icon Css-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/pe-icon-7-stroke.css">
+    <!-- Custom Css -->
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	
+    <style class="blockbyte-bs-style" data-name="content">
+        body>div#blockbyte-bs-indicator>div {
+            opacity: 0;
+            pointer-events: none
+        }
+
+        body>iframe#blockbyte-bs-sidebar.blockbyte-bs-visible,
+        body>iframe#blockbyte-bs-overlay.blockbyte-bs-visible {
+            opacity: 1;
+            pointer-events: auto
+        }
+
+        body.blockbyte-bs-noscroll {
+            overflow: hidden !important
+        }
+
+        body>div#blockbyte-bs-indicator>div {
+            position: absolute;
+            transform: translate3d(-40px, 0, 0);
+            top: 0;
+            left: 0;
+            width: 40px !important;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 0 10px 10px 0;
+            transition: opacity 0.3s, transform 0.3s;
+            z-index: 2
+        }
+
+        body>div#blockbyte-bs-indicator>div>span {
+            -webkit-mask: no-repeat center/32px;
+           
+            background-color: #ffffff;
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%
+        }
+
+        body>div#blockbyte-bs-indicator[data-pos='right'] {
+            left: auto;
+            right: 0
+        }
+
+        body>div#blockbyte-bs-indicator[data-pos='right']>div {
+            transform: translate3d(40px, 0, 0);
+            left: auto;
+            right: 0;
+            border-radius: 10px 0 0 10px
+        }
+
+        body>div#blockbyte-bs-indicator.blockbyte-bs-fullHeight>div {
+            border-radius: 0
+        }
+
+        body>div#blockbyte-bs-indicator.blockbyte-bs-hover>div {
+            transform: translate3d(0, 0, 0);
+            opacity: 1
+        }
+
+        body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb {
+            height: 100% !important;
+            top: 0 !important
+        }
+
+        body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb>div {
+            background: transparent
+        }
+
+        body>div#blockbyte-bs-indicator[data-pos='left'].blockbyte-bs-has-lsb>div>span {
+            -webkit-mask-position-y: 20px
+        }
+
+        body>iframe#blockbyte-bs-sidebar {
+            width: 350px;
+            max-width: none;
+            height: 0;
+            z-index: 2147483646;
+            background-color: rgba(255, 255, 255, 0.8) !important;
+            speak: none;
+            border: none;
+            display: block !important;
+            transform: translate3d(-350px, 0, 0);
+            transition: width 0s 0.3s, height 0s 0.3s, opacity 0.3s, transform 0.3s
+        }
+
+        body>iframe#blockbyte-bs-sidebar[data-pos='right'] {
+            left: auto;
+            right: 0;
+            transform: translate3d(350px, 0, 0)
+        }
+
+        body>iframe#blockbyte-bs-sidebar.blockbyte-bs-visible {
+            width: calc(100% + 350px);
+            height: 100%;
+            transform: translate3d(0, 0, 0);
+            transition: opacity 0.3s, transform 0.3s
+        }
+
+        body>iframe#blockbyte-bs-sidebar.blockbyte-bs-hideMask {
+            background: none !important
+        }
+
+        body>iframe#blockbyte-bs-sidebar.blockbyte-bs-hideMask:not(.blockbyte-bs-hover) {
+            width: calc(350px + 50px)
+        }
+
+        body>iframe#blockbyte-bs-overlay {
+            width: 100%;
+            max-width: none;
+            height: 100%;
+            z-index: 2147483647;
+            border: none;
+            speak: none;
+            background: rgba(0, 0, 0, 0.5) !important;
+            transition: opacity 0.3s
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-default navbar-custom navbar-light">
+        <div class="container">
+			<a class="navbar-brand logo" href="javascript:void(0);">
+				<img src="assets/images/logo-float.png" />
+			</a>
+            
+            <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0);">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="javascript:void(0);">About</a></li>
+                </ul>
+            </div>
+			
+        </div>
+    </nav><!-- End Navbar -->
+	
+    <section class="section">
+        <div class="container">
+            <!-- SECTION FILTER ================================================== -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="portfolio-filter text-center">
+						<a href="javascript:void(0);" data-filter="*" class="current waves-effect waves-success">All</a>
+						<a href="javascript:void(0);" data-filter=".design" class="waves-effect waves-success">Design</a>
+						<a href="javascript:void(0);" data-filter=".mockup" class="waves-effect waves-success">Mockup</a>
+						<a href="javascript:void(0);" data-filter=".personal" class="waves-effect waves-success">Web</a>
+						<a href="javascript:void(0);" data-filter=".android" class="waves-effect waves-success">Android</a>
+                    </div>
+                </div>
+            </div>
+            <div class="port portfolio-masonry m-b-30">
+                <div class="portfolioContainer row" style="position: relative; height: 1730.69px;">
+                    <div class="col-lg-4 design personal" style="position: absolute; left: 0px; top: 0px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img1.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Media,Icons</p>
+                                    <h4>Open Imagination</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 mockup personal android" style="position: absolute; left: 380px; top: 0px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img2.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Illustrations</p>
+                                    <h4>Locked Steel Gate</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 design mockup" style="position: absolute; left: 760px; top: 0px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img3.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Graphics,UI Elements</p>
+                                    <h4>Mac Sunglasses</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 personal android" style="position: absolute; left: 0px; top: 263px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img4.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Icons,Illustrations</p>
+                                    <h4>Morning Dew</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 mockup android" style="position: absolute; left: 760px; top: 479px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img5.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>UI Elements,Media</p>
+                                    <h4>Console Activity</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 design personal" style="position: absolute; left: 380px; top: 496px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img6.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Graphics</p>
+                                    <h4>Sunset Bulb Glow</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 mockup android" style="position: absolute; left: 0px; top: 519px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img8.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>UI Elements,Media</p>
+                                    <h4>Console Activity</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 design mockup" style="position: absolute; left: 380px; top: 993px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img7.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Illustrations,Graphics</p>
+                                    <h4>Shake It!</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 design mockup" style="position: absolute; left: 0px; top: 1016px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img9.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Illustrations,Graphics</p>
+                                    <h4>Shake It!</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 design mockup" style="position: absolute; left: 760px; top: 1037px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img10.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Illustrations,Graphics</p>
+                                    <h4>Shake It!</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 design" style="position: absolute; left: 380px; top: 1286px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img11.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Illustrations,Graphics</p>
+                                    <h4>Shake It!</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 design mockup" style="position: absolute; left: 760px; top: 1428px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img12.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Illustrations,Graphics</p>
+                                    <h4>Shake It!</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-4 design mockup" style="position: absolute; left: 0px; top: 1484px;"><a
+                            href="javascript:void(0);">
+                            <div class="portfolio-box">
+                                <div class="portfolio-box-img"><img src="./assets/images/img13.jpg" class="img-fluid"
+                                        alt="member-image"></div>
+                                <div class="portfolio-box-detail">
+                                    <p>Illustrations,Graphics</p>
+                                    <h4>Shake It!</h4>
+                                </div>
+                            </div>
+                        </a></div>
+                </div><!-- end portfoliocontainer-->
+            </div><!-- End row -->
+        </div><!-- end container -->
+    </section>
+
+    <script src="./assets/js/jquery-2.1.4.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
+	
+    <!-- isotope filter plugin -->
+    <script src="./assets/js/isotope.pkgd.min.js"></script>
+    <script src="./assets/js/portfolio-filter.js"></script>
+    <script src="./assets/js/app.js"></script>
+	
+</body>
+</html>
