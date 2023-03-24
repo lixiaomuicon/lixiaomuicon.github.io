@@ -1,4 +1,7 @@
-
+---
+layout: false
+---
+{% raw %}
 <!DOCTYPE html>
 <html>
 
@@ -20205,7 +20208,7 @@ blockquote {
                     <div class="col-lg-4 design personal" style="position: absolute; left: 0px; top: 0px;"><a
                             href="javascript:void(0);">
                             <div class="portfolio-box">
-                                <div class="portfolio-box-img"><img src="source/myphotos/images/img1.jpg" class="img-fluid"
+                                <div class="portfolio-box-img"><img src="./assets/images/img1.jpg" class="img-fluid"
                                         alt="member-image"></div>
                                 <div class="portfolio-box-detail">
                                     <p>Media,Icons</p>
@@ -20216,7 +20219,7 @@ blockquote {
                     <div class="col-lg-4 mockup personal android" style="position: absolute; left: 380px; top: 0px;"><a
                             href="javascript:void(0);">
                             <div class="portfolio-box">
-                                <div class="portfolio-box-img"><img src="source/myphotos/images/img2.jpg" class="img-fluid"
+                                <div class="portfolio-box-img"><img src="./assets/images/img2.jpg" class="img-fluid"
                                         alt="member-image"></div>
                                 <div class="portfolio-box-detail">
                                     <p>Illustrations</p>
@@ -20227,7 +20230,7 @@ blockquote {
                     <div class="col-lg-4 design mockup" style="position: absolute; left: 760px; top: 0px;"><a
                             href="javascript:void(0);">
                             <div class="portfolio-box">
-                                <div class="portfolio-box-img"><img src="source/myphotos/images/img3.jpg" class="img-fluid"
+                                <div class="portfolio-box-img"><img src="./assets/images/img3.jpg" class="img-fluid"
                                         alt="member-image"></div>
                                 <div class="portfolio-box-detail">
                                     <p>Graphics,UI Elements</p>
@@ -20369,3 +20372,4 @@ blockquote {
 	
 </body>
 </html>
+{% endraw %}
