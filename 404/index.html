@@ -1,0 +1,437 @@
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta charset="UTF-8">
+<title>Hello 404!</title>
+
+<style>
+ ::-webkit-scrollbar {
+    width: 5px;
+    /*对垂直流动条有效*/
+    height: 5px;
+    /*对水平流动条有效*/
+}
+/*定义滚动条的轨道颜色、内阴影及圆角*/
+
+::-webkit-scrollbar-track {
+    /* background-color: rgba(50, 50, 50, 0.1); */
+    background-color: transparent;
+    border-radius: 5px;
+}
+/*定义滑块颜色、内阴影及圆角*/
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+/*定义两端按钮的样式*/
+
+::-webkit-scrollbar-button {
+    background-color: transparent;
+}
+/*定义右下角汇合处的样式*/
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+html {
+   touch-action: none;
+   content-zooming: none;
+}
+
+body {
+   position: fixed;
+   margin: 0;
+   padding: 0;
+   background: #000;
+   width: 100%;
+   height: 100%;
+   color: white;
+}
+
+#screen {
+   position: fixed;
+   left: 0;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   background: #aaa;
+   user-select: none;
+   overflow: hidden;
+}
+
+#scene {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 0;
+   height: 0;
+   transform: translateZ(1000px);
+   -webkit-transform: translateZ(1000px);
+}
+
+#scene .side {
+   position: absolute;
+   visibility: hidden;
+   margin: -300px -500px;
+   backface-visibility: hidden;
+   -webkit-backface-visibility: hidden;
+   display: inline-block;
+   width: 1000px;
+   height: 600px;
+   cursor: move;
+   background: #111 url(./images/wall.png);
+   background-size: cover;
+}
+#scene .top, 
+#scene .bottom{
+   margin: -500px -500px!important;
+   width: 1000px!important;
+   height: 1000px!important;
+}
+#scene .bottom{
+   background: #111 url(./images/floor.jpg);
+   background-size: cover;
+   text-align: center;
+}
+#scene .top{
+   background: #111 url(./images/ceiling.jpg);
+   background-size: cover;
+}
+.bottom .head{
+   text-align: center;
+}
+.bottom .head img{
+   width: 120px;
+   border-radius: 20px;
+   box-shadow: 1px 1px 10px rgba(0,0,0,0.8);
+}
+.bottom .user{
+   margin-top: 100px;
+   background-color: rgba(0,0,0,0.3);
+   display: inline-block;
+   border-radius: 20px;
+   padding: 80px 100px;
+}
+.bottom .name{
+   text-align: center;
+   font-size:32px;
+   margin-top: 20px;
+   text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+.bottom .bio{
+   text-align: center;
+   font-size:14px;
+   margin-top: 5px;
+   text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+.bottom .copyright{
+   text-align: center;
+   font-size:14px;
+   margin-top: 5px;
+   text-shadow: 1px 1px 5px rgba(0,0,0,0.8);
+}
+.bottom .footer{
+   position: absolute;
+   top:200px;
+   left:50px;
+   right: 50px;
+   text-align: center;
+}
+.front .main{
+   position: absolute;
+   left:0;
+   right: 0;
+   top: 30%;
+   color: yellow;
+   text-align: center;
+   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+.front .title{
+   font-size: 32px;
+}
+.front .tips{
+   color: #aaa;
+}
+.front .copyright{
+   position: absolute;
+   right: 50px;
+   bottom: 50px;
+   font-size: 12px;
+   color: #999;
+}
+.main{
+   position: absolute;
+   left:0;
+   right: 0;
+   top: 30%;
+   color: yellow;
+   text-align: center;
+   text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+}
+.main .iconfont{
+   font-size: 64px;
+   display: block;
+}
+.main .link{
+   cursor: pointer;
+   display: inline-block;
+}
+</style>
+<link rel="stylesheet" href="http://at.alicdn.com/t/font_666204_9eir79vdjt4.css">
+
+</head>
+<body>
+
+<div id="app">
+<div id="screen">
+<div id="scene">
+<div class="side front" data-transform="translateZ(-500px)">
+<div class="main">
+<div class="title">404 - Not found!</div>
+<div class="tips">
+你访问的资源没有找到,你可以尝试访问这边的一些推荐服务
+</div>
+</div>
+<div class="copyright">www.kaiu.net</div>
+</div>
+<div class="side right" data-transform="rotateY(-90deg) translateZ(-500px)">
+<div class="main">
+<div class="link" data-url="#">
+<i class="iconfont icon-gitee"></i>
+Gitee.com/eveningwater
+</div>
+</div>
+</div>
+<div class="side left" data-transform="rotateY(90deg)  translateZ(-500px)">
+<div class="main">
+<div class="link" data-url="#">
+<i class="iconfont icon-github"></i>
+Github.com/eveningwater
+</div>
+</div>
+</div>
+<div class="side back" data-transform="rotateY(180deg) translateZ(-500px)">
+<div class="main">
+<div class="link" data-url="#">
+<img src="./images/me.png" />
+</div>
+</div>
+</div>
+<div class="side top" data-transform="rotateX(-90deg) translateZ(-300px)"></div>
+<div class="side bottom" data-transform="rotateX(90deg) translateZ(-300px)">
+<div class="footer">
+<div class="text">www.kaiu.net</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+    var three = three || {
+    screen: {
+        elem: null,
+        callback: null,
+        width: 0,
+        height: 0,
+        left: 0,
+        top: 0,
+        init: function(id, callback, initRes) {
+            this.elem = document.getElementById(id);
+            this.callback = callback || null;
+            window.addEventListener('resize', function() { this.resize(); }.bind(this), false);
+            this.elem.onselectstart = function() { return false; }
+            this.elem.ondrag = function() { return false; }
+            initRes && this.resize();
+            return this;
+        },
+        resize: function() {
+            let o = this.elem;
+            this.width = o.offsetWidth;
+            this.height = o.offsetHeight;
+            for (this.left = 0, this.top = 0; o != null; o = o.offsetParent) {
+                this.left += o.offsetLeft;
+                this.top += o.offsetTop;
+            }
+            this.callback && this.callback();
+        },
+        pointer: {
+            screen: null,
+            elem: null,
+            callback: null,
+            pos: { x: 0, y: 0 },
+            mov: { x: 0, y: 0 },
+            drag: { x: 0, y: 0 },
+            start: { x: 0, y: 0 },
+            end: { x: 0, y: 0 },
+            active: false,
+            touch: false,
+            down: function(e, touch) {
+                this.touch = touch;
+                if (touch) e.preventDefault();
+                let pointer = touch ? e.touches[0] : e;
+                this.pos.x = this.start.x = pointer.clientX - this.screen.left;
+                this.pos.y = this.start.y = pointer.clientY - this.screen.top;
+                this.active = true;
+                this.callback.down && this.callback.down();
+            },
+            up: function(e, touch) {
+                this.touch = touch;
+                e.preventDefault();
+                this.end.x = this.drag.x;
+                this.end.y = this.drag.y;
+                this.active = false;
+                this.callback.up && this.callback.up();
+            },
+            move: function(e, touch) {
+                this.touch = touch;
+                e.preventDefault();
+                let pointer = touch ? e.touches[0] : e;
+                this.mov.x = pointer.clientX - this.screen.left;
+                this.mov.y = pointer.clientY - this.screen.top;
+                if (this.active) {
+                    this.pos.x = this.mov.x;
+                    this.pos.y = this.mov.y;
+                    this.drag.x = this.end.x + (this.pos.x - this.start.x)/2;
+                    this.drag.y = this.end.y + (this.pos.y - this.start.y)/2;
+                    this.callback.move && this.callback.move();
+                }
+            },
+            init: function(callback) {
+                this.screen = three.screen;
+                this.elem = this.screen.elem;
+                this.callback = callback || {};
+                if ('ontouchstart' in window) {
+                    // touch
+                    this.elem.ontouchstart = function(e) { this.down(e, true); }.bind(this);
+                    this.elem.ontouchmove = function(e) { this.move(e, true); }.bind(this);
+                    this.elem.ontouchend = function(e) { this.up(e, true); }.bind(this);
+                    this.elem.ontouchcancel = function(e) { this.up(e, true); }.bind(this);
+                }
+                // mouse
+                this.elem.addEventListener("mousedown", function(e) { this.down(e, false); }.bind(this), true);
+                document.addEventListener("mousemove", function(e) { this.move(e, false); }.bind(this), true);
+                document.addEventListener("mouseup", function(e) { this.up(e, false); }.bind(this), true);
+                return this;
+            }
+        }
+    }
+}
+</script>
+<script>
+    ! function () {
+    let gallery = {
+        x: 600,
+        y: 1000,
+        z: 1000,
+        init: function () {
+            let faces, localTransform = [];
+            // ==== init script ====
+            let screen = three.screen.init("screen", null, true);
+            let pointer = screen.pointer.init({
+                move: function () {
+                    if (pointer.drag.y > 270) pointer.drag.y = 270;
+                    if (pointer.drag.y < -270) pointer.drag.y = -270;
+                }
+            });
+            faces = document.getElementById("scene").children;
+            // ==== Easing ====
+            function Ease(speed, val) {
+                this.speed = speed;
+                this.target = val;
+                this.value = val;
+            }
+            Ease.prototype.ease = function (target) {
+                this.value += (target - this.value) * this.speed;
+            }
+            // ==== camera ====
+            let camera = {
+                angle: {
+                    x: 0,
+                    y: 0,
+                    ease: {
+                        x: 0,
+                        y: 0
+                    }
+                },
+                pos: {
+                    x: 0,
+                    z: 0
+                },
+                vel: {
+                    x: 0.1,
+                    z: 0.2
+                },
+                fov: new Ease(0.01, 300),
+                move: function () {
+                    this.angle.y = -(this.angle.ease.y += (pointer.drag.x - this.angle.ease.y) * 0.06) / 3;
+                    this.angle.x = (this.angle.ease.x += (pointer.drag.y - this.angle.ease.x) * 0.06) / 3;
+                    this.fov.ease(pointer.active ? 300 : 500);
+                    let a = this.angle.y * Math.PI / 180;
+                    let x = -Math.sin(a) * this.vel.x;
+                    let z = Math.cos(a) * this.vel.z;
+                    this.pos.x += x;
+                    this.pos.z += z;
+                    if (pointer.active) {
+                        if ((this.pos.x > 190 && x > 0) || (this.pos.x < -190 && x < 0)){
+                            this.vel.x *= 0.9;
+                        }else {
+                            if (this.vel.x < 0.1) this.vel.x = 1;
+                            if (this.vel.x < 5) this.vel.x *= 1.1;
+                        }
+                        if ((this.pos.z > 190 && z > 0) || (this.pos.z < -190 && z < 0)){
+                            this.vel.z *= 0.9;
+                        }else {
+                            if (this.vel.z < 0.1) this.vel.z = 1;
+                            if (this.vel.z < 5) this.vel.z *= 1.1;
+                        }
+                    } else {
+                        this.vel.x *= 0.9;
+                        this.vel.z *= 0.9;
+                    }
+                    a = Math.cos(this.angle.x * Math.PI / 180);
+                    let mx = -(1 * Math.cos((this.angle.y - 90) * Math.PI / 180) * a) * (500 - this.fov.value * 0.5);
+                    let mz = -(1 * Math.sin((this.angle.y - 90) * Math.PI / 180) * a) * (500 - this.fov.value * 0.5);
+                    let my = Math.sin(this.angle.x * Math.PI / 180) * 200;
+                    return "perspective(" + this.fov.value + "px) rotateX(" + this.angle.x + "deg) " + "rotateY(" + this.angle.y + "deg) translateX(" + (this.pos.x + mx) + "px) translateY(" + my + "px) translateZ(" + (this.pos.z + mz) + "px)";
+                }
+            }
+            // ==== init faces ====
+            for (let i = 0, n = faces.length; i < n; i++) {
+                let elem = faces[i];
+                let s = elem.getAttribute("data-transform");
+                elem.style.transform = s;
+                elem.style.webkitTransform = s;
+                elem.style.visibility = "visible";
+                localTransform.push(s);
+            }
+            // ==== main loop ====
+            function run() {
+                requestAnimationFrame(run);
+                let globalCamera = camera.move();
+                // ==== anim faces ====
+                for (let i = 0, elem; elem = faces[i]; i++) {
+                    let s = globalCamera + localTransform[i];
+                    elem.style.transform = s;
+                    elem.style.webkitTransform = s;
+                }
+            }
+            // ==== start animation ====
+            requestAnimationFrame(run);
+        }
+    }
+
+    document.addEventListener('DOMContentLoaded',() => {
+        gallery.init();
+        document.querySelectorAll(".link").forEach(item => item.addEventListener("click",() => {
+            const url = item.getAttribute("data-url");
+            window.open(url);
+        }));
+    }, false);
+}();
+</script>
+
+</body>
+
