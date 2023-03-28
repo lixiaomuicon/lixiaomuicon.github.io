@@ -1,171 +1,359 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<title>jQuery跟CSS3悬停悬停翻转特效 - 开优网络</title>
 
-<link rel="stylesheet" href="css/demo.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>jQuery跟CSS3悬停悬停翻转特效 - 开优网络</title>
+
+
+    <style>
+        * {
+            margin: 0;
+        }
+        
+        body {
+            background-color: #2F2F2F;
+        }
+        
+        .wrapper {
+            max-width: 900px;
+            margin: 80px auto;
+        }
+        
+        .wrapper li {
+            position: relative;
+            width: 180px;
+            height: 180px;
+            list-style: none;
+            margin: 5px;
+            display: inline-block;
+            perspective: 300px;
+        }
+        
+        .picBox {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            transform-style: preserve-3d;
+            transform-origin: 50% 50% -90px;
+            animation: 200ms ease-out 0ms 1 normal forwards;
+        }
+        
+        .show,
+        .hide {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        
+        .hide {
+            color: #fff;
+            background-color: #000;
+            text-align: center;
+            line-height: 180px;
+            transform: translate3d(0, 0, -1px);
+            /* 3D空间内移动一个元素的位置 */
+        }
+        
+        .in-top .hide,
+        .out-top .hide {
+            transform-origin: 0% 100%;
+            transform: translate3d(0, -100%, 0) rotate3d(1, 0, 0, 90deg);
+        }
+        
+        .in-top .picBox {
+            animation-name: in-top;
+            animation-play-state: running;
+        }
+        
+        .out-top .picBox {
+            animation-name: out-top;
+            animation-play-state: running;
+        }
+        
+        @keyframes in-top {
+            from {
+                transform: rotate3d(0, 0, 0, 0deg)
+            }
+            to {
+                transform: rotate3d(-1, 0, 0, 90deg)
+            }
+        }
+        
+        @keyframes out-top {
+            from {
+                transform: rotate3d(-1, 0, 0, 90deg)
+            }
+            to {
+                transform: rotate3d(0, 0, 0, 0deg)
+            }
+        }
+        
+        .in-right .hide,
+        .out-right .hide {
+            transform-origin: 0% 0%;
+            transform: translate3d(100%, 0, 0) rotate3d(0, 1, 0, 90deg);
+        }
+        
+        .in-right .picBox {
+            animation-name: in-right;
+            animation-play-state: running;
+        }
+        
+        .out-right .picBox {
+            animation-name: out-right;
+            animation-play-state: running;
+        }
+        
+        @keyframes in-right {
+            from {
+                transform: rotate3d(0, 0, 0, 0deg)
+            }
+            to {
+                transform: rotate3d(0, -1, 0, 90deg)
+            }
+        }
+        
+        @keyframes out-right {
+            from {
+                transform: rotate3d(0, -1, 0, 90deg)
+            }
+            to {
+                transform: rotate3d(0, 0, 0, 0deg)
+            }
+        }
+        
+        .in-bottom .hide,
+        .out-bottom .hide {
+            transform-origin: 0% 0%;
+            transform: translate3d(0, 100%, 0) rotate3d(-1, 0, 0, 90deg);
+        }
+        
+        .in-bottom .picBox {
+            animation-name: in-bottom;
+            animation-play-state: running;
+        }
+        
+        .out-bottom .picBox {
+            animation-name: out-bottom;
+            animation-play-state: running;
+        }
+        
+        @keyframes in-bottom {
+            from {
+                transform: rotate3d(0, 0, 0, 0deg)
+            }
+            to {
+                transform: rotate3d(1, 0, 0, 90deg)
+            }
+        }
+        
+        @keyframes out-bottom {
+            from {
+                transform: rotate3d(1, 0, 0, 90deg)
+            }
+            to {
+                transform: rotate3d(0, 0, 0, 0deg)
+            }
+        }
+        
+        .in-left .hide,
+        .out-left .hide {
+            transform-origin: 100% 0;
+            transform: translate3d(-100%, 0, 0) rotate3d(0, -1, 0, 90deg);
+        }
+        
+        @keyframes in-left {
+            from {
+                transform: rotate3d(0, 0, 0, 0deg)
+            }
+            to {
+                transform: rotate3d(0, 1, 0, 90deg)
+            }
+        }
+        
+        @keyframes out-left {
+            from {
+                transform: rotate3d(0, 1, 0, 90deg)
+            }
+            to {
+                transform: rotate3d(0, 0, 0, 0deg)
+            }
+        }
+        
+        .in-left .picBox {
+            animation-name: in-left;
+            animation-play-state: running;
+        }
+        
+        .out-left .picBox {
+            animation-name: out-left;
+            animation-play-state: running;
+        }
+    </style>
 
 </head>
+
 <body>
 
-<div class="wrapper">
-	<ul>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic1.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture1
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic2.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-					  Picture2
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic3.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-					   Picture3
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic4.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture4
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic2-1.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture5
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic2-2.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture6
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic2-3.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture7
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic2-4.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-					   Picture8
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic3-1.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture9
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic3-2.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture10
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic3-3.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture11
-					</h3>
-				</div>
-			</div>
-		</li>
-		<li>
-			<div class='picBox'>
-				<div class='show'>
-					<image height='180px' width='180px' src='img/pic3-4.png'></image>
-				</div>
-				<div class='hide'>
-					<h3>
-						Picture12
-					</h3>
-				</div>
-			</div>
-		</li>
-	</ul>
-</div>
+    <div class="wrapper">
+        <ul>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='tpxtfz/pic1.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture1
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic2.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture2
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic3.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture3
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic4.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture4
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic2-1.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture5
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic2-2.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture6
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic2-3.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture7
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic2-4.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture8
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic3-1.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture9
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic3-2.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture10
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic3-3.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture11
+                        </h3>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class='picBox'>
+                    <div class='show'>
+                        <image height='180px' width='180px' src='pic3-4.png'></image>
+                    </div>
+                    <div class='hide'>
+                        <h3>
+                            Picture12
+                        </h3>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/demo.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/demo.js"></script>
 
-<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff">
-<p>适用浏览器：IE8、360、FireFox、Chrome、Safari、Opera、傲游、搜狗、世界之窗.</p>
-<p>来源：<a href="http://www.kaiu.net/" target="_blank">开优网络</a></p>
-</div>
 </body>
+
 </html>
