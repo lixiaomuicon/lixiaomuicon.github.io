@@ -62,7 +62,7 @@ function createWinbox() {
 
     // 每一类我放了一个演示，直接往下复制粘贴 a标签 就可以，需要注意的是 函数里面的链接 冒号前面需要添加反斜杠\进行转义
     winbox.body.innerHTML = `
-    <div class="note success modern"><p>点击对应样式即可切换背景。<br>导航栏本站壁纸图片也可以替换哦~ <a href="/wallpaper/" style="color:red">前往相册</a></p></div>
+    // <div class="note success modern"><p>点击对应样式即可切换背景。<br>导航栏本站壁纸图片也可以替换哦~ <a href="/wallpaper/" style="color:red">前往相册</a></p></div>
     <div class="note pink fa-image"><p>有效期为一天,到期切回默认壁纸。<br>随机壁纸--刷新页面后会变哦~</p></div>
     <div id="article-container" style="padding:10px;"> 
     <p><button onclick="localStorage.removeItem('blogbg');location.reload();" style="background:#5fcdff;display:block;width:100%;padding: 15px 0;border-radius:6px;color:white;"><i class="fa-solid fa-arrows-rotate"></i> 点我恢复默认背景</button></p>

@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>jQuery在线视频弹出播放代码 - 开优网络</title>
-
+    <title>视频</title>
+    <link rel="shortcut icon" type=image/png href=https://i.328888.xyz/2023/03/01/zv9Hw.png>
     <!--可无视-->
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
@@ -72,21 +72,44 @@
 </head>
 
 <body>
-
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+        <ul class="nav navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="/home" style="color: #ffffff;">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about" style="color: #ffffff;">About</a></li>
+        </ul>
+    </div>
     <div class="video">
         <div class="container" style="margin-top: 100px">
             <div class="videolist" vpath="v1.jpg" ipath="https://blz-videos.nosdn.127.net/1/OverWatch/OVR-S03_E03_McCree_REUNION_zhCN_1080P_mb78.mp4">
-                <div class="vtit">视频一</div>
+                <div class="vtit"><span style="color:#ffffff">视频一</span></div>
                 <img src="img/v1.jpg" width="540px" height="300px" />
-                <div class="vtime">2023-02-22</div>
+                <div class="vtime">
+                    <span style="color:#ffffff">2023-02-22<br></span>
+                </div>
                 <img src="img/play.png" class="videoed">
             </div>
             <div class="videolist" vpath="v2.jpg" ipath="https://blz-videos.nosdn.127.net/1/OverWatch/AnimatedShots/Overwatch_AnimatedShot_CinematicTrailer.mp4">
-                <div class="vtit">视频一</div>
+                <div class="vtit"><span style="color:#ffffff">视频二</span></div>
                 <img src="img/v2.jpg" width="540px" height="300px" />
-                <div class="vtime">2023-02-24</div>
+                <div class="vtime">
+                    <span style="color:#ffffff">2023-02-24<br></span>
+                </div>
                 <img src="img/play.png" class="videoed">
             </div>
+            <div class="videolist" vpath="v2.jpg" ipath="">
+                <div class="vtit"><span style="color:#ffffff">视频二</span></div>
+                <img src="img/v2.jpg" width="540px" height="300px" />
+                <div class="vtime">
+                    <span style="color:#ffffff">2023-02-24<br></span>
+                </div>
+                <img src="img/play.png" class="videoed">
+            </div>
+
+
+
+
+
+
 
             <div class="videos"></div>
         </div>

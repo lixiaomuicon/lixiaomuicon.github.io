@@ -4,10 +4,10 @@
     max-width: 1320px;
     margin: 0 auto 12px;
     display: flex;
-    color: rgb(255 255 255 / 80%) !important;
+    color: rgba(0, 0, 0, 0.8) !important;
     text-align: left;
     flex-wrap: wrap;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
 }
 
 .ft-item-1,
@@ -84,6 +84,7 @@
 }
 
 .ft-links li a {
+    color: rgba(0, 0, 0, 0.8) !important;
     display: inline-block !important;
     width: 50%;
 }
