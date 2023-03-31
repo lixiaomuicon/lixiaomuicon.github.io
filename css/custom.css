@@ -1341,3 +1341,34 @@ button {
 
 
 /*右下角按钮END*/
+
+
+/* footer_fish */
+
+.joe_container {
+    overflow: hidden;
+    display: block;
+}
+
+.joe_container {
+    content: "";
+    position: absolute;
+    top: -50px;
+    left: -15px;
+    width: 250px;
+    height: 12px;
+    /**å…‰æ ‡çš„å®½åº¦ï¼Œå¯æ ¹æ®å®žé™…è°ƒæ•´**/
+    background-color: rgba(0, 255, 255, .5);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: flashlights 1s ease-in 1s infinite;
+    -o-animation: flashlights 1s ease-in 1s infinite;
+    animation: flashlights 1.5s ease-in 1s infinite;
+    /**1.5æ•°å­—å‚æ•°æŽ§åˆ¶æ‰«å…‰é€Ÿåº¦ï¼Œæ•°å­—è¶Šå¤§è¶Šæ…¢**/
+}
+
+
+/* footer_fish END */
