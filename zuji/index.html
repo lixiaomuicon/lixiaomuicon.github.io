@@ -1135,8 +1135,8 @@ jvm.$ = jQuery, jvm.AbstractElement = function(e, t) { this.node = this.createEl
 
 
             backgroundColor: 'transparent',
-            zoomMin: 0.9, // 鼠标缩放时的最小比例
-            zoomMax: 2.4, // 鼠标缩放时的最大比例
+            zoomMin: 0.5, // 鼠标缩放时的最小比例
+            zoomMax: 4, // 鼠标缩放时的最大比例
             focusOn: {
                 x: 0.55,
                 y: 2,
@@ -1152,7 +1152,7 @@ jvm.$ = jQuery, jvm.AbstractElement = function(e, t) { this.node = this.createEl
                 },
                 hover: {
                     fill: '#ccc',  // 鼠标滑动至某省份的高亮颜色。
-                    "fill-opacity": 0.8
+                    "fill-opacity": 0.5
                 },
                 selected: {
                     fill: 'yellow'
@@ -1161,8 +1161,8 @@ jvm.$ = jQuery, jvm.AbstractElement = function(e, t) { this.node = this.createEl
             },
             markerStyle: {
                 initial: {
-                    fill: '#fd8888', // 足迹位置的填充颜色
-                    stroke: '#fff'   // 足迹位置的描边颜色
+                    fill: '#fd6666', // 足迹位置的填充颜色
+                    stroke: '#ff0033'   // 足迹位置的描边颜色
                 },
                 hover: {
                     fill: '#fd2020', // 鼠标滑动至足迹位置后的填充颜色
