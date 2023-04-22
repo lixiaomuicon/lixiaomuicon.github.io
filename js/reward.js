@@ -4,8 +4,8 @@ function reward() {
         html: '<b>请选择您的付款方式</b>',
         icon: 'info',
         showCancelButton: true,
+        cancelButtonText: '<i class="fa-brands fa-weixin"></i> 微信支付',
         confirmButtonText: '<i class="fa-brands fa-alipay"></i> 支付宝',
-        cancelButtonText: '<i class="fa-brands fa-weixin"></i> 微信',
         confirmButtonColor: '#1677FF',
         cancelButtonColor: '#2AAE67',
     }).then((result) => {
