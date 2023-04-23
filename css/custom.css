@@ -1542,4 +1542,20 @@ button {
 }
 
 
-/* 左上角 标题改成主页图标END  */
+/* 左上角 标题改成主页图标 END */
+
+
+/* 友链下面文字 */
+
+details.folding-tag {
+    transition: border 0s ease!important;
+    border: none!important;
+    display: block;
+    padding: 16px;
+    margin: 1em 0;
+    border-radius: 4px;
+    font-size: var(--global-font-size);
+}
+
+
+/* 友链下面文字END */
