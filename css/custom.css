@@ -1559,3 +1559,19 @@ details.folding-tag {
 
 
 /* 友链下面文字END */
+
+
+/* 公告进群 */
+
+#a-qun {
+    display: block;
+    background-color: var(--btn-bg);
+    color: var(--btn-color);
+    text-align: center;
+    line-height: 2.4;
+    margin: 4px 0;
+    border-radius: 45px;
+}
+
+
+/* 公告进群END */
