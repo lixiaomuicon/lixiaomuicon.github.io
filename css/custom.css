@@ -690,8 +690,12 @@ a {
 
 /* 顶部导航栏 */
 
+#nav {
+    background: rgba(255, 255, 255, 0.7);
+}
+
 #nav a {
-    color: #ffffff;
+    color: #010101;
 }
 
 
