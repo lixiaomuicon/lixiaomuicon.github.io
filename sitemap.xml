@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://lixiaomu.fun/life/index.html</loc>
+    
+    <lastmod>2023-04-27</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://lixiaomu.fun/music/index.html</loc>
     
     <lastmod>2023-04-25</lastmod>
@@ -30,15 +39,6 @@
   
   <url>
     <loc>http://lixiaomu.fun/essay/index.html</loc>
-    
-    <lastmod>2023-04-25</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://lixiaomu.fun/life/index.html</loc>
     
     <lastmod>2023-04-25</lastmod>
     
@@ -652,7 +652,7 @@
 
   <url>
     <loc>http://lixiaomu.fun/</loc>
-    <lastmod>2023-04-25</lastmod>
+    <lastmod>2023-04-27</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
