@@ -13,8 +13,11 @@
     var videoSpeed = 1;
     var videoListAll = new Array(
         'https://blz-videos.nosdn.127.net/1/HearthStone/f6cd63b590d416821d3e27e0.mp4',
-        'https://v.api.aa1.cn/api/api-fj/video/0015.mp4%E5%AE%98%E7%BD%91api.aa1.cn%E5%85%8D%E8%B4%B9%E8%A7%86%E9%A2%91API.mp4',
-        'https://api.ainio.cn/mp4/sp/2031.mp4');
+        'https://blz-videos.nosdn.127.net/1/OverWatch/OVR-S03_E03_McCree_REUNION_zhCN_1080P_mb78.mp4',
+        'https://api.ainio.cn/mp4/sp/2031.mp4',
+
+
+    );
     var danId = 0;
     var clickFlag = null;
     var vedioError = null;
