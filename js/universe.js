@@ -256,3 +256,14 @@ function owoBig() {
     observer.observe(document.getElementById('post-comment'), { subtree: true, childList: true }) // 监听的 元素 和 配置项
 }
 /* 表情包放大END  */
+
+if (document.querySelector('#bber-talk')) {
+    var swiper = new Swiper('.swiper-container', {
+        direction: 'vertical', // 垂直切换选项
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            pauseOnMouseEnter: true
+        },
+    });
+}
