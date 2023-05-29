@@ -7,7 +7,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://i.328888.xyz/2023/03/18/M0EGV.png">
 <meta property="article:published_time" content="2022-12-31T16:00:00.000Z">
-<meta property="article:modified_time" content="2023-05-29T13:34:44.131Z">
+<meta property="article:modified_time" content="2023-05-29T13:36:26.411Z">
 <meta property="article:author" content="XiaoMu~Li">
 <meta property="article:tag" content="李小沐">
 <meta name="twitter:card" content="summary">
@@ -60,7 +60,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-05-29 21:34:44'
+  postUpdate: '2023-05-29 21:36:26'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -366,7 +366,7 @@ function pageTalk() {
         data.data.forEach(item => { items.push(Format(item)) });
         if (items.length == 30) document.querySelector('.limit').style.display = 'block';
         items.forEach(item => {
-            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox avatar" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="https://s3.bmp.ovh/imgs/2022/11/23/129c19d56d22c637.png"><div class="info"><span class="talk_nick">XiaoMu${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div><a href="javascript:;"onclick="goComment('${item.text}')"><span class="icon"><i class="fa-solid fa-message fa-fw"></i></span></a></div></div>` // 注意修改头像链接和名称
+            html += `<div class="talk_item"><div class="talk_meta"><img class="no-lightbox avatar" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" data-lazy-src="source/img/touxiang.png"><div class="info"><span class="talk_nick">XiaoMu${icon}</span><span class="talk_date">${item.date}</span></div></div><div class="talk_content">${item.content}</div><div class="talk_bottom"><div><span class="talk_tag"># ${item.tag}</span></div><a href="javascript:;"onclick="goComment('${item.text}')"><span class="icon"><i class="fa-solid fa-message fa-fw"></i></span></a></div></div>` // 注意修改头像链接和名称
         })
         document.getElementById('talk').innerHTML = html
     })
