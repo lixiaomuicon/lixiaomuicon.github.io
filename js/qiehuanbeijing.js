@@ -70,15 +70,12 @@ function createWinbox() {
     <details class="toggle" =""><summary class="toggle-button" style="">查看电脑壁纸</summary>
     <div class="toggle-content">
         <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhI98.png)" class="imgbox" onclick="changeBg('url(http\://cdn.seovx.com/?mom=302)')"></a>
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.MontBlancPeak_ZH-CN0459151326_1920x1080.jpg)')"></a>
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.MackenzieRiver_ZH-CN0214805768_1920x1080.jpg)')"></a>
         <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg)" class="imgbox" onclick="changeBg('url(https\://cn.bing.com/th?id=OHR.PorcupineBay_ZH-CN2252758146_1920x1080.jpg')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/dea2b4d4e62f2fa9a05e42ba45f82ab4.png)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/1209e9d41c46c546d098c483149ab6e9.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/a875760c2b7360a141fc7cb87bc82d6f.png)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)" class="imgbox" onclick="changeBg('url(https\://i.hd-r.cn/e5944e4c794e1a94819641c0a38ba787.jpg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhdZN.png)" class="imgbox" onclick="changeBg('url(https\://api.r10086.com/img-api.php?type=王者荣耀)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202306101624437.jpg)" class="imgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202306101624437.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030901905.jpg)" class="imgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030901905.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030901903.jpg)" class="imgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030901903.jpg)')"></a>
         </div>
     </div>
     </details>
@@ -86,31 +83,12 @@ function createWinbox() {
     <details class="toggle" =""><summary class="toggle-button" style="">查看手机壁纸</summary>
     <div class="toggle-content">
         <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioAV9H.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioAV9H.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioAipF.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioAipF.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioAy4Q.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioAy4Q.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioAZkZ.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioAZkZ.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/io4qT8.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/io4qT8.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/io4YE5.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/io4YE5.jpeg')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/io4au3.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/io4au3.jpeg')"></a>      
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/io4Tdv.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/io4Tdv.jpeg')"></a>       
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/io4PNU.jpeg)" class="pimgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/io4PNU.jpeg')"></a>       
-        </div>
-    </div>
-    </details>
-
-    <details class="toggle" =""><summary class="toggle-button" style="">查看动漫壁纸</summary>
-    <div class="toggle-content">
-        <div class="bgbox">
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioUM4o.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioUM4o.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioUkso.png)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioUkso.png)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioUlIV.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioUlIV.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioUCyN.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioUCyN.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/04/24/ioUwGd.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/04/24/ioUwGd.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7favw.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7favw.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fTmz.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fTmz.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/24/7fQya.jpeg)" class="imgbox" onclick="changeBg('url(https\://i.328888.xyz/2023/02/24/7fQya.jpeg)')"></a>
-        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://i.328888.xyz/2023/02/23/xhcuQ.png)" class="imgbox" onclick="changeBg('url(https\://www.dmoe.cc/random.php)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908358.jpg)" class="pimgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908358.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908359.jpg)" class="pimgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908359.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908361.jpg)" class="pimgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908361.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908362.jpg)" class="pimgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908362.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908363.jpg)" class="pimgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908363.jpg)')"></a>
+        <a href="javascript:;" rel="noopener external nofollow" style="background-image:url(https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908364.jpg)" class="pimgbox" onclick="changeBg('url(https\://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/img/202307030908364.jpg')"></a>
         </div>
     </div>
     </details>

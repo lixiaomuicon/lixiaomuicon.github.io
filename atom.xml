@@ -6,7 +6,7 @@
   <link href="http://lixiaomu.fun/atom.xml" rel="self"/>
   
   <link href="http://lixiaomu.fun/"/>
-  <updated>2023-03-13T09:53:10.109Z</updated>
+  <updated>2023-07-03T01:24:48.217Z</updated>
   <id>http://lixiaomu.fun/</id>
   
   <author>
@@ -15,6 +15,158 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>0基础搭建微信壁纸头像表情包小程序【含源码】</title>
+    <link href="http://lixiaomu.fun/posts/e16f6a2ff41d/"/>
+    <id>http://lixiaomu.fun/posts/e16f6a2ff41d/</id>
+    <published>2023-05-31T16:00:00.000Z</published>
+    <updated>2023-07-03T01:24:48.217Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="小程序介绍"><a href="#小程序介绍" class="headerlink" title="小程序介绍"></a>小程序介绍</h3><h4 id="壁纸小程序"><a href="#壁纸小程序" class="headerlink" title="壁纸小程序"></a>壁纸小程序</h4><p>该款小程序由多个功能组合而成，壁纸、表情包、头像、朋友圈套图<br>微信小程序的主要收益来自流量主广告费，首先需要小程字审核上线后，满足条件激活流量主，对接广告后，具体能变现多少看各位本事。当然，思想活跃一点，也可以去收费给别人搭建小程序，何乐而不为呢?<br>此小程序搭建，无需服务器，前端源码直接搭建即可!</p><h3 id="演示地址"><a href="#演示地址" class="headerlink" title="演示地址"></a>演示地址</h3><p><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011649117.jpg"></p><h3 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h3><p><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011652747.png"><br><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011651350.jpg"></p><h3 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h3><p>链接：<a href="https://pan.baidu.com/s/1lKtVMUZiHJgYKN5twv4eQg?pwd=nj4z">https://pan.baidu.com/s/1lKtVMUZiHJgYKN5twv4eQg?pwd=nj4z</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;小程序介绍&quot;&gt;&lt;a href=&quot;#小程序介绍&quot; class=&quot;headerlink&quot; title=&quot;小程序介绍&quot;&gt;&lt;/a&gt;小程序介绍&lt;/h3&gt;&lt;h4 id=&quot;壁纸小程序&quot;&gt;&lt;a href=&quot;#壁纸小程序&quot; class=&quot;headerlink&quot; title=&quot;壁纸小</summary>
+      
+    
+    
+    
+    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="小程序" scheme="http://lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>超实用的多功能工具箱小程序源码+支持流量主变现</title>
+    <link href="http://lixiaomu.fun/posts/1f906f33f4ea/"/>
+    <id>http://lixiaomu.fun/posts/1f906f33f4ea/</id>
+    <published>2023-05-31T16:00:00.000Z</published>
+    <updated>2023-07-03T01:24:52.645Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="小程序介绍"><a href="#小程序介绍" class="headerlink" title="小程序介绍"></a>小程序介绍</h3><h4 id="工具箱小程序"><a href="#工具箱小程序" class="headerlink" title="工具箱小程序"></a>工具箱小程序</h4><p>这是一款云开发超多功能工具箱组合微信小程序源码，不需要任何服务器和云服务资源，拥有海量工具，支持流量主。<br><br>测算工具: 网速测试,计算器,血型计算,关系计算器,一生时间,尺码计算,色盲测试,房贷计算器,尺子量角器,BMI计算器<br><br>信息查询: 今天吃什么,粤语翻译,福布斯排行榜,p查询,常用号码,国旗头像,每日一图,图片拼接,九宫格切图<br><br>常用工具: 节日倒计时,手机清灰,随机数,大转盘,全屏时钟,取色器,文本解密，全屏弹幕,震动,二维码创建,文本加密,倒计时,二维码识别<br><br>娱乐工具: 恶搞理发机,插电充钱,数钱,2048小游戏<br><br><b>此小程序搭建，无需服务器，前端源码直接搭建即可!</b></p><h3 id="演示地址"><a href="#演示地址" class="headerlink" title="演示地址"></a>演示地址</h3><p><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011703845.jpg"></p><h3 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h3><p><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011703039.png"><br><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011703040.jpg"></p><h3 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h3><p>链接：<a href="https://pan.baidu.com/s/1Gy9L9YyaVo82yV4rd1-9Pw?pwd=ga36">https://pan.baidu.com/s/1Gy9L9YyaVo82yV4rd1-9Pw?pwd=ga36 </a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;小程序介绍&quot;&gt;&lt;a href=&quot;#小程序介绍&quot; class=&quot;headerlink&quot; title=&quot;小程序介绍&quot;&gt;&lt;/a&gt;小程序介绍&lt;/h3&gt;&lt;h4 id=&quot;工具箱小程序&quot;&gt;&lt;a href=&quot;#工具箱小程序&quot; class=&quot;headerlink&quot; title=&quot;工</summary>
+      
+    
+    
+    
+    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="小程序" scheme="http://lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>简约表白网页源码 | 相册模板</title>
+    <link href="http://lixiaomu.fun/posts/ac3d4435250e/"/>
+    <id>http://lixiaomu.fun/posts/ac3d4435250e/</id>
+    <published>2023-05-10T16:00:00.000Z</published>
+    <updated>2023-07-03T01:24:57.474Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="源码介绍"><a href="#源码介绍" class="headerlink" title="源码介绍"></a>源码介绍</h3><p>一个简单的html表白网页，可以用云主机和服务器搭建。<br>内容可以自己改改，回忆怎么能错过呢，赶紧给你对象做一个吧。</p><h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011622791.jpg"><h3 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h3><p>链接：<a href="https://pan.baidu.com/s/16u2a_QqKD9MCq17DsBqxkQ?pwd=18eu">https://pan.baidu.com/s/16u2a_QqKD9MCq17DsBqxkQ?pwd&#x3D;18eu</a> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;源码介绍&quot;&gt;&lt;a href=&quot;#源码介绍&quot; class=&quot;headerlink&quot; title=&quot;源码介绍&quot;&gt;&lt;/a&gt;源码介绍&lt;/h3&gt;&lt;p&gt;一个简单的html表白网页，可以用云主机和服务器搭建。
+&lt;br&gt;
+内容可以自己改改，回忆怎么能错过呢，赶紧给你对象做一个吧。</summary>
+      
+    
+    
+    
+    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="相册" scheme="http://lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一款简洁的HTML相册源码</title>
+    <link href="http://lixiaomu.fun/posts/d754514b9b5a/"/>
+    <id>http://lixiaomu.fun/posts/d754514b9b5a/</id>
+    <published>2023-04-30T16:00:00.000Z</published>
+    <updated>2023-07-03T01:25:31.132Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="源码介绍"><a href="#源码介绍" class="headerlink" title="源码介绍"></a>源码介绍</h3><p>html个人画册图集图片相册网站源码</p><h3 id="演示网址"><a href="#演示网址" class="headerlink" title="演示网址"></a>演示网址</h3><p><a href="https://plog.lixiaomu.fun/">https://plog.lixiaomu.fun/</a></p><h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011602720.png"><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011602718.png"><h3 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h3><p>链接：<a href="https://pan.baidu.com/s/1HgdTdJix_BWz3x6KddT55w?pwd=grm7">https://pan.baidu.com/s/1HgdTdJix_BWz3x6KddT55w?pwd&#x3D;grm7</a> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;源码介绍&quot;&gt;&lt;a href=&quot;#源码介绍&quot; class=&quot;headerlink&quot; title=&quot;源码介绍&quot;&gt;&lt;/a&gt;源码介绍&lt;/h3&gt;&lt;p&gt;html个人画册图集图片相册网站源码&lt;/p&gt;
+
+&lt;h3 id=&quot;演示网址&quot;&gt;&lt;a href=&quot;#演示网址&quot; class=&quot;h</summary>
+      
+    
+    
+    
+    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="相册" scheme="http://lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pbootcms个人画册图集图片相册网站源码(自适应手机端)</title>
+    <link href="http://lixiaomu.fun/posts/b0212a9e98a8/"/>
+    <id>http://lixiaomu.fun/posts/b0212a9e98a8/</id>
+    <published>2023-04-30T16:00:00.000Z</published>
+    <updated>2023-07-03T01:25:28.703Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="源码介绍"><a href="#源码介绍" class="headerlink" title="源码介绍"></a>源码介绍</h3><p>【源码名称】pbootcms个人画册图集图片相册网站源码(自适应手机端)<br>【程序内核】pbootcms<br>【运行环境】整站程序采用PHP+ sqlite轻型数据库<br>【适用范围】个人 画册 图集 图片 相册等<br>【程序授权】自行到官网授权即可使用<br>【网站说明】整站源码， 后台操作起来简单到想哭，内容图片基本上后台都可以替换修改</p><h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011633058.png"><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011633057.png"><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011633059.png"><h3 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h3><p>链接：<a href="https://pan.baidu.com/s/1kQpaz-VpFv3OeVutwr10Rw?pwd=5dkt">https://pan.baidu.com/s/1kQpaz-VpFv3OeVutwr10Rw?pwd=5dkt</a> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;源码介绍&quot;&gt;&lt;a href=&quot;#源码介绍&quot; class=&quot;headerlink&quot; title=&quot;源码介绍&quot;&gt;&lt;/a&gt;源码介绍&lt;/h3&gt;&lt;p&gt;【源码名称】pbootcms个人画册图集图片相册网站源码(自适应手机端)
+&lt;br&gt;
+【程序内核】pbootcms
+&lt;br&gt;
+</summary>
+      
+    
+    
+    
+    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="相册" scheme="http://lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>文案小喇叭小程序源码+流量主</title>
+    <link href="http://lixiaomu.fun/posts/bc92ed576b54/"/>
+    <id>http://lixiaomu.fun/posts/bc92ed576b54/</id>
+    <published>2023-03-31T16:00:00.000Z</published>
+    <updated>2023-07-03T01:25:13.576Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="小程序介绍"><a href="#小程序介绍" class="headerlink" title="小程序介绍"></a>小程序介绍</h3><h4 id="文案小程序"><a href="#文案小程序" class="headerlink" title="文案小程序"></a>文案小程序</h4><p><b>此小程序搭建，无需服务器，前端源码直接搭建即可!</b></p><h3 id="演示地址"><a href="#演示地址" class="headerlink" title="演示地址"></a>演示地址</h3><p><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011710175.jpg"></p><h3 id="效果展示"><a href="#效果展示" class="headerlink" title="效果展示"></a>效果展示</h3><p><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011709957.jpg"></p><h3 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h3><p>链接：<a href="https://pan.baidu.com/s/1Vmb7M1_HcMisaaHEADRc4A?pwd=wn0j">https://pan.baidu.com/s/1Vmb7M1_HcMisaaHEADRc4A?pwd=wn0j</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;小程序介绍&quot;&gt;&lt;a href=&quot;#小程序介绍&quot; class=&quot;headerlink&quot; title=&quot;小程序介绍&quot;&gt;&lt;/a&gt;小程序介绍&lt;/h3&gt;&lt;h4 id=&quot;文案小程序&quot;&gt;&lt;a href=&quot;#文案小程序&quot; class=&quot;headerlink&quot; title=&quot;文案小</summary>
+      
+    
+    
+    
+    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="小程序" scheme="http://lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    
+  </entry>
   
   <entry>
     <title>情侣要做的好多件事</title>
@@ -43,7 +195,7 @@
     <link href="http://lixiaomu.fun/posts/d55a4b452f7a/"/>
     <id>http://lixiaomu.fun/posts/d55a4b452f7a/</id>
     <published>2023-02-23T12:00:00.000Z</published>
-    <updated>2023-04-24T11:48:37.751Z</updated>
+    <updated>2023-07-03T01:25:21.341Z</updated>
     
     <content type="html"><![CDATA[<p>Awesome Wallpapers<br>官网：<a href="https://wallhaven.cc/">https://wallhaven.cc/</a></p><p>介绍：一堆英文看不懂什么意思，不过图片挺好看的。</p><p>分辨率：最大支持4K，其他的没看到选项。</p><p><img src="https://i.328888.xyz/2023/02/27/efoqF.png"></p><p>Desktop wallpapers hd<br>官网：<a href="https://wallpaperscraft.com/">https://wallpaperscraft.com/</a></p><p>介绍：同样是英文网站。。。不过还是同构看懂右边的花，音乐，笑脸等等分类，不支持根据关键词查找，而且还有广告。</p><p>分辨率：最大支持4K</p><p><img src="https://i.328888.xyz/2023/02/27/efJPE.png"></p><p>Beautiful Free Images<br>官网：<a href="https://unsplash.com/">https://unsplash.com/</a></p><p>介绍：一个人文摄影的网站，适合小清新。同时支持根据关键字搜索，没广告很友好。</p><p>分辨率：最大支持8K，</p><p><img src="https://i.328888.xyz/2023/02/27/efPvX.png"></p><p>极简壁纸<br>官网：<a href="https://bz.zzzmh.cn/index">https://bz.zzzmh.cn/index</a></p><p>介绍：较为推荐，国内的壁纸网站，相较于前面几个访问速度更快（分类都是中文我终于能看得懂了）。我目前用的壁纸就是从这个网站下的。</p><p>分辨率：最大支持8K，贼清晰（太大放在网站上加载也慢）</p><p><img src="https://i.328888.xyz/2023/02/27/efMmP.png"></p><p>Simple Desktops<br>官网：<a href="http://simpledesktops.com/">http://simpledesktops.com/</a></p><p>介绍：喜欢极简风格的可以看看，直接Mac,ios,android。</p><p>分辨率：最大支持4K</p><p><img src="https://i.328888.xyz/2023/02/27/efa4t.png"></p><p>HD&#x2F;4K&#x2F;5K Resolution Wallpapers<br>官网：<a href="https://wallroom.io/">https://wallroom.io/</a></p><p>介绍：没有分类，什么壁纸都有</p><p>分辨率：看名字不难知道，支持1080，4K，5K</p><p><img src="https://i.328888.xyz/2023/02/27/ef1IJ.png"></p><p>GameWallpapers<br>官网：<a href="https://www.gamewallpapers.com/">https://www.gamewallpapers.com/</a></p><p>介绍：各种游戏壁纸，喜欢游戏的可以看看，没有广告</p><p>分辨率：最大支持8K</p><p><img src="https://i.328888.xyz/2023/02/27/efQdc.png"></p><p>CGWallpapers<br>官网：<a href="https://www.cgwallpapers.com/">https://www.cgwallpapers.com/</a></p><p>介绍：游戏CG壁纸</p><p>分辨率：最大支持8K</p><p><img src="https://i.328888.xyz/2023/02/27/efYuA.png"></p><p>Wallpaper Cave<br>官网：<a href="https://wallpapercave.com/">https://wallpapercave.com/</a></p><p>介绍：各种类型图片都有，分类贼多，支持搜索功能。</p><p>分辨率：最大支持8K</p><p><img src="https://i.328888.xyz/2023/02/27/efu2o.png"></p><p>Moviemania<br>官网：<a href="https://www.moviemania.io/phone">https://www.moviemania.io/phone</a></p><p>介绍：纯电影壁纸网站，具有各大影院的精彩瞬间，支持电脑和手机</p><p>分辨率：2K</p><p><img src="https://i.328888.xyz/2023/02/27/eyZEN.png"></p><p>必应每日高清壁纸<br>官网：<a href="https://bing.ioliu.cn/">https://bing.ioliu.cn/</a></p><p>介绍：应该是微软的壁纸，高质量的图片挺多的</p><p>分辨率：最高支持1080</p><p><img src="https://i.328888.xyz/2023/02/27/eyiTV.png"></p><h3 id="有别的好看壁纸网站欢迎后台留言。"><a href="#有别的好看壁纸网站欢迎后台留言。" class="headerlink" title="有别的好看壁纸网站欢迎后台留言。"></a>有别的好看壁纸网站欢迎后台留言。</h3>]]></content>
     
@@ -130,6 +282,33 @@
     
     <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo 10款好看的主题｜新手建站必备！</title>
+    <link href="http://lixiaomu.fun/posts/a837db1d06ac/"/>
+    <id>http://lixiaomu.fun/posts/a837db1d06ac/</id>
+    <published>2023-01-31T16:00:00.000Z</published>
+    <updated>2023-07-03T01:24:55.055Z</updated>
+    
+    <content type="html"><![CDATA[<p>拥有个人博客这件事，在这个随波逐流的年代，是一件非常个性又非常酷的事情。</p><p>我选择了使用Hexo框架来构建自己的博客，当然，还有许多别的框架。不抵触，多尝试。</p><p>新手使用Hexo搭建博客，可能最在意的就是使用叫款主题了吧。</p><p>Hexo官网提供了很多主题，简直是「乱花渐欲迷人眼」，想要一眼就分辨出哪个主题好哪个主题不好，不一一点进去尝试，真分辨不出自己想要哪个主题。</p><p>踩了许多坑之后，我为挑出10款简洁又好看，好看又实用的主题。不敢保证每个人的审美，但绝不坑！</p><p>😉走起！</p><span id="more"></span><h1 id="一、Butterfly"><a href="#一、Butterfly" class="headerlink" title="一、Butterfly"></a>一、Butterfly</h1><p><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102320371.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102320371.png" alt="Butterfly"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://crazywong.com/">CrazyWong</a></li><li>魔改标杆：<ul><li><a target="_blank" rel="noopener" href="https://akilar.top/">Akilarの糖果屋 - Akilar.top</a></li><li><a target="_blank" rel="noopener" href="https://blog.zhheo.com/">张洪Heo - 分享设计与科技生活 (zhheo.com)</a></li><li><a target="_blank" rel="noopener" href="https://sunguoqi.com/">小孙同学 (sunguoqi.com)</a></li></ul></li><li>魔改教程：<a target="_blank" rel="noopener" href="https://butterfly.zhheo.com/docs/">人人都可以去自定义 | Butterfly主题美化教程 (zhheo.com)</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">https://github.com/jerryc127/hexo-theme-butterfly</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://butterfly.js.org/">Butterfly - A Simple and Card UI Design theme for Hexo</a></li><li>推荐值：⭐⭐⭐⭐⭐</li></ul><h1 id="二、NexT"><a href="#二、NexT" class="headerlink" title="二、NexT"></a>二、NexT</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102310401.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102310401.png" alt="Next"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://theme-next.js.org/">NexT - Theme for Hexo (theme-next.js.org)</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-theme-next">https://github.com/theme-next/hexo-theme-next</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://theme-next.js.org/docs/">Documentation | NexT (theme-next.js.org)</a></li><li>推荐值：⭐⭐⭐⭐⭐</li></ul><h1 id="三、Fluid"><a href="#三、Fluid" class="headerlink" title="三、Fluid"></a>三、Fluid</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311798.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311798.png" alt="Fluid"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://theme-next.js.org/">NexT - Theme for Hexo (theme-next.js.org)</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/fluid-dev/hexo-theme-fluid">https://github.com/fluid-dev/hexo-theme-fluid</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://hexo.fluid-dev.com/docs/start/">开始使用 | Hexo Fluid 用户手册 (fluid-dev.com)</a></li><li>推荐值：⭐⭐⭐⭐</li></ul><h1 id="四、Volantis"><a href="#四、Volantis" class="headerlink" title="四、Volantis"></a>四、Volantis</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311799.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311799.png" alt="Volantis"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://xaoxuu.com/">XAOXUU</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/volantis-x/community">GitHub - volantis-x&#x2F;community: Volantis Community 社区主页 https://volantis.js.org</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://volantis.js.org/v6/getting-started/">开始使用 - Volantis</a></li><li>推荐值：⭐⭐⭐⭐⭐</li></ul><h1 id="五、Hacker"><a href="#五、Hacker" class="headerlink" title="五、Hacker"></a>五、Hacker</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311800.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311800.png" alt="Hacker"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://blog.daraw.cn/">DaraW | Code is Poetry</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/CodeDaraW/Hacker">GitHub - CodeDaraW&#x2F;Hacker: ❤️ A simple theme for Hexo</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://github.com/CodeDaraW/Hacker/blob/master/README_zh-CN.md">Hacker&#x2F;README_zh-CN.md at master · CodeDaraW&#x2F;Hacker · GitHub</a></li><li>推荐值：⭐⭐⭐⭐</li></ul><h1 id="六、Cactus"><a href="#六、Cactus" class="headerlink" title="六、Cactus"></a>六、Cactus</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311801.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311801.png" alt="Cactus"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://probberechts.github.io/hexo-theme-cactus/">Cactus (probberechts.github.io)</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/probberechts/hexo-theme-cactus">GitHub - probberechts&#x2F;hexo-theme-cactus: A responsive, clean and simple theme for Hexo.</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://github.com/probberechts/hexo-theme-cactus">GitHub - probberechts&#x2F;hexo-theme-cactus: A responsive, clean and simple theme for Hexo.</a></li><li>推荐值：⭐⭐⭐⭐</li></ul><h1 id="七、Quiet"><a href="#七、Quiet" class="headerlink" title="七、Quiet"></a>七、Quiet</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311802.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311802.png" alt="Quiet"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://blog.taire.de/">Taire’s Blog</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://blog.taire.de/">Taire’s Blog</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://github.com/79e/hexo-theme-quiet/blob/master/README.md">hexo-theme-quiet&#x2F;README.md at master · 79E&#x2F;hexo-theme-quiet · GitHub</a></li><li>推荐值：⭐⭐⭐⭐</li></ul><h1 id="八、Acorn"><a href="#八、Acorn" class="headerlink" title="八、Acorn"></a>八、Acorn</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311803.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311803.png" alt="Acorn"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://acorn.imaging.xin/">Acorn 企业免费建站主题 (imaging.xin)</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/zhwangart/hexo-theme-acorn">https://github.com/zhwangart/hexo-theme-acorn</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://acorn.imaging.xin/docs/">简介 | Acorn 企业免费建站主题 (imaging.xin)</a></li><li>推荐值：⭐⭐⭐⭐</li></ul><h1 id="九、yun"><a href="#九、yun" class="headerlink" title="九、yun"></a>九、yun</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311804.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311804.png" alt="yun"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://www.yunyoujun.cn/">云游君的小站 (yunyoujun.cn)</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun">valaxy&#x2F;packages&#x2F;valaxy-theme-yun at main · YunYouJun&#x2F;valaxy · GitHub</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://github.com/YunYouJun/valaxy/tree/main/packages/valaxy-theme-yun/docs/zh-CN">valaxy&#x2F;packages&#x2F;valaxy-theme-yun&#x2F;docs&#x2F;zh-CN at main · YunYouJun&#x2F;valaxy · GitHub</a></li><li>推荐值：⭐⭐⭐⭐</li></ul><h1 id="十、One-paper"><a href="#十、One-paper" class="headerlink" title="十、One-paper"></a>十、One-paper</h1><p><img src= "https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311805.png" data-lazy-src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202306102311805.png" alt="One-paper"></p><ul><li>在线演示：<a target="_blank" rel="noopener" href="https://zheli.design/one-paper/">One-paper</a></li><li>主题仓库：<a target="_blank" rel="noopener" href="https://github.com/zheli-design/hexo-theme-one-paper">GitHub - zheli-design&#x2F;hexo-theme-one-paper: 专注于写作，模拟纸张阅读感受的轻量 Hexo 主题。</a></li><li>使用文档：<a target="_blank" rel="noopener" href="https://github.com/zheli-design/hexo-theme-one-paper/blob/main/README.md">hexo-theme-one-paper&#x2F;README.md at main · zheli-design&#x2F;hexo-theme-one-paper · GitHub</a></li><li>推荐值：⭐⭐⭐⭐</li></ul><h3 id="关于哪个主题最好"><a href="#关于哪个主题最好" class="headerlink" title="关于哪个主题最好"></a>关于哪个主题最好</h3><p>选择主题之前，一定要明确自己搭建博客的需求。</p><p>如果你不能锁定你的需求，挑再好看的主题都白搭。所以，一定要知道自己的目标和需求。</p><p>比如搭建博客的目标是为了保存平时写的代码笔记，那找一个类似于「博客园」那样界面清晰的、目录结构简洁明了的主题最适合你。毕竟，输出技术文档才是你真正的目的。</p><p>搭建博客的目标，也不一定只是写技术文档，有的人的目标是做个网站玩一玩，平时也不写东西，即使是心血来潮写点东西，最终也没有人看（自己更不看）；还有的人是想在自己的网站上放点照片啊，心得啊，游记啊之类的东西……</p><p>无论如何，一定要找到适合自己的，那才是最好的。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;拥有个人博客这件事，在这个随波逐流的年代，是一件非常个性又非常酷的事情。&lt;/p&gt;
+&lt;p&gt;我选择了使用Hexo框架来构建自己的博客，当然，还有许多别的框架。不抵触，多尝试。&lt;/p&gt;
+&lt;p&gt;新手使用Hexo搭建博客，可能最在意的就是使用叫款主题了吧。&lt;/p&gt;
+&lt;p&gt;Hexo官网</summary>
+      
+    
+    
+    
+    <category term="Hexo" scheme="http://lixiaomu.fun/categories/Hexo/"/>
+    
+    
+    <category term="Hexo" scheme="http://lixiaomu.fun/tags/Hexo/"/>
     
   </entry>
   
@@ -282,7 +461,7 @@
     <link href="http://lixiaomu.fun/posts/109604c8a047/"/>
     <id>http://lixiaomu.fun/posts/109604c8a047/</id>
     <published>2023-01-13T06:15:41.000Z</published>
-    <updated>2023-04-24T11:48:42.348Z</updated>
+    <updated>2023-07-03T01:24:36.072Z</updated>
     
     <content type="html"><![CDATA[<img src="https://i.328888.xyz/2023/02/27/ebdGH.jpeg"><i class="fa-sharp fa-solid fa-user"></i><font face="黑体" size=5>基本信息</font><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">Name:</span> <span class="string">李小沐</span></span><br><span class="line"><span class="attr">age:</span> <span class="number">25</span></span><br><span class="line"><span class="attr">address:</span> <span class="string">NanJing</span></span><br><span class="line"><span class="attr">hobby:</span> <span class="string">旅游、爬山</span></span><br><span class="line"><span class="attr">character:</span> <span class="string">好吃懒做、无欲无求</span></span><br><span class="line"><span class="attr">expectation:</span> <span class="string">赚大钱，更加热爱生活</span></span><br><span class="line"><span class="attr">blog:</span> <span class="string">https://lixiaomu.fun/</span></span><br></pre></td></tr></table></figure><p>一个混迹在俗世的普通人<br>陪自己看世界<br>试着把人生中的每个第一次都当做是最后一次<br>和别人一起游山玩水，那只是旅游<br>唯有自己独自面对苍茫的群山和大海之时，才会真正感受到与自然的沟通<br>我一直在履行自己和自己的诺言<br>我不知道自己能走多远<br>也不知道以后会怎么样<br>反正，余生还长，我又何必慌张</p><p><i class="fa-sharp fa-solid fa-envelope"></i><font face="黑体" size=5 bgcolor=pink>联系我</font></p><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">qq:</span> <span class="number">1006877324</span></span><br><span class="line"><span class="attr">vx:</span> <span class="string">sweetday0102</span> <span class="string">（记得备注哦）</span></span><br><span class="line"><span class="attr">email:</span> <span class="number">1006877324</span><span class="string">@qq.com</span></span><br><span class="line"><span class="attr">motto:</span> <span class="string">念念不忘，必有回响。</span></span><br></pre></td></tr></table></figure>]]></content>
     
