@@ -3,14 +3,14 @@
   <title>XiaoMu</title>
   <icon>https://www.gravatar.com/avatar/cd51cb35313912f339277f85d83c2c81</icon>
   <subtitle>李小沐</subtitle>
-  <link href="http://lixiaomu.fun/atom.xml" rel="self"/>
+  <link href="http://weblog.lixiaomu.fun/atom.xml" rel="self"/>
   
-  <link href="http://lixiaomu.fun/"/>
+  <link href="http://weblog.lixiaomu.fun/"/>
   <updated>2023-07-03T01:27:05.706Z</updated>
-  <id>http://lixiaomu.fun/</id>
+  <id>http://weblog.lixiaomu.fun/</id>
   
   <author>
-    <name>XiaoMu~Li</name>
+    <name>李小沐</name>
     <email>1006877324@qq.com</email>
   </author>
   
@@ -18,8 +18,8 @@
   
   <entry>
     <title>0基础搭建微信壁纸头像表情包小程序【含源码】</title>
-    <link href="http://lixiaomu.fun/posts/e16f6a2ff41d/"/>
-    <id>http://lixiaomu.fun/posts/e16f6a2ff41d/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/e16f6a2ff41d/"/>
+    <id>http://weblog.lixiaomu.fun/posts/e16f6a2ff41d/</id>
     <published>2023-05-31T16:00:00.000Z</published>
     <updated>2023-07-03T01:27:05.706Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="http://weblog.lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="小程序" scheme="http://lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <category term="小程序" scheme="http://weblog.lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>超实用的多功能工具箱小程序源码+支持流量主变现</title>
-    <link href="http://lixiaomu.fun/posts/1f906f33f4ea/"/>
-    <id>http://lixiaomu.fun/posts/1f906f33f4ea/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/1f906f33f4ea/"/>
+    <id>http://weblog.lixiaomu.fun/posts/1f906f33f4ea/</id>
     <published>2023-05-31T16:00:00.000Z</published>
     <updated>2023-07-03T01:24:52.645Z</updated>
     
@@ -57,17 +57,17 @@
     
     
     
-    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="http://weblog.lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="小程序" scheme="http://lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <category term="小程序" scheme="http://weblog.lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>简约表白网页源码 | 相册模板</title>
-    <link href="http://lixiaomu.fun/posts/ac3d4435250e/"/>
-    <id>http://lixiaomu.fun/posts/ac3d4435250e/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/ac3d4435250e/"/>
+    <id>http://weblog.lixiaomu.fun/posts/ac3d4435250e/</id>
     <published>2023-05-10T16:00:00.000Z</published>
     <updated>2023-07-03T01:24:57.474Z</updated>
     
@@ -83,43 +83,17 @@
     
     
     
-    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="http://weblog.lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="相册" scheme="http://lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>一款简洁的HTML相册源码</title>
-    <link href="http://lixiaomu.fun/posts/d754514b9b5a/"/>
-    <id>http://lixiaomu.fun/posts/d754514b9b5a/</id>
-    <published>2023-04-30T16:00:00.000Z</published>
-    <updated>2023-07-03T01:25:31.132Z</updated>
-    
-    <content type="html"><![CDATA[<h3 id="源码介绍"><a href="#源码介绍" class="headerlink" title="源码介绍"></a>源码介绍</h3><p>html个人画册图集图片相册网站源码</p><h3 id="演示网址"><a href="#演示网址" class="headerlink" title="演示网址"></a>演示网址</h3><p><a href="https://plog.lixiaomu.fun/">https://plog.lixiaomu.fun/</a></p><h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011602720.png"><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011602718.png"><h3 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h3><p>链接：<a href="https://pan.baidu.com/s/1HgdTdJix_BWz3x6KddT55w?pwd=grm7">https://pan.baidu.com/s/1HgdTdJix_BWz3x6KddT55w?pwd&#x3D;grm7</a> </p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h3 id=&quot;源码介绍&quot;&gt;&lt;a href=&quot;#源码介绍&quot; class=&quot;headerlink&quot; title=&quot;源码介绍&quot;&gt;&lt;/a&gt;源码介绍&lt;/h3&gt;&lt;p&gt;html个人画册图集图片相册网站源码&lt;/p&gt;
-
-&lt;h3 id=&quot;演示网址&quot;&gt;&lt;a href=&quot;#演示网址&quot; class=&quot;h</summary>
-      
-    
-    
-    
-    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
-    
-    
-    <category term="相册" scheme="http://lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
+    <category term="相册" scheme="http://weblog.lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
     
   </entry>
   
   <entry>
     <title>pbootcms个人画册图集图片相册网站源码(自适应手机端)</title>
-    <link href="http://lixiaomu.fun/posts/b0212a9e98a8/"/>
-    <id>http://lixiaomu.fun/posts/b0212a9e98a8/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/b0212a9e98a8/"/>
+    <id>http://weblog.lixiaomu.fun/posts/b0212a9e98a8/</id>
     <published>2023-04-30T16:00:00.000Z</published>
     <updated>2023-07-03T01:25:28.703Z</updated>
     
@@ -137,17 +111,43 @@
     
     
     
-    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="http://weblog.lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="相册" scheme="http://lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
+    <category term="相册" scheme="http://weblog.lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>一款简洁的HTML相册源码</title>
+    <link href="http://weblog.lixiaomu.fun/posts/d754514b9b5a/"/>
+    <id>http://weblog.lixiaomu.fun/posts/d754514b9b5a/</id>
+    <published>2023-04-30T16:00:00.000Z</published>
+    <updated>2023-07-03T01:25:31.132Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="源码介绍"><a href="#源码介绍" class="headerlink" title="源码介绍"></a>源码介绍</h3><p>html个人画册图集图片相册网站源码</p><h3 id="演示网址"><a href="#演示网址" class="headerlink" title="演示网址"></a>演示网址</h3><p><a href="https://plog.lixiaomu.fun/">https://plog.lixiaomu.fun/</a></p><h3 id="界面展示"><a href="#界面展示" class="headerlink" title="界面展示"></a>界面展示</h3><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011602720.png"><img src="https://cdn.jsdelivr.net/gh/lixiaomuicon/photo_bed@main/blog/202307011602718.png"><h3 id="源码下载"><a href="#源码下载" class="headerlink" title="源码下载"></a>源码下载</h3><p>链接：<a href="https://pan.baidu.com/s/1HgdTdJix_BWz3x6KddT55w?pwd=grm7">https://pan.baidu.com/s/1HgdTdJix_BWz3x6KddT55w?pwd&#x3D;grm7</a> </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h3 id=&quot;源码介绍&quot;&gt;&lt;a href=&quot;#源码介绍&quot; class=&quot;headerlink&quot; title=&quot;源码介绍&quot;&gt;&lt;/a&gt;源码介绍&lt;/h3&gt;&lt;p&gt;html个人画册图集图片相册网站源码&lt;/p&gt;
+
+&lt;h3 id=&quot;演示网址&quot;&gt;&lt;a href=&quot;#演示网址&quot; class=&quot;h</summary>
+      
+    
+    
+    
+    <category term="源码" scheme="http://weblog.lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    
+    
+    <category term="相册" scheme="http://weblog.lixiaomu.fun/tags/%E7%9B%B8%E5%86%8C/"/>
     
   </entry>
   
   <entry>
     <title>文案小喇叭小程序源码+流量主</title>
-    <link href="http://lixiaomu.fun/posts/bc92ed576b54/"/>
-    <id>http://lixiaomu.fun/posts/bc92ed576b54/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/bc92ed576b54/"/>
+    <id>http://weblog.lixiaomu.fun/posts/bc92ed576b54/</id>
     <published>2023-03-31T16:00:00.000Z</published>
     <updated>2023-07-03T01:25:13.576Z</updated>
     
@@ -161,17 +161,17 @@
     
     
     
-    <category term="源码" scheme="http://lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
+    <category term="源码" scheme="http://weblog.lixiaomu.fun/categories/%E6%BA%90%E7%A0%81/"/>
     
     
-    <category term="小程序" scheme="http://lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
+    <category term="小程序" scheme="http://weblog.lixiaomu.fun/tags/%E5%B0%8F%E7%A8%8B%E5%BA%8F/"/>
     
   </entry>
   
   <entry>
     <title>情侣要做的好多件事</title>
-    <link href="http://lixiaomu.fun/posts/c86fc57f502e/"/>
-    <id>http://lixiaomu.fun/posts/c86fc57f502e/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/c86fc57f502e/"/>
+    <id>http://weblog.lixiaomu.fun/posts/c86fc57f502e/</id>
     <published>2023-03-13T12:00:00.000Z</published>
     <updated>2023-03-13T09:53:10.109Z</updated>
     
@@ -185,15 +185,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>值得收藏的高清壁纸网站推荐</title>
-    <link href="http://lixiaomu.fun/posts/d55a4b452f7a/"/>
-    <id>http://lixiaomu.fun/posts/d55a4b452f7a/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/d55a4b452f7a/"/>
+    <id>http://weblog.lixiaomu.fun/posts/d55a4b452f7a/</id>
     <published>2023-02-23T12:00:00.000Z</published>
     <updated>2023-07-03T01:25:21.341Z</updated>
     
@@ -209,17 +209,17 @@
     
     
     
-    <category term="收藏" scheme="http://lixiaomu.fun/categories/%E6%94%B6%E8%97%8F/"/>
+    <category term="收藏" scheme="http://weblog.lixiaomu.fun/categories/%E6%94%B6%E8%97%8F/"/>
     
     
-    <category term="壁纸" scheme="http://lixiaomu.fun/tags/%E5%A3%81%E7%BA%B8/"/>
+    <category term="壁纸" scheme="http://weblog.lixiaomu.fun/tags/%E5%A3%81%E7%BA%B8/"/>
     
   </entry>
   
   <entry>
     <title>免费观看腾讯视频/优酷/爱奇艺/VIP影片</title>
-    <link href="http://lixiaomu.fun/posts/2f024e23f4ac/"/>
-    <id>http://lixiaomu.fun/posts/2f024e23f4ac/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/2f024e23f4ac/"/>
+    <id>http://weblog.lixiaomu.fun/posts/2f024e23f4ac/</id>
     <published>2023-02-23T12:00:00.000Z</published>
     <updated>2023-02-27T02:43:32.141Z</updated>
     
@@ -233,17 +233,17 @@
     
     
     
-    <category term="教程" scheme="http://lixiaomu.fun/categories/%E6%95%99%E7%A8%8B/"/>
+    <category term="教程" scheme="http://weblog.lixiaomu.fun/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="视频" scheme="http://lixiaomu.fun/tags/%E8%A7%86%E9%A2%91/"/>
+    <category term="视频" scheme="http://weblog.lixiaomu.fun/tags/%E8%A7%86%E9%A2%91/"/>
     
   </entry>
   
   <entry>
     <title>你的善良需要带一些锋芒</title>
-    <link href="http://lixiaomu.fun/posts/0fdad9eef5a0/"/>
-    <id>http://lixiaomu.fun/posts/0fdad9eef5a0/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/0fdad9eef5a0/"/>
+    <id>http://weblog.lixiaomu.fun/posts/0fdad9eef5a0/</id>
     <published>2023-02-15T16:00:00.000Z</published>
     <updated>2023-02-27T03:03:19.771Z</updated>
     
@@ -257,15 +257,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>总会有你的玫瑰出现，它只为你而来</title>
-    <link href="http://lixiaomu.fun/posts/94e0876b7f47/"/>
-    <id>http://lixiaomu.fun/posts/94e0876b7f47/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/94e0876b7f47/"/>
+    <id>http://weblog.lixiaomu.fun/posts/94e0876b7f47/</id>
     <published>2023-02-01T05:04:30.000Z</published>
     <updated>2023-02-27T03:03:47.817Z</updated>
     
@@ -280,15 +280,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>Hexo 10款好看的主题｜新手建站必备！</title>
-    <link href="http://lixiaomu.fun/posts/a837db1d06ac/"/>
-    <id>http://lixiaomu.fun/posts/a837db1d06ac/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/a837db1d06ac/"/>
+    <id>http://weblog.lixiaomu.fun/posts/a837db1d06ac/</id>
     <published>2023-01-31T16:00:00.000Z</published>
     <updated>2023-07-03T01:24:55.055Z</updated>
     
@@ -305,17 +305,17 @@
     
     
     
-    <category term="Hexo" scheme="http://lixiaomu.fun/categories/Hexo/"/>
+    <category term="Hexo" scheme="http://weblog.lixiaomu.fun/categories/Hexo/"/>
     
     
-    <category term="Hexo" scheme="http://lixiaomu.fun/tags/Hexo/"/>
+    <category term="Hexo" scheme="http://weblog.lixiaomu.fun/tags/Hexo/"/>
     
   </entry>
   
   <entry>
     <title>不喜欢才会衡量利弊</title>
-    <link href="http://lixiaomu.fun/posts/c92bc7be8197/"/>
-    <id>http://lixiaomu.fun/posts/c92bc7be8197/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/c92bc7be8197/"/>
+    <id>http://weblog.lixiaomu.fun/posts/c92bc7be8197/</id>
     <published>2023-01-30T08:00:00.000Z</published>
     <updated>2023-02-27T03:03:42.516Z</updated>
     
@@ -331,15 +331,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>我想去远方,可远方太远。</title>
-    <link href="http://lixiaomu.fun/posts/7f18073c820f/"/>
-    <id>http://lixiaomu.fun/posts/7f18073c820f/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/7f18073c820f/"/>
+    <id>http://weblog.lixiaomu.fun/posts/7f18073c820f/</id>
     <published>2023-01-26T14:48:56.000Z</published>
     <updated>2023-02-27T03:03:39.724Z</updated>
     
@@ -355,15 +355,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>若从头来过</title>
-    <link href="http://lixiaomu.fun/posts/16a82599f506/"/>
-    <id>http://lixiaomu.fun/posts/16a82599f506/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/16a82599f506/"/>
+    <id>http://weblog.lixiaomu.fun/posts/16a82599f506/</id>
     <published>2023-01-24T12:00:00.000Z</published>
     <updated>2023-02-27T03:03:36.601Z</updated>
     
@@ -379,15 +379,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>爱自己是需要一生去学习的课题</title>
-    <link href="http://lixiaomu.fun/posts/7830863eb5f3/"/>
-    <id>http://lixiaomu.fun/posts/7830863eb5f3/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/7830863eb5f3/"/>
+    <id>http://weblog.lixiaomu.fun/posts/7830863eb5f3/</id>
     <published>2023-01-23T12:00:00.000Z</published>
     <updated>2023-04-23T04:36:28.326Z</updated>
     
@@ -403,15 +403,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>你若芳香 蝴蝶自来</title>
-    <link href="http://lixiaomu.fun/posts/cc81ed1389c1/"/>
-    <id>http://lixiaomu.fun/posts/cc81ed1389c1/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/cc81ed1389c1/"/>
+    <id>http://weblog.lixiaomu.fun/posts/cc81ed1389c1/</id>
     <published>2023-01-23T11:00:00.000Z</published>
     <updated>2023-02-27T03:03:30.886Z</updated>
     
@@ -427,15 +427,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>你要勇敢地面对这一切</title>
-    <link href="http://lixiaomu.fun/posts/f32d6d115ac2/"/>
-    <id>http://lixiaomu.fun/posts/f32d6d115ac2/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/f32d6d115ac2/"/>
+    <id>http://weblog.lixiaomu.fun/posts/f32d6d115ac2/</id>
     <published>2023-01-23T10:00:00.000Z</published>
     <updated>2023-02-27T03:03:34.205Z</updated>
     
@@ -451,15 +451,15 @@
     
     
     
-    <category term="碎碎念" scheme="http://lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    <category term="碎碎念" scheme="http://weblog.lixiaomu.fun/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
     
     
   </entry>
   
   <entry>
     <title>关于</title>
-    <link href="http://lixiaomu.fun/posts/109604c8a047/"/>
-    <id>http://lixiaomu.fun/posts/109604c8a047/</id>
+    <link href="http://weblog.lixiaomu.fun/posts/109604c8a047/"/>
+    <id>http://weblog.lixiaomu.fun/posts/109604c8a047/</id>
     <published>2023-01-13T06:15:41.000Z</published>
     <updated>2023-07-03T01:24:36.072Z</updated>
     
