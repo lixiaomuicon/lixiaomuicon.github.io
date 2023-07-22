@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://weblog.lixiaomu.fun/privacy/index.html</loc>
+    
+    <lastmod>2023-07-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://weblog.lixiaomu.fun/video/index.html</loc>
     
     <lastmod>2023-07-09</lastmod>
@@ -365,15 +374,6 @@
     <loc>http://weblog.lixiaomu.fun/wallpaper/index.html</loc>
     
     <lastmod>2023-03-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://weblog.lixiaomu.fun/privacy/index.html</loc>
-    
-    <lastmod>2023-03-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
