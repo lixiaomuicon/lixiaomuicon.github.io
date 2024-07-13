@@ -1048,38 +1048,6 @@ button {
 /* 鼠标样式END */
 
 
-/* 下班倒计时 */
-
-.djs {
-    list-style-type: none;
-    display: inline;
-}
-
-
-/* 下班倒计时 */
-
-
-/* 我的爱情 */
-
-#yuan {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-}
-
-.mimgs {
-    width: 240px;
-    height: 80px;
-}
-
-.mimgs #yuan {
-    float: left;
-}
-
-
-/* 我的爱情 */
-
-
 /* 页脚运行时间和字数统计 */
 
 #workboard {
